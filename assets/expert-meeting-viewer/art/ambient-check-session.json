@@ -1,0 +1,436 @@
+{
+    "version":  "1.1.0",
+    "id":  "meeting-20260530-013916",
+    "startedAt":  "2026-05-29T17:39:16.7349263Z",
+    "layout":  "vertical-long-table",
+    "title":  "ambient 检查",
+    "topic":  "ambient 检查",
+    "generator":  "agency-agents/new_visual_meeting_session.ps1",
+    "participants":  [
+                         "host",
+                         "godot-gameplay-scripter",
+                         "technical-artist",
+                         "game-audio-engineer",
+                         "godot-shader-developer",
+                         "marketing-short-video-editing-coach",
+                         "narrative-designer",
+                         "ambient-sleeper",
+                         "ambient-nodder",
+                         "ambient-reserved",
+                         "ambient-thinking"
+                     ],
+    "roleMeta":  {
+                     "host":  {
+                                  "name":  "主持人",
+                                  "title":  "会议主持",
+                                  "lane":  "center"
+                              },
+                     "godot-gameplay-scripter":  {
+                                                     "name":  "G玩法",
+                                                     "title":  "专家成员",
+                                                     "lane":  "left"
+                                                 },
+                     "technical-artist":  {
+                                              "name":  "技术美术",
+                                              "title":  "专家成员",
+                                              "lane":  "right"
+                                          },
+                     "game-audio-engineer":  {
+                                                 "name":  "游戏音频",
+                                                 "title":  "专家成员",
+                                                 "lane":  "left"
+                                             },
+                     "godot-shader-developer":  {
+                                                    "name":  "G着色器",
+                                                    "title":  "专家成员",
+                                                    "lane":  "right"
+                                                },
+                     "marketing-short-video-editing-coach":  {
+                                                                 "name":  "短片剪辑",
+                                                                 "title":  "内容与市场专家",
+                                                                 "lane":  "left"
+                                                             },
+                     "narrative-designer":  {
+                                                "name":  "叙事设计",
+                                                "title":  "专家成员",
+                                                "lane":  "right"
+                                            },
+                     "ambient-sleeper":  {
+                                             "name":  "会场观察",
+                                             "title":  "Ambient Sleeper",
+                                             "lane":  "right",
+                                             "ambientState":  "zzz",
+                                             "ambientVote":  "z"
+                                         },
+                     "ambient-nodder":  {
+                                            "name":  "产品助理",
+                                            "title":  "Ambient Nodder",
+                                            "lane":  "left",
+                                            "ambientState":  "nod",
+                                            "ambientVote":  "b"
+                                        },
+                     "ambient-reserved":  {
+                                              "name":  "审慎顾问",
+                                              "title":  "Ambient Reserved",
+                                              "lane":  "right",
+                                              "ambientState":  "reserve",
+                                              "ambientVote":  "z"
+                                          },
+                     "ambient-thinking":  {
+                                              "name":  "体验观察",
+                                              "title":  "Ambient Thinking",
+                                              "lane":  "left",
+                                              "ambientState":  "thinking",
+                                              "ambientVote":  "z"
+                                          }
+                 },
+    "turns":  [
+                  {
+                      "id":  "opening",
+                      "speakerId":  "host",
+                      "phase":  "开场",
+                      "type":  "speak",
+                      "screenTitle":  "议题拆解",
+                      "screenStatus":  "OPEN",
+                      "text":  "今天这场会讨论的是：检查。我先不定结论，大家按自己的专业判断说，能同意就补充，不能同意就直接说哪里会出问题。"
+                  },
+                  {
+                      "id":  "point-1",
+                      "speakerId":  "godot-gameplay-scripter",
+                      "phase":  "先定边界",
+                      "type":  "speak",
+                      "screenTitle":  "边界",
+                      "screenStatus":  "POINT",
+                      "text":  "我觉得先别急着下方案。这个问题，真正要看的不是表面流程，而是这件事真正影响到的工作边界。如果这一层没弄清楚，后面再多动作也会显得很假。"
+                  },
+                  {
+                      "id":  "build-1",
+                      "speakerId":  "technical-artist",
+                      "phase":  "顺着推进",
+                      "type":  "speak",
+                      "screenTitle":  "补充",
+                      "screenStatus":  "BUILD",
+                      "text":  "我同意G玩法前面说的方向，但我想补一层：这件事真正影响到的工作边界也要被放进判断里。否则大家看起来是在接话，实际还是各说各的。",
+                      "targetId":  "godot-gameplay-scripter"
+                  },
+                  {
+                      "id":  "challenge-1",
+                      "speakerId":  "game-audio-engineer",
+                      "phase":  "提出异议",
+                      "type":  "challenge",
+                      "screenTitle":  "异议",
+                      "screenStatus":  "CHECK",
+                      "text":  "我不太同意技术美术这个前提。从我的专业来看，这件事真正影响到的工作边界如果没处理好，会直接导致后面的结论不可信，而不是简单少一个步骤。",
+                      "targetId":  "technical-artist"
+                  },
+                  {
+                      "id":  "host-clarify",
+                      "speakerId":  "host",
+                      "phase":  "主持追问",
+                      "type":  "speak",
+                      "screenTitle":  "追问",
+                      "screenStatus":  "ASK",
+                      "text":  "我确认一下分歧：技术美术强调的是怎么推进，游戏音频担心的是后果。G玩法，你不用重复前面的判断，直接说你会怎么修正。",
+                      "targetId":  "godot-gameplay-scripter"
+                  },
+                  {
+                      "id":  "response-1",
+                      "speakerId":  "godot-gameplay-scripter",
+                      "phase":  "回应修正",
+                      "type":  "speak",
+                      "screenTitle":  "修正",
+                      "screenStatus":  "REPLY",
+                      "text":  "我接受刚才的质疑，也修正一下我的说法。不是单纯让每个人更口语，而是让每个人有自己的判断位置；这件事真正影响到的工作边界要进入发言，但不能变成资料摘抄。",
+                      "targetId":  "game-audio-engineer"
+                  },
+                  {
+                      "id":  "implementation-1",
+                      "speakerId":  "godot-shader-developer",
+                      "phase":  "压成做法",
+                      "type":  "speak",
+                      "screenTitle":  "落地",
+                      "screenStatus":  "PLAN",
+                      "text":  "从我的角度看，可以先做一个很小的改动：每条发言都要说明它接了谁的话、改变了什么判断、留下什么动作。先把这个跑通，再谈更复杂的人格表现。",
+                      "targetId":  "godot-gameplay-scripter"
+                  },
+                  {
+                      "id":  "human-1",
+                      "speakerId":  "marketing-short-video-editing-coach",
+                      "phase":  "体验视角",
+                      "type":  "speak",
+                      "screenTitle":  "体验",
+                      "screenStatus":  "HUMAN",
+                      "text":  "我觉得还要留一点现场感。人说话不会每句都像最终报告，可以有让步、犹豫和修正；但修正最后还是要回到表达是否像给人听，而不是像给系统读，不然就会变成闲聊。",
+                      "targetId":  "godot-shader-developer"
+                  },
+                  {
+                      "id":  "test-1",
+                      "speakerId":  "narrative-designer",
+                      "phase":  "验收口径",
+                      "type":  "challenge",
+                      "screenTitle":  "验收",
+                      "screenStatus":  "TEST",
+                      "text":  "从验收角度看，我会盯三件事：有没有接上一位的话，有没有讲出具体后果，有没有把争议压成下一步。缺一个，会议就还是在读稿。",
+                      "targetId":  "marketing-short-video-editing-coach"
+                  },
+                  {
+                      "id":  "closing",
+                      "speakerId":  "host",
+                      "phase":  "主持收束",
+                      "type":  "decision",
+                      "screenTitle":  "结论",
+                      "screenStatus":  "DONE",
+                      "text":  "我听下来可以先收成一个方向：先定边界和验收，再做实现。推荐员工只作为下一步建议，真正执行还要等用户确认。"
+                  }
+              ],
+    "visualTranscript":  {
+                             "version":  "1.0.0",
+                             "layout":  "vertical-long-table",
+                             "title":  "ambient 检查",
+                             "topic":  "ambient 检查",
+                             "participants":  {
+                                                  "host":  {
+                                                               "id":  "host",
+                                                               "displayName":  "主持人",
+                                                               "roleName":  "会议主持"
+                                                           },
+                                                  "experts":  [
+                                                                  {
+                                                                      "id":  "godot-gameplay-scripter",
+                                                                      "displayName":  "G玩法",
+                                                                      "roleName":  "专家成员",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "technical-artist",
+                                                                      "displayName":  "技术美术",
+                                                                      "roleName":  "专家成员",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "game-audio-engineer",
+                                                                      "displayName":  "游戏音频",
+                                                                      "roleName":  "专家成员",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "godot-shader-developer",
+                                                                      "displayName":  "G着色器",
+                                                                      "roleName":  "专家成员",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "marketing-short-video-editing-coach",
+                                                                      "displayName":  "短片剪辑",
+                                                                      "roleName":  "内容与市场专家",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "narrative-designer",
+                                                                      "displayName":  "叙事设计",
+                                                                      "roleName":  "专家成员",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "ambient-sleeper",
+                                                                      "displayName":  "会场观察",
+                                                                      "roleName":  "Ambient Sleeper",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "ambient-nodder",
+                                                                      "displayName":  "产品助理",
+                                                                      "roleName":  "Ambient Nodder",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "ambient-reserved",
+                                                                      "displayName":  "审慎顾问",
+                                                                      "roleName":  "Ambient Reserved",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "ambient-thinking",
+                                                                      "displayName":  "体验观察",
+                                                                      "roleName":  "Ambient Thinking",
+                                                                      "side":  "left"
+                                                                  }
+                                                              ]
+                                              },
+                             "timeline":  [
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "host",
+                                                  "stance":  "开场",
+                                                  "text":  "今天这场会讨论的是：检查。我先不定结论，大家按自己的专业判断说，能同意就补充，不能同意就直接说哪里会出问题。"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "godot-gameplay-scripter",
+                                                  "stance":  "先定边界",
+                                                  "text":  "我觉得先别急着下方案。这个问题，真正要看的不是表面流程，而是这件事真正影响到的工作边界。如果这一层没弄清楚，后面再多动作也会显得很假。"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "technical-artist",
+                                                  "stance":  "顺着推进",
+                                                  "text":  "我同意G玩法前面说的方向，但我想补一层：这件事真正影响到的工作边界也要被放进判断里。否则大家看起来是在接话，实际还是各说各的。",
+                                                  "target":  "godot-gameplay-scripter"
+                                              },
+                                              {
+                                                  "type":  "challenge",
+                                                  "speaker":  "game-audio-engineer",
+                                                  "stance":  "提出异议",
+                                                  "text":  "我不太同意技术美术这个前提。从我的专业来看，这件事真正影响到的工作边界如果没处理好，会直接导致后面的结论不可信，而不是简单少一个步骤。",
+                                                  "target":  "technical-artist"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "host",
+                                                  "stance":  "主持追问",
+                                                  "text":  "我确认一下分歧：技术美术强调的是怎么推进，游戏音频担心的是后果。G玩法，你不用重复前面的判断，直接说你会怎么修正。",
+                                                  "target":  "godot-gameplay-scripter"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "godot-gameplay-scripter",
+                                                  "stance":  "回应修正",
+                                                  "text":  "我接受刚才的质疑，也修正一下我的说法。不是单纯让每个人更口语，而是让每个人有自己的判断位置；这件事真正影响到的工作边界要进入发言，但不能变成资料摘抄。",
+                                                  "target":  "game-audio-engineer"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "godot-shader-developer",
+                                                  "stance":  "压成做法",
+                                                  "text":  "从我的角度看，可以先做一个很小的改动：每条发言都要说明它接了谁的话、改变了什么判断、留下什么动作。先把这个跑通，再谈更复杂的人格表现。",
+                                                  "target":  "godot-gameplay-scripter"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "marketing-short-video-editing-coach",
+                                                  "stance":  "体验视角",
+                                                  "text":  "我觉得还要留一点现场感。人说话不会每句都像最终报告，可以有让步、犹豫和修正；但修正最后还是要回到表达是否像给人听，而不是像给系统读，不然就会变成闲聊。",
+                                                  "target":  "godot-shader-developer"
+                                              },
+                                              {
+                                                  "type":  "challenge",
+                                                  "speaker":  "narrative-designer",
+                                                  "stance":  "验收口径",
+                                                  "text":  "从验收角度看，我会盯三件事：有没有接上一位的话，有没有讲出具体后果，有没有把争议压成下一步。缺一个，会议就还是在读稿。",
+                                                  "target":  "marketing-short-video-editing-coach"
+                                              },
+                                              {
+                                                  "type":  "decision",
+                                                  "speaker":  "host",
+                                                  "stance":  "主持收束",
+                                                  "text":  "我听下来可以先收成一个方向：先定边界和验收，再做实现。推荐员工只作为下一步建议，真正执行还要等用户确认。"
+                                              }
+                                          ]
+                         },
+    "summary":  {
+                    "consensus":  [
+                                      "会议应由真实筛选角色和人格资料驱动，不再只播放固定默认脚本。",
+                                      "会议网页只负责播放已准备的会议内容，角色选择、资料读取和争议组织放在技能侧。",
+                                      "讨论流程需要允许接话、反驳、修正和收束，而不是每人固定一句。"
+                                  ],
+                    "nextActions":  [
+                                        "继续完善筛人评分和关键词路由。",
+                                        "把会后结论写回可控的记忆摘要或报告。",
+                                        "用真实议题录制一轮会议，检查是否仍像读稿。"
+                                    ],
+                    "implementationPlan":  [
+                                               {
+                                                   "id":  "P0-1",
+                                                   "title":  "触发即拉起内置会议页",
+                                                   "owner":  "godot-gameplay-scripter",
+                                                   "deliverable":  "统一启动流程：准备会议内容、启动会议网页、导航内置浏览器。",
+                                                   "acceptance":  "触发专家团后，内置浏览器必须确认加载本次会议主题；失败时才进入默认浏览器兜底。"
+                                               },
+                                               {
+                                                   "id":  "P0-2",
+                                                   "title":  "网页成为会议主载体",
+                                                   "owner":  "technical-artist",
+                                                   "deliverable":  "会议网页显示发言、实施方案、推荐员工子任务和结论。",
+                                                   "acceptance":  "聊天侧回复只保留会议已启动、关键结论、执行建议，不再粘贴完整会议过程。"
+                                               },
+                                               {
+                                                   "id":  "P1-1",
+                                                   "title":  "会议必须产出可实施方案",
+                                                   "owner":  "game-audio-engineer",
+                                                   "deliverable":  "会议总结里的实施方案固定包含负责人、交付物和验收口径。",
+                                                   "acceptance":  "每场会至少 3 条可执行方案，且能直接转成开发、研究或设计子任务。"
+                                               },
+                                               {
+                                                   "id":  "P1-2",
+                                                   "title":  "推荐专业员工跑子任务",
+                                                   "owner":  "godot-shader-developer",
+                                                   "deliverable":  "会议总结里的推荐员工固定包含角色、任务、范围、交付物和优先级。",
+                                                   "acceptance":  "会议结束后能列出 3-6 个专业员工建议，不再只说“下一步”。"
+                                               },
+                                               {
+                                                   "id":  "P2-1",
+                                                   "title":  "员工工作中动画预留",
+                                                   "owner":  "marketing-short-video-editing-coach",
+                                                   "deliverable":  "新增后续动画构想，后续会议网页可切换为员工工作状态。",
+                                                   "acceptance":  "当前不强做动画，但数据结构和界面文案为后续留入口。"
+                                               }
+                                           ],
+                    "recommendedWorkers":  [
+                                               {
+                                                   "roleId":  "godot-gameplay-scripter",
+                                                   "name":  "G玩法",
+                                                   "title":  "专家成员",
+                                                   "priority":  "高优先级",
+                                                   "task":  "围绕本议题给出专业审查，输出一个能交给执行者继续推进的具体建议。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "technical-artist",
+                                                   "name":  "技术美术",
+                                                   "title":  "专家成员",
+                                                   "priority":  "高优先级",
+                                                   "task":  "围绕本议题给出专业审查，输出一个能交给执行者继续推进的具体建议。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "game-audio-engineer",
+                                                   "name":  "游戏音频",
+                                                   "title":  "专家成员",
+                                                   "priority":  "中优先级",
+                                                   "task":  "围绕本议题给出专业审查，输出一个能交给执行者继续推进的具体建议。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "godot-shader-developer",
+                                                   "name":  "G着色器",
+                                                   "title":  "专家成员",
+                                                   "priority":  "中优先级",
+                                                   "task":  "围绕本议题给出专业审查，输出一个能交给执行者继续推进的具体建议。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "marketing-short-video-editing-coach",
+                                                   "name":  "短片剪辑",
+                                                   "title":  "内容与市场专家",
+                                                   "priority":  "低优先级",
+                                                   "task":  "围绕本议题给出专业审查，输出一个能交给执行者继续推进的具体建议。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "narrative-designer",
+                                                   "name":  "叙事设计",
+                                                   "title":  "专家成员",
+                                                   "priority":  "低优先级",
+                                                   "task":  "设计网页里的实施方案、员工任务和会议结论展示层级，保证可扫描、不像报告堆字。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               }
+                                           ],
+                    "futureAnimationIdea":  "后续可在会议网页增加“员工正在工作”状态：会议结束后展示被推荐员工进入工作台、任务卡流转、完成回填和下一场复盘。"
+                }
+}

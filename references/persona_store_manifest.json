@@ -1,0 +1,16 @@
+﻿{
+    "generated_at":  "2026-05-27 06:29:28 +08:00",
+    "source_manifest":  "references/roles_manifest.json",
+    "source_role_count":  260,
+    "initialized_role_count":  260,
+    "store_root":  "references/personas",
+    "files_per_role":  [
+                           "profile.md",
+                           "knowledge.md",
+                           "memory.md",
+                           "memory_summary.md"
+                       ],
+    "compaction_script":  "scripts/compact_persona_memory.ps1",
+    "default_recent_memory_entries":  12,
+    "default_summary_bullets":  24
+}

@@ -1,0 +1,44 @@
+{
+  "version": "v1.4.3",
+  "capturedAt": "2026-05-28 13:19",
+  "owner": "Solazhu",
+  "scope": "agency-agents expert meeting viewer layout",
+  "source": {
+    "url": "http://127.0.0.1:5175/?session=current-session.json&reload=1779944854393",
+    "method": "Captured visible DOM style values from the current in-app browser after manual layout adjustment.",
+    "notes": [
+      "The browser denied clipboard copy during calibration.",
+      "window.__agencyLayoutPlacements and localStorage were not available during capture, so DOM style values are the source of truth for this record."
+    ]
+  },
+  "stageMetrics": {
+    "width": 1120,
+    "height": 820
+  },
+  "nameplates": {
+    "host": { "x": 561, "y": 131, "rotate": 0, "tilt": 0, "width": 92 },
+    "left1": { "x": 503.6, "y": 238.5, "rotate": -3, "tilt": -4, "width": 123 },
+    "right1": { "x": 621.1, "y": 235, "rotate": 2, "tilt": 4, "width": 111 },
+    "left2": { "x": 497.9, "y": 347.6, "rotate": -2, "tilt": -4, "width": 111 },
+    "right2": { "x": 620.8, "y": 351.2, "rotate": 2, "tilt": 4, "width": 111 },
+    "left3": { "x": 489.4, "y": 459.3, "rotate": -2, "tilt": -4, "width": 106 },
+    "right3": { "x": 627.4, "y": 463.3, "rotate": 2, "tilt": 4, "width": 116 },
+    "left4": { "x": 486.7, "y": 571.1, "rotate": -2, "tilt": -4, "width": 111 },
+    "right4": { "x": 633.2, "y": 570.1, "rotate": 2, "tilt": 4, "width": 111 },
+    "left5": { "x": 486.4, "y": 664, "rotate": -2, "tilt": -4, "width": 111 },
+    "right5": { "x": 637.5, "y": 662.4, "rotate": 2, "tilt": 4, "width": 111 }
+  },
+  "voteButtons": {
+    "host": { "x": 560, "y": 154, "rotate": 0, "scale": 1 },
+    "left1": { "x": 469.6, "y": 211.3, "rotate": -90, "scale": 0.56 },
+    "right1": { "x": 652.7, "y": 208, "rotate": 88, "scale": 0.56 },
+    "left2": { "x": 465.1, "y": 319.2, "rotate": -93, "scale": 0.56 },
+    "right2": { "x": 655, "y": 326.8, "rotate": 88, "scale": 0.56 },
+    "left3": { "x": 460.7, "y": 437.6, "rotate": -93, "scale": 0.56 },
+    "right3": { "x": 658.2, "y": 433.2, "rotate": 88, "scale": 0.56 },
+    "left4": { "x": 455.2, "y": 545, "rotate": -88, "scale": 0.56 },
+    "right4": { "x": 662.6, "y": 540.7, "rotate": 88, "scale": 0.56 },
+    "left5": { "x": 451.8, "y": 639.8, "rotate": -93, "scale": 0.56 },
+    "right5": { "x": 663.8, "y": 635.4, "rotate": 88, "scale": 0.56 }
+  }
+}

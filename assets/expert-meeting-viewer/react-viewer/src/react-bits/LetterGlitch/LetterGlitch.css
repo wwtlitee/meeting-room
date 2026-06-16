@@ -1,0 +1,91 @@
+﻿.letter-glitch {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(18, minmax(0, 1fr));
+  grid-auto-rows: 12px;
+  gap: 1px 4px;
+  overflow: hidden;
+  padding: 10px 12px;
+  color: rgba(148, 163, 184, 0.24);
+  background:
+    linear-gradient(180deg, rgba(15, 23, 42, 0.94), rgba(2, 6, 23, 0.88)),
+    #020617;
+  font-family: "Segoe UI Mono", "Consolas", monospace;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.letter-glitch::before,
+.letter-glitch::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.letter-glitch::before {
+  opacity: 0.5;
+  background:
+    linear-gradient(rgba(226, 232, 240, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(226, 232, 240, 0.09) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.letter-glitch::after {
+  background: linear-gradient(180deg, transparent 0%, rgba(248, 250, 252, 0.14) 48%, transparent 62%);
+  animation: letterGlitchSweep 4.4s ease-in-out infinite;
+}
+
+.letter-glitch[data-active="false"]::after {
+  animation: none;
+}
+
+.letter-glitch span {
+  position: relative;
+  z-index: 1;
+  opacity: 0.46;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(203, 213, 225, 0.2);
+  transform: translateX(0);
+  animation: letterGlitchJitter 1.6s steps(2, end) infinite;
+}
+
+.letter-glitch[data-active="false"] span {
+  animation: none;
+}
+
+.letter-glitch span[data-tone="1"],
+.letter-glitch span[data-tone="4"] {
+  color: rgba(226, 232, 240, 0.42);
+}
+
+.letter-glitch span[data-tone="2"] {
+  color: rgba(125, 211, 252, 0.34);
+}
+
+.letter-glitch span[data-tone="5"] {
+  color: rgba(248, 250, 252, 0.58);
+}
+
+@keyframes letterGlitchSweep {
+  0%,
+  100% {
+    transform: translateY(-70%);
+  }
+  50% {
+    transform: translateY(70%);
+  }
+}
+
+@keyframes letterGlitchJitter {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(1px);
+  }
+}

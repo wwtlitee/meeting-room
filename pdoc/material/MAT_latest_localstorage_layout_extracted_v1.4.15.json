@@ -1,0 +1,190 @@
+{
+  "version": "v1.4.15",
+  "capturedAt": "2026-05-28 17:51",
+  "source": "C:\\Users\\39215\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Roaming\\Codex\\Partitions\\codex-browser-app\\Local Storage\\leveldb\\000256.log",
+  "recordOffset": 9957,
+  "nameplates": {
+    "left1": {
+      "x": 503.6,
+      "y": 238.5,
+      "rotate": -3,
+      "tilt": -4,
+      "yaw": 57,
+      "pitch": -10,
+      "width": 122
+    },
+    "right1": {
+      "x": 621.1,
+      "y": 235
+    },
+    "left2": {
+      "x": 497.9,
+      "y": 347.6
+    },
+    "right2": {
+      "x": 620.8,
+      "y": 351.2
+    },
+    "left3": {
+      "x": 489.4,
+      "y": 454.3
+    },
+    "left4": {
+      "x": 486.7,
+      "y": 567.1
+    },
+    "right4": {
+      "x": 633.2,
+      "y": 570.1
+    },
+    "right3": {
+      "x": 627.4,
+      "y": 463.3
+    },
+    "left5": {
+      "x": 486.4,
+      "y": 664
+    },
+    "right5": {
+      "x": 637.5,
+      "y": 662.4
+    }
+  },
+  "voteButtons": {
+    "right1": {
+      "x": 652.7,
+      "y": 208,
+      "rotate": 88,
+      "scale": 0.56
+    },
+    "left1": {
+      "x": 469.6,
+      "y": 211.3,
+      "rotate": -90,
+      "scale": 0.56
+    },
+    "left2": {
+      "x": 465.1,
+      "y": 319.2,
+      "rotate": -93,
+      "scale": 0.56
+    },
+    "right2": {
+      "x": 655,
+      "y": 326.8,
+      "rotate": 88,
+      "scale": 0.56
+    },
+    "left3": {
+      "x": 461.7,
+      "y": 430.6,
+      "rotate": -93,
+      "scale": 0.56
+    },
+    "left4": {
+      "x": 455.2,
+      "y": 539,
+      "rotate": -88,
+      "scale": 0.56
+    },
+    "right4": {
+      "x": 662.6,
+      "y": 540.7,
+      "rotate": 88,
+      "scale": 0.56
+    },
+    "right3": {
+      "x": 658.2,
+      "y": 433.2,
+      "rotate": 88,
+      "scale": 0.56
+    },
+    "left5": {
+      "x": 451.8,
+      "y": 643.8,
+      "rotate": -93,
+      "scale": 0.56
+    },
+    "right5": {
+      "x": 670.8,
+      "y": 643.4,
+      "rotate": 88,
+      "scale": 0.56
+    }
+  },
+  "seats": {
+    "left1": {
+      "x": 434
+    },
+    "right1": {
+      "x": 689
+    },
+    "left2": {
+      "x": 423
+    },
+    "right2": {
+      "x": 694
+    },
+    "left3": {
+      "x": 416
+    },
+    "right3": {
+      "x": 702
+    },
+    "left4": {
+      "x": 411
+    }
+  },
+  "voteArms": {
+    "right1": {
+      "targetX": 650.7,
+      "targetY": 208,
+      "restOffsetX": -7.2,
+      "restOffsetY": 30.6,
+      "shoulderOffsetX": -6.3,
+      "shoulderOffsetY": -14.7
+    },
+    "left1": {
+      "restOffsetX": 8.2,
+      "restOffsetY": 30.6,
+      "shoulderOffsetX": 5.3,
+      "shoulderOffsetY": -6.7
+    },
+    "left2": {
+      "restOffsetX": 9.2,
+      "restOffsetY": 31.6,
+      "shoulderOffsetX": 8,
+      "shoulderOffsetY": -16.3
+    },
+    "right4": {
+      "targetX": 661.6,
+      "targetY": 540.7,
+      "shoulderOffsetX": -5.6,
+      "shoulderOffsetY": -31.5
+    },
+    "left4": {
+      "shoulderOffsetX": 7.6,
+      "shoulderOffsetY": -26.5
+    },
+    "right2": {
+      "shoulderOffsetX": -6,
+      "shoulderOffsetY": -14.3
+    },
+    "left3": {
+      "shoulderOffsetX": 10.8,
+      "shoulderOffsetY": -16.9
+    },
+    "right3": {
+      "shoulderOffsetX": -11.8,
+      "shoulderOffsetY": -17.9
+    },
+    "left5": {
+      "shoulderOffsetX": 12.3,
+      "shoulderOffsetY": -30.2
+    },
+    "right5": {
+      "shoulderOffsetX": -10.3,
+      "shoulderOffsetY": -30.2
+    }
+  }
+}

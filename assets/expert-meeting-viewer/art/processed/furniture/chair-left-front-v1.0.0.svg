@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="left white office chair front occluder">
+  <defs><linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dfe7ef"/></linearGradient></defs>
+  <g transform="">
+    <path d="M70 130h105c14 0 24 10 24 24v17c0 17-12 29-29 29H91c-17 0-29-12-29-29v-33c0-5 3-8 8-8z" fill="url(#f)" stroke="#c2ccd8" stroke-width="2.5"/>
+    <path d="M171 129c20 5 31 21 30 45" fill="none" stroke="#c6d0db" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

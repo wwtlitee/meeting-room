@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <radialGradient id="floorLight" cx="50%" cy="38%" r="62%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".58" stop-color="#f5f6f8"/>
+      <stop offset="1" stop-color="#e8ebef"/>
+    </radialGradient>
+    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#floorLight)"/>
+  <path d="M0 0h1200v105H0z" fill="#fbfcfd"/>
+  <path d="M0 104h1200" stroke="#e9edf2" stroke-width="2"/>
+  <path d="M545 34h110c18 0 32 14 32 32v39H513V66c0-18 14-32 32-32z" fill="#eef2f6" stroke="#d9e0e8"/>
+  <path d="M565 54h70" stroke="#c7d0db" stroke-width="5" stroke-linecap="round"/>
+  <path d="M582 75h36" stroke="#d5dde6" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="246" cy="545" rx="132" ry="44" fill="#d8dde5" opacity=".44" filter="url(#softBlur)"/>
+  <ellipse cx="945" cy="540" rx="132" ry="44" fill="#d8dde5" opacity=".42" filter="url(#softBlur)"/>
+  <ellipse cx="600" cy="674" rx="160" ry="52" fill="#d8dde5" opacity=".32" filter="url(#softBlur)"/>
+  <ellipse cx="600" cy="760" rx="54" ry="13" fill="#13c9ad" opacity=".18"/>
+  <rect x="566" y="753" width="68" height="7" rx="4" fill="#22d0b3" opacity=".72"/>
+</svg>

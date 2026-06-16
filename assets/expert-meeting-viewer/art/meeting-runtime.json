@@ -1,0 +1,295 @@
+{
+  "version": "1.4.0",
+  "id": "meeting-20260616-022037-live",
+  "startedAt": "2026-06-15T18:20:37.7689542Z",
+  "layout": "vertical-long-table",
+  "title": "正式发布验收",
+  "topic": "正式发布验收",
+  "generator": "meeting-room/runtime/initialize_live_meeting.ps1",
+  "mode": "discussion",
+  "participants": [
+    "host",
+    "specialized-developer-advocate",
+    "specialized-salesforce-architect",
+    "engineering-sre",
+    "community-announcement-writer",
+    "founder-voice-ghostwriter",
+    "installer-packaging-engineer",
+    "demo-script-producer",
+    "game-qa-playtester",
+    "livestream-clip-repurposer",
+    "product-sprint-prioritizer"
+  ],
+  "roleMeta": {
+    "host": {
+      "name": "主持人",
+      "title": "会议主持",
+      "lane": "center",
+      "department": "会议主持"
+    },
+    "specialized-developer-advocate": {
+      "name": "开发布道师",
+      "title": "Developer Advocate",
+      "lane": "left",
+      "department": "specialized"
+    },
+    "specialized-salesforce-architect": {
+      "name": "SF架构师",
+      "title": "Salesforce Architect",
+      "lane": "right",
+      "department": "specialized"
+    },
+    "engineering-sre": {
+      "name": "SRE工程师",
+      "title": "SRE (Site Reliability Engineer)",
+      "lane": "left",
+      "department": "engineering"
+    },
+    "community-announcement-writer": {
+      "name": "社区公告师",
+      "title": "Community Announcement Writer",
+      "lane": "right",
+      "department": "marketing"
+    },
+    "founder-voice-ghostwriter": {
+      "name": "创始代笔人",
+      "title": "Founder Voice Ghostwriter",
+      "lane": "left",
+      "department": "marketing"
+    },
+    "installer-packaging-engineer": {
+      "name": "打包工程师",
+      "title": "Installer Packaging Engineer",
+      "lane": "right",
+      "department": "engineering"
+    },
+    "demo-script-producer": {
+      "name": "演示制作人",
+      "title": "Demo Script Producer",
+      "lane": "left",
+      "department": "marketing",
+      "ambientState": "zzz",
+      "ambientLabel": "睡觉中",
+      "ambientVote": "z",
+      "canSpeak": false,
+      "speechStyle": "visual",
+      "defaultUtterance": ""
+    },
+    "game-qa-playtester": {
+      "name": "游戏测试员",
+      "title": "Game QA Playtester",
+      "lane": "right",
+      "department": "game-development",
+      "ambientState": "nod",
+      "ambientLabel": "对对对",
+      "ambientVote": "agree",
+      "canSpeak": true,
+      "speechStyle": "agree",
+      "defaultUtterance": "对对对，这句有道理。"
+    },
+    "livestream-clip-repurposer": {
+      "name": "切片制作人",
+      "title": "Livestream Clip Repurposer",
+      "lane": "left",
+      "department": "marketing",
+      "ambientState": "thinking",
+      "ambientLabel": "再想想",
+      "ambientVote": "z",
+      "canSpeak": true,
+      "speechStyle": "thinking",
+      "defaultUtterance": "我再想想，这里还差一个更具体的落地口径。"
+    },
+    "product-sprint-prioritizer": {
+      "name": "迭代排序师",
+      "title": "Sprint Prioritizer",
+      "lane": "right",
+      "department": "product",
+      "ambientState": "reserve",
+      "ambientLabel": "保留意见",
+      "ambientVote": "z",
+      "canSpeak": true,
+      "speechStyle": "reserve",
+      "defaultUtterance": "我保留意见，验收口径再清楚一点我再落边。"
+    }
+  },
+  "deliberation": {
+    "enabled": false,
+    "labelA": "路线 A",
+    "labelB": "路线 B",
+    "labelZ": "弃权",
+    "detailA": "保留或推进第一候选路径",
+    "detailB": "收缩或推进第二候选路径",
+    "detailZ": "暂不表态",
+    "voteRounds": []
+  },
+  "runtime": {
+    "version": "1.2.0",
+    "kind": "main-process-live-meeting-runtime",
+    "status": "live_waiting",
+    "topic": "正式发布验收",
+    "currentOptions": {
+      "a": {
+        "label": "路线 A",
+        "detail": "保留或推进第一候选路径"
+      },
+      "b": {
+        "label": "路线 B",
+        "detail": "收缩或推进第二候选路径"
+      },
+      "z": {
+        "label": "弃权",
+        "detail": "暂不表态"
+      }
+    },
+    "hostStage": "prepare",
+    "round": 0,
+    "host": "main-process",
+    "mode": "discussion",
+    "participantTarget": 10,
+    "formalTarget": 6,
+    "ambientTarget": 4,
+    "participantMin": 5,
+    "participantDefault": 10,
+    "participantMax": 10,
+    "formalParticipants": [
+      {
+        "roleId": "specialized-developer-advocate",
+        "name": "开发布道师",
+        "title": "Developer Advocate",
+        "lane": "left",
+        "status": "ready"
+      },
+      {
+        "roleId": "specialized-salesforce-architect",
+        "name": "SF架构师",
+        "title": "Salesforce Architect",
+        "lane": "right",
+        "status": "ready"
+      },
+      {
+        "roleId": "engineering-sre",
+        "name": "SRE工程师",
+        "title": "SRE (Site Reliability Engineer)",
+        "lane": "left",
+        "status": "ready"
+      },
+      {
+        "roleId": "community-announcement-writer",
+        "name": "社区公告师",
+        "title": "Community Announcement Writer",
+        "lane": "right",
+        "status": "ready"
+      },
+      {
+        "roleId": "founder-voice-ghostwriter",
+        "name": "创始代笔人",
+        "title": "Founder Voice Ghostwriter",
+        "lane": "left",
+        "status": "ready"
+      },
+      {
+        "roleId": "installer-packaging-engineer",
+        "name": "打包工程师",
+        "title": "Installer Packaging Engineer",
+        "lane": "right",
+        "status": "ready"
+      }
+    ],
+    "ambientParticipants": [
+      {
+        "roleId": "demo-script-producer",
+        "name": "演示制作人",
+        "title": "Demo Script Producer",
+        "lane": "left",
+        "state": "zzz",
+        "stateLabel": "睡觉中",
+        "vote": "z",
+        "canSpeak": false,
+        "speechStyle": "visual",
+        "defaultUtterance": ""
+      },
+      {
+        "roleId": "game-qa-playtester",
+        "name": "游戏测试员",
+        "title": "Game QA Playtester",
+        "lane": "right",
+        "state": "nod",
+        "stateLabel": "对对对",
+        "vote": "agree",
+        "canSpeak": true,
+        "speechStyle": "agree",
+        "defaultUtterance": "对对对，这句有道理。"
+      },
+      {
+        "roleId": "livestream-clip-repurposer",
+        "name": "切片制作人",
+        "title": "Livestream Clip Repurposer",
+        "lane": "left",
+        "state": "thinking",
+        "stateLabel": "再想想",
+        "vote": "z",
+        "canSpeak": true,
+        "speechStyle": "thinking",
+        "defaultUtterance": "我再想想，这里还差一个更具体的落地口径。"
+      },
+      {
+        "roleId": "product-sprint-prioritizer",
+        "name": "迭代排序师",
+        "title": "Sprint Prioritizer",
+        "lane": "right",
+        "state": "reserve",
+        "stateLabel": "保留意见",
+        "vote": "z",
+        "canSpeak": true,
+        "speechStyle": "reserve",
+        "defaultUtterance": "我保留意见，验收口径再清楚一点我再落边。"
+      }
+    ],
+    "thinking": [
+      {
+        "roleId": "specialized-developer-advocate",
+        "status": "thinking"
+      },
+      {
+        "roleId": "specialized-salesforce-architect",
+        "status": "thinking"
+      },
+      {
+        "roleId": "engineering-sre",
+        "status": "thinking"
+      },
+      {
+        "roleId": "community-announcement-writer",
+        "status": "thinking"
+      },
+      {
+        "roleId": "founder-voice-ghostwriter",
+        "status": "thinking"
+      },
+      {
+        "roleId": "installer-packaging-engineer",
+        "status": "thinking"
+      }
+    ],
+    "queue": [],
+    "recentKeyTurns": [],
+    "unresolvedDisagreements": [],
+    "voteSnapshot": {
+      "roundId": "",
+      "counts": {},
+      "votes": {}
+    },
+    "consensusDraft": [],
+    "nextQuestions": [
+      "主进程读取人格与会议记录后追加下一条发言"
+    ],
+    "lastSpeakerId": "",
+    "pendingSpeaker": null,
+    "turnCount": 0,
+    "note": "main-process-live-runtime",
+    "contextFile": "E:\\AI\\会议室\\meeting-room\\assets\\expert-meeting-viewer\\art\\meeting-runtime.context.json",
+    "updatedAt": "2026-06-15T18:20:37.7689542Z"
+  },
+  "turns": [],
+  "summary": {}
+}

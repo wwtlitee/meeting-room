@@ -1,0 +1,118 @@
+﻿{
+  "version": "1.2.0",
+  "modelPolicy": {
+    "baseModelCount": 5,
+    "variantRule": "Only color, small accessories, external labels, and role props may vary by persona. Do not create a new body model for each persona.",
+    "bodyPalette": "black cow silhouette bodies with white/gray highlight separation; persona color may only appear on small badges, accessories, external labels, or role props"
+  },
+  "baseModels": {
+    "standard": {
+      "description": "balanced default expert body",
+      "sit": {
+        "left": "sprites/cow-sit-standard.svg",
+        "right": "sprites/cow-sit-standard.svg",
+        "host": "sprites/cow-sit-standard.svg"
+      },
+      "walk": {
+        "left": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"],
+        "right": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"],
+        "up": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"]
+      },
+      "seatedActions": {
+        "idle": "sprites/cow-sit-standard.svg",
+        "talk": "sprites/cow-action-talk.svg",
+        "nod": "sprites/cow-action-nod.svg",
+        "challenge": "sprites/cow-action-challenge.svg",
+        "think": "sprites/cow-action-think.svg"
+      }
+    },
+    "round": {
+      "description": "round, grounded expert body",
+      "sit": {
+        "left": "sprites/cow-sit-round.svg",
+        "right": "sprites/cow-sit-round.svg",
+        "host": "sprites/cow-sit-round.svg"
+      },
+      "walk": {
+        "left": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"],
+        "right": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"],
+        "up": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"]
+      },
+      "seatedActions": {
+        "idle": "sprites/cow-sit-round.svg",
+        "talk": "sprites/cow-action-talk.svg",
+        "nod": "sprites/cow-action-nod.svg",
+        "challenge": "sprites/cow-action-challenge.svg",
+        "think": "sprites/cow-action-think.svg"
+      }
+    },
+    "tall": {
+      "description": "slim, analytical expert body",
+      "sit": {
+        "left": "sprites/cow-sit-tall.svg",
+        "right": "sprites/cow-sit-tall.svg",
+        "host": "sprites/cow-sit-tall.svg"
+      },
+      "walk": {
+        "left": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"],
+        "right": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"],
+        "up": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"]
+      },
+      "seatedActions": {
+        "idle": "sprites/cow-sit-tall.svg",
+        "talk": "sprites/cow-action-talk.svg",
+        "nod": "sprites/cow-action-nod.svg",
+        "challenge": "sprites/cow-action-challenge.svg",
+        "think": "sprites/cow-action-think.svg"
+      }
+    },
+    "small": {
+      "description": "small, quick expert body",
+      "sit": {
+        "left": "sprites/cow-sit-small.svg",
+        "right": "sprites/cow-sit-small.svg",
+        "host": "sprites/cow-sit-small.svg"
+      },
+      "walk": {
+        "left": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"],
+        "right": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"],
+        "up": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"]
+      },
+      "seatedActions": {
+        "idle": "sprites/cow-sit-small.svg",
+        "talk": "sprites/cow-action-talk.svg",
+        "nod": "sprites/cow-action-nod.svg",
+        "challenge": "sprites/cow-action-challenge.svg",
+        "think": "sprites/cow-action-think.svg"
+      }
+    },
+    "sturdy": {
+      "description": "wide, reliable expert body",
+      "sit": {
+        "left": "sprites/cow-sit-sturdy.svg",
+        "right": "sprites/cow-sit-sturdy.svg",
+        "host": "sprites/cow-sit-sturdy.svg"
+      },
+      "walk": {
+        "left": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"],
+        "right": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"],
+        "up": ["sprites/cow-walk-01.svg", "sprites/cow-walk-02.svg", "sprites/cow-walk-03.svg", "sprites/cow-walk-04.svg"]
+      },
+      "seatedActions": {
+        "idle": "sprites/cow-sit-sturdy.svg",
+        "talk": "sprites/cow-action-talk.svg",
+        "nod": "sprites/cow-action-nod.svg",
+        "challenge": "sprites/cow-action-challenge.svg",
+        "think": "sprites/cow-action-think.svg"
+      }
+    }
+  },
+  "chairDirections": ["left", "right", "host"],
+  "seatStack": ["chairBack", "cowModel", "chairFront", "tableOccluder", "externalLabel"],
+  "futureImagegenBatching": [
+    "Generate one approved seed image for each of the 5 bodies.",
+    "For each body, generate walk-left, walk-right, walk-up strips in one pass per strip.",
+    "For each body, generate seated-left, seated-right, seated-host plus idle, talk, nod, challenge, think.",
+    "Persona-specific assets must only add color, small accessories, and external labels."
+  ]
+}

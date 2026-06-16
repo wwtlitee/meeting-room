@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Expert meeting minimal assembled asset preview">
+  <rect width="1200" height="800" fill="#f7f8fa"/>
+  <image href="../furniture/room-empty-v1.0.0.svg" x="0" y="0" width="1200" height="800" preserveAspectRatio="xMidYMid slice" opacity="0.94"/>
+  <image href="../furniture/table-long-vertical-v1.0.0.svg" x="444" y="104" width="312" height="592" preserveAspectRatio="xMidYMid meet"/>
+  <image href="../characters/seated/cow-standard-seated-host-v1.0.0.svg" x="504" y="46" width="192" height="192"/>
+  <image href="../characters/seated/cow-round-seated-left-v1.0.0.svg" x="254" y="165" width="192" height="192"/>
+  <image href="../characters/seated/cow-tall-seated-right-v1.0.0.svg" x="754" y="165" width="192" height="192"/>
+  <image href="../characters/seated/cow-small-seated-left-v1.0.0.svg" x="238" y="342" width="202" height="202"/>
+  <image href="../characters/seated/cow-sturdy-seated-right-v1.0.0.svg" x="760" y="342" width="202" height="202"/>
+  <image href="../characters/seated/cow-standard-seated-left-v1.0.0.svg" x="214" y="532" width="210" height="210"/>
+  <image href="../characters/seated/cow-round-seated-right-v1.0.0.svg" x="776" y="532" width="210" height="210"/>
+  <image href="../furniture/table-occluder-left-v1.0.0.svg" x="423" y="116" width="64" height="570" preserveAspectRatio="none"/>
+  <image href="../furniture/table-occluder-right-v1.0.0.svg" x="713" y="116" width="64" height="570" preserveAspectRatio="none"/>
+  <image href="../furniture/table-occluder-bottom-v1.0.0.svg" x="448" y="635" width="304" height="80" preserveAspectRatio="none"/>
+</svg>

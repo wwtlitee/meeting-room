@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.playwright-cli/
+*.log
+*.tmp
+.local/
+agents/
+assets/expert-meeting-viewer/react-viewer/node_modules/
+assets/expert-meeting-viewer/react-viewer/dist/
+assets/expert-meeting-viewer/react-viewer-dev*.log

@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 560" role="img" aria-label="white vertical long conference table">
+  <defs>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".56" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef3f8"/></linearGradient>
+    <filter id="shadow" x="-35%" y="-18%" width="170%" height="142%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#8793a1" flood-opacity=".30"/></filter>
+  </defs>
+  <ellipse cx="160" cy="530" rx="112" ry="18" fill="#a7b0bb" opacity=".18"/>
+  <rect x="92" y="486" width="136" height="46" rx="10" fill="#dfe6ee" stroke="#c5ced8" stroke-width="2"/>
+  <rect x="28" y="18" width="264" height="492" rx="38" fill="url(#top)" stroke="#c8d1db" stroke-width="2.5" filter="url(#shadow)"/>
+  <rect x="43" y="32" width="234" height="462" rx="28" fill="none" stroke="#ffffff" stroke-width="8" opacity=".78"/>
+  <path d="M66 138h188M66 280h188M66 422h188" stroke="#e6ebf1" stroke-width="2" opacity=".42"/>
+</svg>

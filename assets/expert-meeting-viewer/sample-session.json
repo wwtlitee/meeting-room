@@ -1,0 +1,205 @@
+{
+  "version": "1.2.0",
+  "layout": "vertical-long-table",
+  "title": "会议室可视化会议素材生产规划",
+  "topic": "图三式资产表、五体型小牛与分层生产 manifest",
+  "defaultDurationMs": 3600,
+  "participants": {
+    "host": {
+      "id": "host",
+      "displayName": "主持人",
+      "roleName": "会议主持",
+      "accent": "#7581a8",
+      "avatar": {
+        "body": "standard",
+        "accessory": "headset"
+      }
+    },
+    "experts": [
+      {
+        "id": "product-manager",
+        "displayName": "产品经理",
+        "roleName": "目标与边界",
+        "accent": "#6d9286",
+        "avatar": {
+          "body": "round",
+          "accessory": "notebook"
+        }
+      },
+      {
+        "id": "art-director",
+        "displayName": "美术总监",
+        "roleName": "视觉统一",
+        "accent": "#a08461",
+        "avatar": {
+          "body": "tall",
+          "accessory": "pen"
+        }
+      },
+      {
+        "id": "technical-artist",
+        "displayName": "技术美术",
+        "roleName": "资产拆分",
+        "accent": "#7d7899",
+        "avatar": {
+          "body": "standard",
+          "accessory": "glasses"
+        }
+      },
+      {
+        "id": "motion-director",
+        "displayName": "动效导演",
+        "roleName": "入座表演",
+        "accent": "#9b6f7a",
+        "avatar": {
+          "body": "small",
+          "accessory": "cap"
+        }
+      },
+      {
+        "id": "frontend-engineer",
+        "displayName": "前端工程师",
+        "roleName": "分层实现",
+        "accent": "#64819c",
+        "avatar": {
+          "body": "sturdy",
+          "accessory": "glasses"
+        }
+      },
+      {
+        "id": "ux-architect",
+        "displayName": "UX 架构师",
+        "roleName": "观看节奏",
+        "accent": "#7f9369",
+        "avatar": {
+          "body": "round",
+          "accessory": "pen"
+        }
+      },
+      {
+        "id": "performance-engineer",
+        "displayName": "性能工程师",
+        "roleName": "运行预算",
+        "accent": "#6a8f9a",
+        "avatar": {
+          "body": "tall",
+          "accessory": "chart"
+        }
+      },
+      {
+        "id": "skill-architect",
+        "displayName": "Skill 架构师",
+        "roleName": "集成方式",
+        "accent": "#9a7890",
+        "avatar": {
+          "body": "standard",
+          "accessory": "headset"
+        }
+      },
+      {
+        "id": "visual-qa",
+        "displayName": "视觉 QA",
+        "roleName": "画面验收",
+        "accent": "#82799d",
+        "avatar": {
+          "body": "small",
+          "accessory": "shield"
+        }
+      },
+      {
+        "id": "release-owner",
+        "displayName": "交付负责人",
+        "roleName": "最终收口",
+        "accent": "#a07d60",
+        "avatar": {
+          "body": "sturdy",
+          "accessory": "notebook"
+        }
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "roundLabel": "第 1 轮",
+      "type": "speak",
+      "speaker": "host",
+      "stance": "方向纠偏",
+      "text": "先停止把当前 viewer 截图当成最终成果。本轮目标是图三式素材生产表，页面只保留为分层验证器。",
+      "progress": 10
+    },
+    {
+      "roundLabel": "第 2 轮",
+      "type": "speak",
+      "speaker": "art-director",
+      "stance": "视觉标准",
+      "text": "风格走图中黑色小牛强轮廓：白色桌椅、柔和地面阴影、统一黑色剪影、小色块名牌，不再使用灰白低对比身体或高饱和彩色块。",
+      "progress": 20
+    },
+    {
+      "roundLabel": "第 3 轮",
+      "type": "speak",
+      "speaker": "technical-artist",
+      "stance": "资产拆分",
+      "text": "资产拆成空会议室、长桌、桌边遮挡、三方向椅子、五体型小牛 seed、动作条、配饰和 UI 反馈件。",
+      "progress": 32
+    },
+    {
+      "roundLabel": "第 4 轮",
+      "type": "speak",
+      "speaker": "motion-director",
+      "stance": "生产顺序",
+      "text": "先验收背景和家具，再验收五个小牛 seed；seed 通过后才进入 walk、talk、nod、challenge、think 动作条。",
+      "progress": 43
+    },
+    {
+      "roundLabel": "第 5 轮",
+      "type": "challenge",
+      "speaker": "ux-architect",
+      "target": "motion-director",
+      "stance": "边界约束",
+      "text": "不能再跳过素材生产直接调页面。当前 SVG 只能叫占位验证，不允许写成正式位图美术完成。",
+      "progress": 52
+    },
+    {
+      "roundLabel": "第 6 轮",
+      "type": "speak",
+      "speaker": "frontend-engineer",
+      "stance": "实现收束",
+      "text": "前端保持现有分层和锚点，后续只替换资源路径。不要为了美术升级重写 timeline JSON 或座位模型。",
+      "progress": 64
+    },
+    {
+      "roundLabel": "第 7 轮",
+      "type": "speak",
+      "speaker": "performance-engineer",
+      "stance": "运行预算",
+      "text": "正式位图要按批次进入，不一次塞满。P0 先做背景、桌椅、五体型 seed，P1 再做动作条。",
+      "progress": 74
+    },
+    {
+      "roundLabel": "第 8 轮",
+      "type": "speak",
+      "speaker": "skill-architect",
+      "stance": "Skill 集成",
+      "text": "Skill 输出 JSON 会议记录仍然独立；美术生产由 production-manifest 管理，不让 session 数据承担资产规格。",
+      "progress": 84
+    },
+    {
+      "roundLabel": "第 9 轮",
+      "type": "challenge",
+      "speaker": "visual-qa",
+      "target": "frontend-engineer",
+      "stance": "验收约束",
+      "text": "检查点改为资产表是否完整、P0 是否可独立替换、五体型是否覆盖全部人格、动作条是否避免逐帧漂移。",
+      "progress": 93
+    },
+    {
+      "roundLabel": "第 10 轮",
+      "type": "consensus",
+      "speaker": "release-owner",
+      "stance": "收口结论",
+      "text": "本轮先锁定素材生产系统：Mini Art Bible、Asset Spec、production manifest 和当前进度报告。下一步才是首批 imagegen seed。",
+      "progress": 100
+    }
+  ]
+}

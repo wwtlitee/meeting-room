@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="right white office chair back">
+  <defs><linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e4ebf2"/></linearGradient><filter id="s" x="-35%" y="-35%" width="170%" height="170%"><feDropShadow dx="0" dy="13" stdDeviation="11" flood-color="#778390" flood-opacity=".24"/></filter></defs>
+  <g transform="translate(256 0) scale(-1 1)">
+    <ellipse cx="125" cy="226" rx="60" ry="14" fill="#8793a1" opacity=".18" filter="url(#s)"/>
+    <path d="M55 42c8-20 27-29 51-24l20 4c18 4 28 18 25 36l-14 83H63z" fill="url(#c)" stroke="#c7d1dc" stroke-width="2.5"/>
+    <path d="M76 43c14-7 34-7 55 0" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity=".74"/>
+    <path d="M70 126h105c14 0 24 10 24 24v21c0 17-12 29-29 29H91c-17 0-29-12-29-29v-37c0-5 3-8 8-8z" fill="url(#c)" stroke="#c7d1dc" stroke-width="2.5"/>
+    <path d="M121 199v31M83 235h77M93 229l-22 15M150 229l22 15" stroke="#aeb9c5" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="69" cy="246" r="5" fill="#aeb9c5"/><circle cx="174" cy="246" r="5" fill="#aeb9c5"/>
+  </g>
+</svg>

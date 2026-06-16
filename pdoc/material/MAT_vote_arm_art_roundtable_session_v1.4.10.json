@@ -1,0 +1,223 @@
+{
+  "version": "1.1.0",
+  "id": "meeting-vote-arm-art-v1410",
+  "startedAt": "2026-05-28T08:08:00.000Z",
+  "layout": "vertical-long-table",
+  "mode": "roundtable",
+  "title": "投票手臂美术方案圆桌",
+  "topic": "研究视觉会议 viewer 的投票手臂怎么画才不违和：当前手臂像直长柱，需要更自然柔和地伸向按钮，形状要好看，并匹配全黑剪影牛牛与卡通会议桌风格。",
+  "generator": "agency-agents/authored-roundtable-v1.4.10",
+  "participants": [
+    "host",
+    "game-asset-artist",
+    "motion-graphics-director",
+    "technical-artist",
+    "engineering-frontend-developer",
+    "design-ux-architect",
+    "design-ui-designer",
+    "visual-qa-inspector",
+    "product-manager"
+  ],
+  "roleMeta": {
+    "host": {
+      "name": "主持人",
+      "title": "会议主持",
+      "lane": "center"
+    },
+    "game-asset-artist": {
+      "name": "美术资产设计师",
+      "title": "角色资产",
+      "lane": "left"
+    },
+    "motion-graphics-director": {
+      "name": "动效包装导演",
+      "title": "动作节奏",
+      "lane": "right"
+    },
+    "technical-artist": {
+      "name": "技术美术",
+      "title": "形状落地",
+      "lane": "left"
+    },
+    "engineering-frontend-developer": {
+      "name": "前端工程师",
+      "title": "React 实现",
+      "lane": "right"
+    },
+    "design-ux-architect": {
+      "name": "体验架构师",
+      "title": "交互边界",
+      "lane": "left"
+    },
+    "design-ui-designer": {
+      "name": "界面设计师",
+      "title": "视觉统一",
+      "lane": "right"
+    },
+    "visual-qa-inspector": {
+      "name": "视觉走查 QA",
+      "title": "画面验收",
+      "lane": "left"
+    },
+    "product-manager": {
+      "name": "产品经理",
+      "title": "方案收束",
+      "lane": "right"
+    }
+  },
+  "turns": [
+    {
+      "id": "opening",
+      "speakerId": "host",
+      "phase": "开场",
+      "type": "speak",
+      "screenTitle": "手臂方案",
+      "screenStatus": "OPEN",
+      "text": "这场只讨论投票手臂。当前最大违和点是它像一根直柱子插出去，和全黑剪影牛牛、圆润卡通桌面不在一个语言里。大家先别急着写代码，先把形状、动作、实现边界说清楚。"
+    },
+    {
+      "id": "asset-shape",
+      "speakerId": "game-asset-artist",
+      "phase": "造型判断",
+      "type": "speak",
+      "screenTitle": "造型",
+      "screenStatus": "SHAPE",
+      "text": "我会先把它从“线段”改成“软肢体”。肩膀处略宽，靠近手端略收，末端是圆润的小掌，不要尖头，也不要完全等宽。全黑剪影可以成立，但外轮廓必须有一点肩、肘、手的节奏。"
+    },
+    {
+      "id": "motion-arc",
+      "speakerId": "motion-graphics-director",
+      "phase": "动作节奏",
+      "type": "speak",
+      "screenTitle": "动作",
+      "screenStatus": "MOTION",
+      "text": "直挺挺的问题不只是形状，也是运动方式。伸手应该像从身体侧面抬起来，先有一个很轻的下垂，再沿弧线转向按钮；按下去时停一下，然后按原路收回。这个弧线会比直接旋转一根棍子自然很多。"
+    },
+    {
+      "id": "tech-art",
+      "speakerId": "technical-artist",
+      "phase": "技术美术",
+      "type": "speak",
+      "screenTitle": "落地",
+      "screenStatus": "TECH",
+      "text": "不用急着做复杂骨骼。当前可以用一个小 SVG 曲线路径来画手臂：二次贝塞尔曲线做中心线，stroke-linecap 用 round，stroke-linejoin 用 round，再用变量控制粗细、弯曲度和末端圆掌。这样比 div 长条稳定，也比图片素材更好调。"
+    },
+    {
+      "id": "frontend-plan",
+      "speakerId": "engineering-frontend-developer",
+      "phase": "实现拆解",
+      "type": "speak",
+      "screenTitle": "实现",
+      "screenStatus": "CODE",
+      "text": "实现上我建议替换现在的长柱 span：保留肩膀、初始手位、目标手位这些校准数据，但渲染成 SVG。根据手臂长度算 viewBox，路径中点给一点垂坠偏移；伸手动画仍然走已有的 rest 到 target，只是视觉体从直条变成柔和弯臂。"
+    },
+    {
+      "id": "ux-boundary",
+      "speakerId": "design-ux-architect",
+      "phase": "交互边界",
+      "type": "speak",
+      "screenTitle": "边界",
+      "screenStatus": "UX",
+      "text": "我会限制细节：不要画手指，不要画内部明暗，因为牛牛已经是剪影。用户只需要读到“伸手去按按钮”。所以轮廓要有生物感，但信息量要低，不能抢铭牌、按钮和发言气泡的注意力。"
+    },
+    {
+      "id": "ui-style",
+      "speakerId": "design-ui-designer",
+      "phase": "视觉统一",
+      "type": "speak",
+      "screenTitle": "统一",
+      "screenStatus": "STYLE",
+      "text": "我补一个画风点：手臂可以是纯黑，但边缘要圆，比例要轻。肩端大概 13 到 15 像素，腕端 9 到 11 像素，末端圆掌 14 像素左右。这样看起来像角色的一部分，而不是桌面上多了一根黑杆。"
+    },
+    {
+      "id": "qa-check",
+      "speakerId": "visual-qa-inspector",
+      "phase": "验收口径",
+      "type": "challenge",
+      "screenTitle": "验收",
+      "screenStatus": "QA",
+      "text": "验收要看四件事：肩膀不能从身体背后突出来，手端必须是圆的，伸手和收回都要有，手臂不能盖住按钮颜色反馈。普通会议还要确认投票按钮默认隐藏，只有陪审团、测试和投票校准时出现。"
+    },
+    {
+      "id": "product-close",
+      "speakerId": "product-manager",
+      "phase": "收束",
+      "type": "speak",
+      "screenTitle": "方案",
+      "screenStatus": "PLAN",
+      "text": "我建议先走轻实现：把手臂换成可调 SVG 弯臂，保留现有定位设置；新增少量参数，先给默认曲率和粗细。如果用户看完还是觉得不够像角色，再进入第二阶段做独立手臂素材。"
+    },
+    {
+      "id": "closing",
+      "speakerId": "host",
+      "phase": "主持收束",
+      "type": "decision",
+      "screenTitle": "结论",
+      "screenStatus": "DONE",
+      "text": "会议结论：当前不重做骨骼，也不先送图生成。第一步把直柱子改成可调 SVG 柔和弯臂，纯黑剪影、圆角末端、弧线伸手、原路收回；同时普通会议默认隐藏按钮，避免无投票场景穿帮。"
+    }
+  ],
+  "summary": {
+    "consensus": [
+      "手臂违和的根因是直柱形状与直线旋转，缺少肩、肘、手端的自然轮廓。",
+      "优先采用可调 SVG 柔和弯臂：纯黑剪影、圆角线帽、轻微弯曲、末端圆掌。",
+      "保留现有肩膀、初始手位、投票手位和长度校准数据，只替换视觉绘制方式。",
+      "普通会议必须默认隐藏投票按钮；只有陪审团投票、伸手测试或投票相关校准时显示。"
+    ],
+    "nextActions": [
+      "把 stage-vote-arm 从长条 div 改为 SVG path 弯臂。",
+      "新增曲率、粗细、末端圆掌三个默认视觉参数。",
+      "复核伸手、按下、收回动画，以及普通会议按钮隐藏逻辑。"
+    ],
+    "implementationPlan": [
+      {
+        "id": "P0-1",
+        "title": "替换直柱手臂为 SVG 柔和弯臂",
+        "owner": "engineering-frontend-developer",
+        "deliverable": "使用 SVG 曲线路径渲染投票手臂，保留已有校准坐标与动画入口。",
+        "acceptance": "伸手时不再像长柱，末端圆润，整体与黑色牛牛剪影统一。"
+      },
+      {
+        "id": "P0-2",
+        "title": "补齐伸手与收回的自然节奏",
+        "owner": "motion-graphics-director",
+        "deliverable": "调整 keyframes，让手臂沿弧线伸出、短暂停顿、原路收回。",
+        "acceptance": "伸手和收回都可见，按钮亮起发生在手端抵达之后。"
+      },
+      {
+        "id": "P1-1",
+        "title": "视觉验收与普通会议隔离",
+        "owner": "visual-qa-inspector",
+        "deliverable": "检查肩膀外突、圆角末端、按钮遮挡和普通会议按钮隐藏四类问题。",
+        "acceptance": "普通会议无投票控件残留，陪审团和测试路径仍正常显示。"
+      }
+    ],
+    "recommendedWorkers": [
+      {
+        "roleId": "engineering-frontend-developer",
+        "name": "前端工程师",
+        "title": "React 实现",
+        "priority": "高优先级",
+        "task": "将投票手臂视觉层替换为可调 SVG 弯臂。",
+        "deliverable": "App.jsx 与 styles.css 的最小实现改动。"
+      },
+      {
+        "roleId": "motion-graphics-director",
+        "name": "动效包装导演",
+        "title": "动作节奏",
+        "priority": "高优先级",
+        "task": "定义伸手、按下、收回的节奏和曲线。",
+        "deliverable": "可直接落 CSS keyframes 的动效参数建议。"
+      },
+      {
+        "roleId": "visual-qa-inspector",
+        "name": "视觉走查 QA",
+        "title": "画面验收",
+        "priority": "中优先级",
+        "task": "验收手臂形状、遮挡关系和普通会议按钮隐藏。",
+        "deliverable": "手动测试清单与风险点。"
+      }
+    ],
+    "futureAnimationIdea": "如果 SVG 弯臂仍不够自然，再进入第二阶段：为左右座位各做 2 到 3 张独立手臂剪影素材，按座位方向复用。"
+  }
+}

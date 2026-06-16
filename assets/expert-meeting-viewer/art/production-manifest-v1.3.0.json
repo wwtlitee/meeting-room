@@ -1,0 +1,8 @@
+{
+  "version": "1.3.0",
+  "viewer": "expert-meeting-viewer",
+  "status": "superseded",
+  "supersededBy": "production-manifest-v1.4.0.json",
+  "reason": "v1.4.0 locks the current black cow silhouette direction and replaces the older low-contrast gray-white body direction.",
+  "assetBatches": []
+}

@@ -1,0 +1,33 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="round cow seated host on white chair">
+  <g>
+    <ellipse cx="128" cy="226" rx="70" ry="16" fill="#7f8b98" opacity=".12"/>
+    <ellipse cx="128" cy="226" rx="58" ry="14" fill="#8793a1" opacity=".18"/>
+    <path d="M83 54c0-22 16-37 39-37h12c23 0 39 15 39 37v64H83z" fill="#f7fafc" stroke="#cbd4df" stroke-width="2.5"/>
+    <path d="M101 39h54" stroke="#cdd6e0" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+    <path d="M70 118h116v52c0 20-14 33-34 33h-48c-20 0-34-13-34-33z" fill="#edf3f8" stroke="#cbd4df" stroke-width="2.5"/>
+    <path d="M128 202v28M88 236h80M98 229l-20 16M158 229l20 16" stroke="#aeb9c5" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="76" cy="246" r="5" fill="#aeb9c5"/><circle cx="180" cy="246" r="5" fill="#aeb9c5"/>
+    <g transform="translate(128 132) scale(1.05 .94) translate(-128 -132)">
+      <ellipse cx="128" cy="218" rx="48" ry="12" fill="#0a0b0d" opacity=".15"/>
+      <path d="M92 202c7-20 6-47 18-67 8-12 27-12 36 0 13 19 12 48 19 67z" fill="#050607"/>
+      <ellipse cx="128" cy="142" rx="34" ry="34" fill="#050607"/>
+      <ellipse cx="128" cy="82" rx="27" ry="30" fill="#050607"/>
+      <path d="M101 74c-22-8-30-25-26-43 18 3 31 16 35 35z" fill="#050607"/>
+      <path d="M155 74c22-8 30-25 26-43-18 3-31 16-35 35z" fill="#050607"/>
+      <path d="M108 51c-8-16-6-31 5-43 8 15 9 30 3 46z" fill="#050607"/>
+      <path d="M148 51c8-16 6-31-5-43-8 15-9 30-3 46z" fill="#050607"/>
+      <ellipse cx="118" cy="84" rx="3.2" ry="4.6" fill="#f8fafc" opacity=".92"/>
+      <ellipse cx="138" cy="84" rx="3.2" ry="4.6" fill="#f8fafc" opacity=".92"/>
+      <path d="M115 105c10 6 20 6 30 0" fill="none" stroke="#f7f8fa" stroke-width="4" stroke-linecap="round" opacity=".82"/>
+      <path d="M92 159c-18 8-28 24-27 43 15 0 27-8 35-24z" fill="#050607"/>
+      <path d="M164 159c18 8 28 24 27 43-15 0-27-8-35-24z" fill="#050607"/>
+      <path d="M110 188c-12 13-15 27-8 38 13-4 22-14 26-29z" fill="#050607"/>
+      <path d="M146 188c12 13 15 27 8 38-13-4-22-14-26-29z" fill="#050607"/>
+      <rect x="93" y="174" width="70" height="14" rx="7" fill="#41c778" opacity=".96"/>
+      <rect x="106" y="177" width="44" height="3" rx="2" fill="#ffffff" opacity=".78"/>
+    </g>
+    <path d="M70 143h116v28c0 20-14 33-34 33h-48c-20 0-34-13-34-33z" fill="#e5edf4" stroke="#c4ceda" stroke-width="2.5"/>
+    <path d="M63 132c-15 4-24 19-22 42" fill="none" stroke="#c9d2dc" stroke-width="8" stroke-linecap="round"/>
+    <path d="M193 132c15 4 24 19 22 42" fill="none" stroke="#c9d2dc" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

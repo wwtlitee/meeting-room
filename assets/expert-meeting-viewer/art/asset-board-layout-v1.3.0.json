@@ -1,0 +1,438 @@
+﻿{
+  "version": "1.4.0",
+  "viewer": "expert-meeting-viewer",
+  "type": "figure-3-asset-board-layout",
+  "status": "production-planning",
+  "sourceManifest": "production-manifest-v1.4.0.json",
+  "coordinateSpace": {
+    "kind": "asset-board-canvas",
+    "units": "px",
+    "canvas": {
+      "width": 2400,
+      "height": 1600
+    },
+    "origin": "top-left",
+    "runtimeCoordinates": false,
+    "purposeZh": "仅用于图三式素材生产表的版面区域、槽位与检查顺序描述，不作为会议室运行时坐标、锚点或碰撞数据。"
+  },
+  "layoutRules": {
+    "boardStyle": "figure-3-production-sheet",
+    "readingOrder": [
+      "roomAndFurniture",
+      "seatedModels",
+      "walkCycles",
+      "chairDirections",
+      "tableOccluders",
+      "spriteActions",
+      "uiAccessories"
+    ],
+    "globalQualityGate": [
+      "资产板必须像生产源表，而不是最终网页截图。",
+      "区域内资产必须可独立替换，不依赖运行时层级坐标。",
+      "所有角色差异只通过外部标签、小配件、小色块强调和小道具表达。"
+    ]
+  },
+  "sharedSets": {
+    "bodyModels": [
+      "standard",
+      "round",
+      "tall",
+      "small",
+      "sturdy"
+    ],
+    "walkActions": [
+      "walk-left",
+      "walk-right",
+      "walk-up"
+    ],
+    "seatedActions": [
+      "idle",
+      "talk",
+      "nod",
+      "challenge",
+      "think",
+      "sit-left",
+      "sit-right",
+      "sit-host"
+    ]
+  },
+  "sections": {
+    "seatedModels": {
+      "id": "seatedModels",
+      "labelZh": "五体型坐姿种子帧",
+      "purpose": "展示并审批五个黑色小牛强轮廓基础体型的坐姿 seed，作为后续所有动作条的一致性来源。",
+      "status": "needed",
+      "boardRect": {
+        "x": 720,
+        "y": 140,
+        "width": 760,
+        "height": 360
+      },
+      "expectedItems": [
+        {
+          "assetId": "cow_standard_seed_v001",
+          "sourceBatch": "D",
+          "bodyModel": "standard",
+          "path": "art/bitmap/sprites/cow_standard_seed_v001.png"
+        },
+        {
+          "assetId": "cow_round_seed_v001",
+          "sourceBatch": "D",
+          "bodyModel": "round",
+          "path": "art/bitmap/sprites/cow_round_seed_v001.png"
+        },
+        {
+          "assetId": "cow_tall_seed_v001",
+          "sourceBatch": "D",
+          "bodyModel": "tall",
+          "path": "art/bitmap/sprites/cow_tall_seed_v001.png"
+        },
+        {
+          "assetId": "cow_small_seed_v001",
+          "sourceBatch": "D",
+          "bodyModel": "small",
+          "path": "art/bitmap/sprites/cow_small_seed_v001.png"
+        },
+        {
+          "assetId": "cow_sturdy_seed_v001",
+          "sourceBatch": "D",
+          "bodyModel": "sturdy",
+          "path": "art/bitmap/sprites/cow_sturdy_seed_v001.png"
+        }
+      ],
+      "slotLayout": {
+        "kind": "single-row",
+        "slotSize": {
+          "width": 128,
+          "height": 160
+        },
+        "slotGap": 24,
+        "labelPosition": "below",
+        "anchorGuide": "bottom-center"
+      },
+      "qualityGate": [
+        "五个 seed 必须共享同一底部中心锚点与近似视觉比例。",
+        "身体必须保持清晰黑色剪影，不得出现大色块角色条或灰白低对比轮廓。",
+        "seed 只承载基础体型，不烘焙具体专家身份。"
+      ]
+    },
+    "walkCycles": {
+      "id": "walkCycles",
+      "labelZh": "三向走路动作条",
+      "purpose": "按体型和方向矩阵展示 walk-left、walk-right、walk-up 的完整动作条，用于从批准 seed 延展移动状态。",
+      "status": "blocked-by-seed-approval",
+      "boardRect": {
+        "x": 1520,
+        "y": 140,
+        "width": 820,
+        "height": 420
+      },
+      "expectedItems": [
+        {
+          "assetIdPattern": "cow_{body}_walk-left_strip_v001",
+          "sourceBatch": "E",
+          "bodyModelsRef": "sharedSets.bodyModels",
+          "action": "walk-left",
+          "pathPattern": "art/bitmap/sprites/cow_{body}_walk-left_strip_v001.png",
+          "frames": 8
+        },
+        {
+          "assetIdPattern": "cow_{body}_walk-right_strip_v001",
+          "sourceBatch": "E",
+          "bodyModelsRef": "sharedSets.bodyModels",
+          "action": "walk-right",
+          "pathPattern": "art/bitmap/sprites/cow_{body}_walk-right_strip_v001.png",
+          "frames": 8
+        },
+        {
+          "assetIdPattern": "cow_{body}_walk-up_strip_v001",
+          "sourceBatch": "E",
+          "bodyModelsRef": "sharedSets.bodyModels",
+          "action": "walk-up",
+          "pathPattern": "art/bitmap/sprites/cow_{body}_walk-up_strip_v001.png",
+          "frames": 8
+        }
+      ],
+      "slotLayout": {
+        "kind": "matrix",
+        "columnsRef": "sharedSets.bodyModels",
+        "rowsRef": "sharedSets.walkActions",
+        "cellSize": {
+          "width": 136,
+          "height": 96
+        },
+        "rowGap": 26,
+        "columnGap": 14,
+        "stripPreviewRule": "show-first-middle-last-frame"
+      },
+      "qualityGate": [
+        "同一体型的三向动作条必须延续 seed 的黑色轮廓、比例和小色块标识。",
+        "每条 strip 帧数必须为 8，帧间不能独立漂移。",
+        "动作条预览只服务资产板检查，不定义运行时播放坐标。"
+      ]
+    },
+    "chairDirections": {
+      "id": "chairDirections",
+      "labelZh": "椅子方向与前后遮挡",
+      "purpose": "集中展示左侧、右侧和主持位椅子的 back/front 两层，验证方向、透视和角色遮挡关系。",
+      "status": "needed",
+      "boardRect": {
+        "x": 60,
+        "y": 690,
+        "width": 620,
+        "height": 360
+      },
+      "expectedItems": [
+        {
+          "assetId": "chair_left_back_v001",
+          "sourceBatch": "C",
+          "path": "art/bitmap/chair_left_back_v001.png",
+          "direction": "left-side-facing-right",
+          "layerRole": "back"
+        },
+        {
+          "assetId": "chair_left_front_v001",
+          "sourceBatch": "C",
+          "path": "art/bitmap/chair_left_front_v001.png",
+          "direction": "left-side-facing-right",
+          "layerRole": "front-occluder"
+        },
+        {
+          "assetId": "chair_right_back_v001",
+          "sourceBatch": "C",
+          "path": "art/bitmap/chair_right_back_v001.png",
+          "direction": "right-side-facing-left",
+          "layerRole": "back"
+        },
+        {
+          "assetId": "chair_right_front_v001",
+          "sourceBatch": "C",
+          "path": "art/bitmap/chair_right_front_v001.png",
+          "direction": "right-side-facing-left",
+          "layerRole": "front-occluder"
+        },
+        {
+          "assetId": "chair_host_back_v001",
+          "sourceBatch": "C",
+          "path": "art/bitmap/chair_host_back_v001.png",
+          "direction": "host-facing-down",
+          "layerRole": "back"
+        },
+        {
+          "assetId": "chair_host_front_v001",
+          "sourceBatch": "C",
+          "path": "art/bitmap/chair_host_front_v001.png",
+          "direction": "host-facing-down",
+          "layerRole": "front-occluder"
+        }
+      ],
+      "slotLayout": {
+        "kind": "three-pairs",
+        "pairOrder": [
+          "left",
+          "right",
+          "host"
+        ],
+        "pairRule": "back layer above, front occluder below",
+        "slotSize": {
+          "width": 150,
+          "height": 132
+        }
+      },
+      "qualityGate": [
+        "每个方向必须同时提供 back 与 front-occluder。",
+        "椅子透明背景边缘必须干净，不携带房间或桌面像素。",
+        "椅子角度必须匹配高位近正交会议室视角。"
+      ]
+    },
+    "roomAndFurniture": {
+      "id": "roomAndFurniture",
+      "labelZh": "空房间与长桌主件",
+      "purpose": "展示空会议室背景和独立长桌主件，确认图三生产板先拆背景、桌子和角色层，不烘焙完整场景。",
+      "status": "needed",
+      "boardRect": {
+        "x": 60,
+        "y": 140,
+        "width": 620,
+        "height": 500
+      },
+      "expectedItems": [
+        {
+          "assetId": "bg_room_empty_v001",
+          "sourceBatch": "A",
+          "path": "art/bitmap/bg_room_empty_v001.png",
+          "size": "1536x960 or 1536x1024",
+          "contentRole": "empty-room-background"
+        },
+        {
+          "assetId": "table_long_vertical_v001",
+          "sourceBatch": "B",
+          "path": "art/bitmap/table_long_vertical_v001.png",
+          "size": "768x1024",
+          "contentRole": "transparent-table-main"
+        }
+      ],
+      "slotLayout": {
+        "kind": "stacked-preview",
+        "previewOrder": [
+          "bg_room_empty_v001",
+          "table_long_vertical_v001"
+        ],
+        "compositionPreview": "optional-side-by-side-overlay",
+        "mustRemainDecoupled": true
+      },
+      "qualityGate": [
+        "空房间背景不得包含桌子、椅子、角色或文字。",
+        "长桌必须是透明 PNG，可与背景独立替换。",
+        "此区只允许展示层拆分关系，不生成最终合成场景。"
+      ]
+    },
+    "tableOccluders": {
+      "id": "tableOccluders",
+      "labelZh": "桌边遮挡片",
+      "purpose": "独立展示左、右、近端桌边遮挡片，用于检查坐姿角色压边关系与透明边缘质量。",
+      "status": "needed",
+      "boardRect": {
+        "x": 720,
+        "y": 540,
+        "width": 760,
+        "height": 300
+      },
+      "expectedItems": [
+        {
+          "assetId": "table_occluder_left_v001",
+          "sourceBatch": "B",
+          "path": "art/bitmap/table_occluder_left_v001.png",
+          "size": "256x768",
+          "edge": "left"
+        },
+        {
+          "assetId": "table_occluder_right_v001",
+          "sourceBatch": "B",
+          "path": "art/bitmap/table_occluder_right_v001.png",
+          "size": "256x768",
+          "edge": "right"
+        },
+        {
+          "assetId": "table_occluder_bottom_v001",
+          "sourceBatch": "B",
+          "path": "art/bitmap/table_occluder_bottom_v001.png",
+          "size": "768x192",
+          "edge": "bottom-near"
+        }
+      ],
+      "slotLayout": {
+        "kind": "edge-mask-row",
+        "slotOrder": [
+          "left",
+          "right",
+          "bottom-near"
+        ],
+        "checkerboardPreview": true,
+        "edgeLabelPosition": "top-left"
+      },
+      "qualityGate": [
+        "遮挡片必须为透明 PNG，不携带完整桌面重复像素。",
+        "左、右、近端三类边缘必须可单独替换。",
+        "透明边缘需支持坐姿角色半身被桌边自然遮住。"
+      ]
+    },
+    "uiAccessories": {
+      "id": "uiAccessories",
+      "labelZh": "UI 配件与外部身份件",
+      "purpose": "集中展示身份名牌、配件、小道具和会议反馈 UI 底图，确保角色身份不被烘焙进身体模型。",
+      "status": "needed",
+      "boardRect": {
+        "x": 1880,
+        "y": 600,
+        "width": 460,
+        "height": 900
+      },
+      "expectedItems": [
+        {
+          "assetId": "accessory_sheet_v001",
+          "sourceBatch": "G",
+          "path": "art/bitmap/accessory_sheet_v001.png",
+          "size": "1024x1024",
+          "contentRole": "role-props"
+        },
+        {
+          "assetId": "nameplate_sheet_v001",
+          "sourceBatch": "G",
+          "path": "art/bitmap/ui/nameplate_sheet_v001.png",
+          "size": "1024x512",
+          "contentRole": "external-nameplates"
+        },
+        {
+          "assetId": "speaker_card_panel_v001",
+          "sourceBatch": "H",
+          "path": "art/bitmap/ui/speaker_card_panel_v001.png",
+          "size": "768x256",
+          "contentRole": "speaker-card-background"
+        },
+        {
+          "assetId": "challenge_line_style_v001",
+          "sourceBatch": "H",
+          "path": "art/bitmap/ui/challenge_line_style_v001.png",
+          "size": "512x128",
+          "contentRole": "challenge-line-reference"
+        }
+      ],
+      "slotLayout": {
+        "kind": "vertical-stack",
+        "slotOrder": [
+          "accessory_sheet_v001",
+          "nameplate_sheet_v001",
+          "speaker_card_panel_v001",
+          "challenge_line_style_v001"
+        ],
+        "swatchPolicy": "low-saturation-accents-only"
+      },
+      "qualityGate": [
+        "配件表不得包含完整角色身体。",
+        "名牌与 UI 面板不得烘焙具体专家文字。",
+        "配件、名牌和反馈 UI 必须能独立替换，不改变角色 base body。"
+      ]
+    },
+    "spriteActions": {
+      "id": "spriteActions",
+      "labelZh": "坐姿与发言动作条矩阵",
+      "purpose": "按五体型与八类坐姿/发言动作排列动作条，作为会议专家动画资产的主要生产检查区。",
+      "status": "blocked-by-seed-approval",
+      "boardRect": {
+        "x": 720,
+        "y": 880,
+        "width": 1120,
+        "height": 620
+      },
+      "expectedItems": [
+        {
+          "assetIdPattern": "cow_{body}_{action}_strip_v001",
+          "sourceBatch": "F",
+          "bodyModelsRef": "sharedSets.bodyModels",
+          "actionsRef": "sharedSets.seatedActions",
+          "pathPattern": "art/bitmap/sprites/cow_{body}_{action}_strip_v001.png",
+          "frames": 6
+        }
+      ],
+      "slotLayout": {
+        "kind": "matrix",
+        "columnsRef": "sharedSets.bodyModels",
+        "rowsRef": "sharedSets.seatedActions",
+        "cellSize": {
+          "width": 176,
+          "height": 54
+        },
+        "rowGap": 14,
+        "columnGap": 18,
+        "stripPreviewRule": "show-compressed-strip-with-frame-count",
+        "anchorGuide": "bottom-center"
+      },
+      "qualityGate": [
+        "同一体型的所有坐姿动作必须保持轮廓、比例、锚点一致。",
+        "每条 strip 帧数必须为 6，透明或可抠背景必须一致。",
+        "动作语义只表达 idle、talk、nod、challenge、think 与坐向，不表达具体专家身份。"
+      ]
+    }
+  }
+}

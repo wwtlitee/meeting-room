@@ -1,0 +1,108 @@
+﻿{
+  "version": "1.1.0",
+  "viewer": "expert-meeting-viewer",
+  "coordinateSystem": {
+    "stageAspectRatio": "3:2",
+    "unit": "percent",
+    "origin": "top-left",
+    "zDepthRule": "larger y and lower chair rows draw above earlier rows"
+  },
+  "room": {
+    "kind": "raster-background",
+    "path": "./meeting-room-base-v1.png",
+    "notes": "Imagegen-produced empty meeting room reference, used as the stable visual base for the vertical long-table layout."
+  },
+  "entry": {
+    "door": {
+      "x": 50,
+      "y": 94,
+      "scale": 0.48
+    },
+    "order": [
+      "host",
+      "left-1",
+      "right-1",
+      "left-2",
+      "right-2",
+      "left-3",
+      "right-3",
+      "left-4",
+      "right-4",
+      "left-5",
+      "right-5"
+    ]
+  },
+  "anchors": {
+    "host": {
+      "x": 50,
+      "y": 13.6,
+      "scale": 0.74,
+      "depth": 42,
+      "facing": "down"
+    },
+    "left": [
+      { "x": 35.7, "y": 23.7, "scale": 0.77, "depth": 64, "facing": "right" },
+      { "x": 33.4, "y": 34.6, "scale": 0.82, "depth": 76, "facing": "right" },
+      { "x": 31.9, "y": 46.5, "scale": 0.89, "depth": 88, "facing": "right" },
+      { "x": 30.2, "y": 59.4, "scale": 0.96, "depth": 102, "facing": "right" },
+      { "x": 29.2, "y": 73.2, "scale": 1.06, "depth": 118, "facing": "right" }
+    ],
+    "right": [
+      { "x": 64.3, "y": 23.7, "scale": 0.77, "depth": 64, "facing": "left" },
+      { "x": 66.6, "y": 34.6, "scale": 0.82, "depth": 76, "facing": "left" },
+      { "x": 68.1, "y": 46.5, "scale": 0.89, "depth": 88, "facing": "left" },
+      { "x": 69.8, "y": 59.4, "scale": 0.96, "depth": 102, "facing": "left" },
+      { "x": 70.8, "y": 73.2, "scale": 1.06, "depth": 118, "facing": "left" }
+    ]
+  },
+  "layers": [
+    {
+      "name": "room-background",
+      "implementation": "img.meeting-room-art",
+      "z": 0
+    },
+    {
+      "name": "entry-door",
+      "implementation": "div.door-portal",
+      "z": 8
+    },
+    {
+      "name": "chair-back",
+      "implementation": "div.chair-back-fixed",
+      "z": "anchor.depth - 2"
+    },
+    {
+      "name": "cow-agent",
+      "implementation": "article.cow-agent",
+      "z": "anchor.depth"
+    },
+    {
+      "name": "chair-front",
+      "implementation": "div.chair-front-fixed",
+      "z": "anchor.depth + 2"
+    },
+    {
+      "name": "table-depth-mask",
+      "implementation": "div.table-depth-layer",
+      "z": 150
+    },
+    {
+      "name": "speaker-card",
+      "implementation": "article.speaker-card",
+      "z": 260
+    }
+  ],
+  "cowStates": {
+    "waiting": "hidden at door anchor",
+    "walking": "independent cow body, animated legs and arms, no chair attached",
+    "seated": "cow is anchored between chair back and chair front",
+    "talking": "seated plus mouth animation and subtle body bob",
+    "challenging": "talking plus right-arm point and challenge relation line",
+    "agreeing": "seated plus nod animation"
+  },
+  "upgradePath": [
+    "Replace CSS cow component with normalized transparent sprite strips using the same anchors.",
+    "Keep chair-front and table-depth masks unchanged so new bitmap characters inherit the same occlusion model.",
+    "Generate one full strip per action: walking, seated-idle, talking, challenging, agreeing."
+  ]
+}

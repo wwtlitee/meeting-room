@@ -1,0 +1,520 @@
+{
+    "version":  "1.1.0",
+    "id":  "meeting-20260601-013658",
+    "startedAt":  "2026-05-31T17:36:58.0825207Z",
+    "layout":  "vertical-long-table",
+    "title":  "深度模式的必要性",
+    "topic":  "深度模式的必要性",
+    "generator":  "agency-agents/new_visual_meeting_session.ps1",
+    "mode":  "jury_deliberation",
+    "deliberation":  {
+                         "enabled":  true,
+                         "labelA":  "方案A",
+                         "labelB":  "方案B",
+                         "labelZ":  "弃权",
+                         "detailA":  "支持继续推进",
+                         "detailB":  "支持暂缓推进",
+                         "detailZ":  "暂不表态",
+                         "optionA":  "支持继续推进",
+                         "optionB":  "支持暂缓推进",
+                         "optionZ":  "暂不表态",
+                         "voteRounds":  [
+                                            {
+                                                "roundIndex":  1,
+                                                "label":  "第1轮投票",
+                                                "afterTurnId":  "host-vote-1",
+                                                "votes":  {
+                                                              "blockchain-security-auditor":  "a",
+                                                              "engineering-senior-developer":  "a",
+                                                              "design-ui-designer":  "b",
+                                                              "academic-psychologist":  "b",
+                                                              "blender-addon-engineer":  "a",
+                                                              "engineering-mobile-app-builder":  "b",
+                                                              "engineering-solidity-smart-contract-engineer":  "a",
+                                                              "academic-geographer":  "b"
+                                                          }
+                                            },
+                                            {
+                                                "roundIndex":  2,
+                                                "label":  "第2轮投票",
+                                                "afterTurnId":  "host-vote-2",
+                                                "votes":  {
+                                                              "blockchain-security-auditor":  "a",
+                                                              "engineering-senior-developer":  "a",
+                                                              "design-ui-designer":  "a",
+                                                              "academic-psychologist":  "a",
+                                                              "blender-addon-engineer":  "a",
+                                                              "engineering-mobile-app-builder":  "a",
+                                                              "engineering-solidity-smart-contract-engineer":  "a",
+                                                              "academic-geographer":  "a"
+                                                          }
+                                            }
+                                        ]
+                     },
+    "participants":  [
+                         "host",
+                         "blockchain-security-auditor",
+                         "engineering-senior-developer",
+                         "engineering-solidity-smart-contract-engineer",
+                         "blender-addon-engineer",
+                         "engineering-mobile-app-builder",
+                         "academic-geographer",
+                         "academic-psychologist",
+                         "design-ui-designer",
+                         "design-ux-architect",
+                         "engineering-backend-architect"
+                     ],
+    "roleMeta":  {
+                     "host":  {
+                                  "name":  "主持人",
+                                  "title":  "会议主持",
+                                  "lane":  "center"
+                              },
+                     "blockchain-security-auditor":  {
+                                                         "name":  "链安审计",
+                                                         "title":  "Blockchain Security Auditor",
+                                                         "lane":  "left"
+                                                     },
+                     "engineering-senior-developer":  {
+                                                          "name":  "资深开发",
+                                                          "title":  "Senior Developer",
+                                                          "lane":  "right"
+                                                      },
+                     "engineering-solidity-smart-contract-engineer":  {
+                                                                          "name":  "智能合约",
+                                                                          "title":  "Solidity Smart Contract Engineer",
+                                                                          "lane":  "left"
+                                                                      },
+                     "blender-addon-engineer":  {
+                                                    "name":  "Bl插件",
+                                                    "title":  "Blender Add-on Engineer",
+                                                    "lane":  "right"
+                                                },
+                     "engineering-mobile-app-builder":  {
+                                                            "name":  "移动应用",
+                                                            "title":  "Mobile App Builder",
+                                                            "lane":  "left"
+                                                        },
+                     "academic-geographer":  {
+                                                 "name":  "地理学家",
+                                                 "title":  "Geographer",
+                                                 "lane":  "right"
+                                             },
+                     "academic-psychologist":  {
+                                                   "name":  "心理学家",
+                                                   "title":  "Psychologist",
+                                                   "lane":  "left"
+                                               },
+                     "design-ui-designer":  {
+                                                "name":  "UI设计",
+                                                "title":  "UI Designer",
+                                                "lane":  "right"
+                                            },
+                     "design-ux-architect":  {
+                                                 "name":  "UX架构",
+                                                 "title":  "UX Architect",
+                                                 "lane":  "left",
+                                                 "ambientState":  "zzz",
+                                                 "ambientVote":  "z",
+                                                 "division":  "design"
+                                             },
+                     "engineering-backend-architect":  {
+                                                           "name":  "后端架构",
+                                                           "title":  "Backend Architect",
+                                                           "lane":  "right",
+                                                           "ambientState":  "nod",
+                                                           "ambientVote":  "b",
+                                                           "division":  "engineering"
+                                                       }
+                 },
+    "turns":  [
+                  {
+                      "id":  "opening",
+                      "speakerId":  "host",
+                      "phase":  "开场",
+                      "type":  "speak",
+                      "screenTitle":  "议题拆解",
+                      "screenStatus":  "OPEN",
+                      "text":  "大家好，本次会议的主题是：深度模式的必要性。我们先围绕两种观点选边，再在选边过程中补充方案，最后收束成一版优化后的方案。"
+                  },
+                  {
+                      "id":  "host-vote-1",
+                      "speakerId":  "host",
+                      "phase":  "第一轮投票",
+                      "type":  "vote",
+                      "screenTitle":  "投票",
+                      "screenStatus":  "VOTE",
+                      "text":  "先做第一轮投票：支持路线 A 投 A，支持路线 B 投 B，暂不表态投弃权。"
+                  },
+                  {
+                      "id":  "host-r1-start",
+                      "speakerId":  "host",
+                      "phase":  "第一轮发言",
+                      "type":  "control",
+                      "screenTitle":  "票数",
+                      "screenStatus":  "ROUND",
+                      "text":  "第一轮票数公布：A 4 票，弃权 0 票，B 4 票。下面进入第一轮发言。"
+                  },
+                  {
+                      "id":  "point-1",
+                      "speakerId":  "blockchain-security-auditor",
+                      "phase":  "先定边界",
+                      "type":  "speak",
+                      "screenTitle":  "边界",
+                      "screenStatus":  "POINT",
+                      "text":  "我觉得先别急着下方案。深度模式的必要性这个问题，真正要看的不是表面流程，而是资料怎样变成判断，而不是直接变成台词。如果这一层没弄清楚，后面再多动作也会显得很假。"
+                  },
+                  {
+                      "id":  "build-1",
+                      "speakerId":  "engineering-senior-developer",
+                      "phase":  "顺着推进",
+                      "type":  "speak",
+                      "screenTitle":  "补充",
+                      "screenStatus":  "BUILD",
+                      "text":  "我同意链安审计前面说的方向，但我想补一层：实现边界、数据结构和维护成本也要被放进判断里。否则大家看起来是在接话，实际还是各说各的。",
+                      "targetId":  "blockchain-security-auditor"
+                  },
+                  {
+                      "id":  "challenge-1",
+                      "speakerId":  "engineering-solidity-smart-contract-engineer",
+                      "phase":  "提出异议",
+                      "type":  "speak",
+                      "screenTitle":  "异议",
+                      "screenStatus":  "CHECK",
+                      "text":  "我不太同意资深开发这个前提。从我的专业来看，实现边界、数据结构和维护成本如果没处理好，会直接导致后面的结论不可信，而不是简单少一个步骤。",
+                      "targetId":  "engineering-senior-developer"
+                  },
+                  {
+                      "id":  "implementation-1",
+                      "speakerId":  "blender-addon-engineer",
+                      "phase":  "压成做法",
+                      "type":  "speak",
+                      "screenTitle":  "落地",
+                      "screenStatus":  "PLAN",
+                      "text":  "从我的角度看，可以先做一个很小的改动：每条发言都要说明它接了谁的话、改变了什么判断、留下什么动作。先把这个跑通，再谈更复杂的人格表现。",
+                      "targetId":  "blockchain-security-auditor"
+                  },
+                  {
+                      "id":  "human-1",
+                      "speakerId":  "engineering-mobile-app-builder",
+                      "phase":  "体验视角",
+                      "type":  "speak",
+                      "screenTitle":  "体验",
+                      "screenStatus":  "HUMAN",
+                      "text":  "我觉得还要留一点现场感。人说话不会每句都像最终报告，可以有让步、犹豫和修正；但修正最后还是要回到界面暗示、操作节奏和用户一眼看到的状态，不然就会变成闲聊。",
+                      "targetId":  "blender-addon-engineer"
+                  },
+                  {
+                      "id":  "test-1",
+                      "speakerId":  "academic-geographer",
+                      "phase":  "验收口径",
+                      "type":  "speak",
+                      "screenTitle":  "验收",
+                      "screenStatus":  "TEST",
+                      "text":  "从验收角度看，我会盯三件事：有没有接上一位的话，有没有讲出具体后果，有没有把争议压成下一步。缺一个，会议就还是在读稿。",
+                      "targetId":  "engineering-mobile-app-builder"
+                  },
+                  {
+                      "id":  "ambient-nod-1",
+                      "speakerId":  "engineering-backend-architect",
+                      "phase":  "氛围附和",
+                      "type":  "speak",
+                      "screenTitle":  "附和",
+                      "screenStatus":  "BUILD",
+                      "text":  "对对对，移动应用 这句是有道理的。我先跟当前多数方案。"
+                  },
+                  {
+                      "id":  "host-vote-2",
+                      "speakerId":  "host",
+                      "phase":  "最终一轮投票",
+                      "type":  "vote",
+                      "screenTitle":  "最终投票",
+                      "screenStatus":  "VOTE",
+                      "text":  "听完这一轮观点，我们做最终一轮投票，确认 A/B 正式票是否已经统一。"
+                  },
+                  {
+                      "id":  "host-r2-result",
+                      "speakerId":  "host",
+                      "phase":  "最终结果",
+                      "type":  "control",
+                      "screenTitle":  "结果公布",
+                      "screenStatus":  "RESULT",
+                      "text":  "最终结果公布：A 8 票，弃权 0 票，B 0 票。A/B 正式票已经统一，会议收束。"
+                  },
+                  {
+                      "id":  "host-final",
+                      "speakerId":  "host",
+                      "phase":  "主持收束",
+                      "type":  "conclusion",
+                      "screenTitle":  "结论",
+                      "screenStatus":  "DONE",
+                      "text":  "主持收束：正式票已经统一，剩余弃权票记入保留意见。下一步把两边方案折成一版优化后的统一方案。"
+                  }
+              ],
+    "visualTranscript":  {
+                             "version":  "1.0.0",
+                             "layout":  "vertical-long-table",
+                             "title":  "深度模式的必要性",
+                             "topic":  "深度模式的必要性",
+                             "participants":  {
+                                                  "host":  {
+                                                               "id":  "host",
+                                                               "displayName":  "主持人",
+                                                               "roleName":  "会议主持"
+                                                           },
+                                                  "experts":  [
+                                                                  {
+                                                                      "id":  "blockchain-security-auditor",
+                                                                      "displayName":  "链安审计",
+                                                                      "roleName":  "Blockchain Security Auditor",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "engineering-senior-developer",
+                                                                      "displayName":  "资深开发",
+                                                                      "roleName":  "Senior Developer",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "engineering-solidity-smart-contract-engineer",
+                                                                      "displayName":  "智能合约",
+                                                                      "roleName":  "Solidity Smart Contract Engineer",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "blender-addon-engineer",
+                                                                      "displayName":  "Bl插件",
+                                                                      "roleName":  "Blender Add-on Engineer",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "engineering-mobile-app-builder",
+                                                                      "displayName":  "移动应用",
+                                                                      "roleName":  "Mobile App Builder",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "academic-geographer",
+                                                                      "displayName":  "地理学家",
+                                                                      "roleName":  "Geographer",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "academic-psychologist",
+                                                                      "displayName":  "心理学家",
+                                                                      "roleName":  "Psychologist",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "design-ui-designer",
+                                                                      "displayName":  "UI设计",
+                                                                      "roleName":  "UI Designer",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "design-ux-architect",
+                                                                      "displayName":  "UX架构",
+                                                                      "roleName":  "UX Architect",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "engineering-backend-architect",
+                                                                      "displayName":  "后端架构",
+                                                                      "roleName":  "Backend Architect",
+                                                                      "side":  "right"
+                                                                  }
+                                                              ]
+                                              },
+                             "timeline":  [
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "host",
+                                                  "stance":  "开场",
+                                                  "text":  "大家好，本次会议的主题是：深度模式的必要性。我们先围绕两种观点选边，再在选边过程中补充方案，最后收束成一版优化后的方案。"
+                                              },
+                                              {
+                                                  "type":  "vote",
+                                                  "speaker":  "host",
+                                                  "stance":  "第一轮投票",
+                                                  "text":  "先做第一轮投票：支持路线 A 投 A，支持路线 B 投 B，暂不表态投弃权。"
+                                              },
+                                              {
+                                                  "type":  "control",
+                                                  "speaker":  "host",
+                                                  "stance":  "第一轮发言",
+                                                  "text":  "第一轮票数公布：A 4 票，弃权 0 票，B 4 票。下面进入第一轮发言。"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "blockchain-security-auditor",
+                                                  "stance":  "先定边界",
+                                                  "text":  "我觉得先别急着下方案。深度模式的必要性这个问题，真正要看的不是表面流程，而是资料怎样变成判断，而不是直接变成台词。如果这一层没弄清楚，后面再多动作也会显得很假。"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "engineering-senior-developer",
+                                                  "stance":  "顺着推进",
+                                                  "text":  "我同意链安审计前面说的方向，但我想补一层：实现边界、数据结构和维护成本也要被放进判断里。否则大家看起来是在接话，实际还是各说各的。",
+                                                  "target":  "blockchain-security-auditor"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "engineering-solidity-smart-contract-engineer",
+                                                  "stance":  "提出异议",
+                                                  "text":  "我不太同意资深开发这个前提。从我的专业来看，实现边界、数据结构和维护成本如果没处理好，会直接导致后面的结论不可信，而不是简单少一个步骤。",
+                                                  "target":  "engineering-senior-developer"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "blender-addon-engineer",
+                                                  "stance":  "压成做法",
+                                                  "text":  "从我的角度看，可以先做一个很小的改动：每条发言都要说明它接了谁的话、改变了什么判断、留下什么动作。先把这个跑通，再谈更复杂的人格表现。",
+                                                  "target":  "blockchain-security-auditor"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "engineering-mobile-app-builder",
+                                                  "stance":  "体验视角",
+                                                  "text":  "我觉得还要留一点现场感。人说话不会每句都像最终报告，可以有让步、犹豫和修正；但修正最后还是要回到界面暗示、操作节奏和用户一眼看到的状态，不然就会变成闲聊。",
+                                                  "target":  "blender-addon-engineer"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "academic-geographer",
+                                                  "stance":  "验收口径",
+                                                  "text":  "从验收角度看，我会盯三件事：有没有接上一位的话，有没有讲出具体后果，有没有把争议压成下一步。缺一个，会议就还是在读稿。",
+                                                  "target":  "engineering-mobile-app-builder"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "engineering-backend-architect",
+                                                  "stance":  "氛围附和",
+                                                  "text":  "对对对，移动应用 这句是有道理的。我先跟当前多数方案。"
+                                              },
+                                              {
+                                                  "type":  "vote",
+                                                  "speaker":  "host",
+                                                  "stance":  "最终一轮投票",
+                                                  "text":  "听完这一轮观点，我们做最终一轮投票，确认 A/B 正式票是否已经统一。"
+                                              },
+                                              {
+                                                  "type":  "control",
+                                                  "speaker":  "host",
+                                                  "stance":  "最终结果",
+                                                  "text":  "最终结果公布：A 8 票，弃权 0 票，B 0 票。A/B 正式票已经统一，会议收束。"
+                                              },
+                                              {
+                                                  "type":  "conclusion",
+                                                  "speaker":  "host",
+                                                  "stance":  "主持收束",
+                                                  "text":  "主持收束：正式票已经统一，剩余弃权票记入保留意见。下一步把两边方案折成一版优化后的统一方案。"
+                                              }
+                                          ]
+                         },
+    "summary":  {
+                    "consensus":  [
+                                      "会议应由真实筛选角色和人格资料驱动，不再只播放固定默认脚本。",
+                                      "会议网页只负责播放已准备的会议内容，角色选择、资料读取和争议组织放在技能侧。",
+                                      "讨论流程需要允许接话、反驳、修正和收束，而不是每人固定一句。"
+                                  ],
+                    "nextActions":  [
+                                        "继续完善筛人评分和关键词路由。",
+                                        "把会后结论写回可控的记忆摘要或报告。",
+                                        "用真实议题录制一轮会议，检查是否仍像读稿。"
+                                    ],
+                    "implementationPlan":  [
+                                               {
+                                                   "id":  "P0-1",
+                                                   "title":  "触发即拉起内置会议页",
+                                                   "owner":  "blockchain-security-auditor",
+                                                   "deliverable":  "统一启动流程：准备会议内容、启动会议网页、导航内置浏览器。",
+                                                   "acceptance":  "触发专家团后，内置浏览器必须确认加载本次会议主题；失败时才进入默认浏览器兜底。"
+                                               },
+                                               {
+                                                   "id":  "P0-2",
+                                                   "title":  "网页成为会议主载体",
+                                                   "owner":  "engineering-senior-developer",
+                                                   "deliverable":  "会议网页显示发言、实施方案、推荐员工子任务和结论。",
+                                                   "acceptance":  "聊天侧回复只保留会议已启动、关键结论、执行建议，不再粘贴完整会议过程。"
+                                               },
+                                               {
+                                                   "id":  "P1-1",
+                                                   "title":  "会议必须产出可实施方案",
+                                                   "owner":  "engineering-solidity-smart-contract-engineer",
+                                                   "deliverable":  "会议总结里的实施方案固定包含负责人、交付物和验收口径。",
+                                                   "acceptance":  "每场会至少 3 条可执行方案，且能直接转成开发、研究或设计子任务。"
+                                               },
+                                               {
+                                                   "id":  "P1-2",
+                                                   "title":  "推荐专业员工跑子任务",
+                                                   "owner":  "blender-addon-engineer",
+                                                   "deliverable":  "会议总结里的推荐员工固定包含角色、任务、范围、交付物和优先级。",
+                                                   "acceptance":  "会议结束后能列出 3-6 个专业员工建议，不再只说“下一步”。"
+                                               },
+                                               {
+                                                   "id":  "P2-1",
+                                                   "title":  "员工工作中动画预留",
+                                                   "owner":  "engineering-mobile-app-builder",
+                                                   "deliverable":  "新增后续动画构想，后续会议网页可切换为员工工作状态。",
+                                                   "acceptance":  "当前不强做动画，但数据结构和界面文案为后续留入口。"
+                                               }
+                                           ],
+                    "recommendedWorkers":  [
+                                               {
+                                                   "roleId":  "blockchain-security-auditor",
+                                                   "name":  "链安审计",
+                                                   "title":  "Blockchain Security Auditor",
+                                                   "priority":  "P0",
+                                                   "task":  "检查人格资料、知识库和记忆摘要如何参与发言生成，避免角色卡原文混进台词。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "engineering-senior-developer",
+                                                   "name":  "资深开发",
+                                                   "title":  "Senior Developer",
+                                                   "priority":  "P0",
+                                                   "task":  "负责把会议方案落到脚本、JSON schema 和稳定运行链路。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "engineering-solidity-smart-contract-engineer",
+                                                   "name":  "智能合约",
+                                                   "title":  "Solidity Smart Contract Engineer",
+                                                   "priority":  "P1",
+                                                   "task":  "负责把会议方案落到脚本、JSON schema 和稳定运行链路。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "blender-addon-engineer",
+                                                   "name":  "Bl插件",
+                                                   "title":  "Blender Add-on Engineer",
+                                                   "priority":  "P1",
+                                                   "task":  "围绕本议题给出专业审查，输出一个能交给执行者继续推进的具体建议。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "engineering-mobile-app-builder",
+                                                   "name":  "移动应用",
+                                                   "title":  "Mobile App Builder",
+                                                   "priority":  "P2",
+                                                   "task":  "负责把会议方案落到脚本、JSON schema 和稳定运行链路。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "academic-geographer",
+                                                   "name":  "地理学家",
+                                                   "title":  "Geographer",
+                                                   "priority":  "P2",
+                                                   "task":  "围绕本议题给出专业审查，输出一个能交给执行者继续推进的具体建议。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               }
+                                           ],
+                    "futureAnimationIdea":  "后续可在会议网页增加“员工正在工作”状态：会议结束后展示被推荐员工进入工作台、任务卡流转、完成回填和下一场复盘。"
+                }
+}

@@ -1,0 +1,239 @@
+{
+  "version": "1.4.0",
+  "viewer": "expert-meeting-viewer",
+  "status": "production-planning",
+  "principle": "The viewer is rebuilt around an imagegen-generated raster asset sheet. Legacy SVG assembly and dynamic playback are no longer the default delivery surface.",
+  "artDirection": {
+    "camera": "high oblique near-orthographic",
+    "scene": "bright white vertical long-table expert meeting room",
+    "characters": "five reusable black cow silhouette expert base bodies with clear white/gray separation",
+    "personaRule": "Persona differences use external labels, small accessories, tiny low-saturation badges, and role props only.",
+    "forbidden": [
+      "single finished scene with characters baked into the room",
+      "low-contrast gray-white bodies that lose silhouette readability",
+      "large colored torso bars or high-saturation body fills",
+      "one unique body model per expert persona",
+      "claiming placeholder SVG assets as final bitmap art"
+    ]
+  },
+  "targetFolders": {
+    "bitmap": "art/bitmap",
+    "imagegen": "art/imagegen",
+    "sprites": "art/bitmap/sprites",
+    "ui": "art/bitmap/ui",
+    "previews": "art/previews",
+    "processed": "art/processed"
+  },
+  "runtimePreview": {
+    "path": "art/imagegen/expert-meeting-model-sheet-v1.1.0.png",
+    "status": "imagegen-generated",
+    "purpose": "Default first-screen raster asset sheet for five black cow body models, three seated directions, white table, and white chair direction assets."
+  },
+  "extractedRuntimeAssets": {
+    "status": "extracted-from-imagegen-sheet",
+    "source": "art/imagegen/expert-meeting-model-sheet-v1.1.0.png",
+    "basePath": "art/imagegen/extracted",
+    "cropPolicy": "cyan-key source sheet; remove only cyan background/edge spill to alpha, preserve white table and chair pixels",
+    "occupiedSeatPattern": "occupied-seats/cow-seat-{body}-{direction}-v1.0.0.png",
+    "occupiedSeatBodies": ["standard", "round", "tall", "small", "sturdy"],
+    "occupiedSeatDirections": ["left", "front", "right"],
+    "emptySeats": [
+      "empty-seats/chair-front-v1.0.0.png",
+      "empty-seats/chair-left-v1.0.0.png",
+      "empty-seats/chair-right-v1.0.0.png"
+    ],
+    "tables": [
+      "tables/table-long-vertical-v1.0.0.png"
+    ],
+    "runtimeAssembly": "index.html renders the meeting stage directly from extracted PNG slices."
+  },
+  "assetBatches": [
+    {
+      "id": "A",
+      "name": "empty-room-background",
+      "priority": "P0",
+      "status": "needed",
+      "outputs": [
+        {
+          "id": "bg_room_empty_v001",
+          "path": "art/bitmap/bg_room_empty_v001.png",
+          "size": "1536x960 or 1536x1024",
+          "format": "png",
+          "requirements": "Empty white meeting room, doorway visible, no table, no chairs, no characters, no text."
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "table-and-occluders",
+      "priority": "P0",
+      "status": "needed",
+      "outputs": [
+        {
+          "id": "table_long_vertical_v001",
+          "path": "art/bitmap/table_long_vertical_v001.png",
+          "size": "768x1024",
+          "format": "png",
+          "requirements": "Transparent vertical long conference table, matte white, clear left/right/bottom edges."
+        },
+        {
+          "id": "table_occluder_left_v001",
+          "path": "art/bitmap/table_occluder_left_v001.png",
+          "size": "256x768",
+          "format": "png",
+          "requirements": "Transparent left table edge mask for seated cow occlusion."
+        },
+        {
+          "id": "table_occluder_right_v001",
+          "path": "art/bitmap/table_occluder_right_v001.png",
+          "size": "256x768",
+          "format": "png",
+          "requirements": "Transparent right table edge mask for seated cow occlusion."
+        },
+        {
+          "id": "table_occluder_bottom_v001",
+          "path": "art/bitmap/table_occluder_bottom_v001.png",
+          "size": "768x192",
+          "format": "png",
+          "requirements": "Transparent near table edge mask for lower-depth seating."
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "chair-directions",
+      "priority": "P0",
+      "status": "needed",
+      "outputs": [
+        {
+          "id": "chair_left_back_v001",
+          "path": "art/bitmap/chair_left_back_v001.png",
+          "size": "256x256",
+          "format": "png",
+          "requirements": "Left-side white chair back, facing right, transparent background."
+        },
+        {
+          "id": "chair_left_front_v001",
+          "path": "art/bitmap/chair_left_front_v001.png",
+          "size": "256x256",
+          "format": "png",
+          "requirements": "Left-side white chair front occluder, transparent background."
+        },
+        {
+          "id": "chair_right_back_v001",
+          "path": "art/bitmap/chair_right_back_v001.png",
+          "size": "256x256",
+          "format": "png",
+          "requirements": "Right-side white chair back, facing left, transparent background."
+        },
+        {
+          "id": "chair_right_front_v001",
+          "path": "art/bitmap/chair_right_front_v001.png",
+          "size": "256x256",
+          "format": "png",
+          "requirements": "Right-side white chair front occluder, transparent background."
+        },
+        {
+          "id": "chair_host_back_v001",
+          "path": "art/bitmap/chair_host_back_v001.png",
+          "size": "256x256",
+          "format": "png",
+          "requirements": "Host white chair back, facing down, transparent background."
+        },
+        {
+          "id": "chair_host_front_v001",
+          "path": "art/bitmap/chair_host_front_v001.png",
+          "size": "256x256",
+          "format": "png",
+          "requirements": "Host white chair front occluder, transparent background."
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "five-body-seed-frames",
+      "priority": "P0",
+      "status": "needed",
+      "bodyModels": ["standard", "round", "tall", "small", "sturdy"],
+      "outputPattern": "art/bitmap/sprites/cow_{body}_seed_v001.png",
+      "size": "256x256",
+      "format": "png",
+      "requirements": "Approved seated seed frame for each body: strong black cow silhouette, readable white/gray facial or horn separation, no large colored body bar, bottom-center anchor."
+    },
+    {
+      "id": "E",
+      "name": "walk-strips",
+      "priority": "P1",
+      "status": "blocked-by-seed-approval",
+      "bodyModels": ["standard", "round", "tall", "small", "sturdy"],
+      "actions": ["walk-left", "walk-right", "walk-up"],
+      "frames": 8,
+      "outputPattern": "art/bitmap/sprites/cow_{body}_{action}_strip_v001.png",
+      "requirements": "Generate each full strip in one pass from approved seed; no independent frame generation."
+    },
+    {
+      "id": "F",
+      "name": "seated-action-strips",
+      "priority": "P1",
+      "status": "blocked-by-seed-approval",
+      "bodyModels": ["standard", "round", "tall", "small", "sturdy"],
+      "actions": ["idle", "talk", "nod", "challenge", "think", "sit-left", "sit-right", "sit-host"],
+      "frames": 6,
+      "outputPattern": "art/bitmap/sprites/cow_{body}_{action}_strip_v001.png",
+      "requirements": "Same body, same scale, same bottom-center anchor, transparent or chroma-key background."
+    },
+    {
+      "id": "G",
+      "name": "accessories-and-labels",
+      "priority": "P1",
+      "status": "needed",
+      "outputs": [
+        {
+          "id": "accessory_sheet_v001",
+          "path": "art/bitmap/accessory_sheet_v001.png",
+          "size": "1024x1024",
+          "format": "png",
+          "requirements": "Glasses, headset, pen, cap, chart, shield, notebook, and small role props only; no full characters."
+        },
+        {
+          "id": "nameplate_sheet_v001",
+          "path": "art/bitmap/ui/nameplate_sheet_v001.png",
+          "size": "1024x512",
+          "format": "png",
+          "requirements": "External nameplate shapes and tiny accent markers, no baked role text."
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "name": "meeting-ui-feedback",
+      "priority": "P2",
+      "status": "needed",
+      "outputs": [
+        {
+          "id": "speaker_card_panel_v001",
+          "path": "art/bitmap/ui/speaker_card_panel_v001.png",
+          "size": "768x256",
+          "format": "png",
+          "requirements": "Optional polished speaker-card panel background, no text."
+        },
+        {
+          "id": "challenge_line_style_v001",
+          "path": "art/bitmap/ui/challenge_line_style_v001.png",
+          "size": "512x128",
+          "format": "png",
+          "requirements": "Reference strip for challenge line dots/glow; can stay CSS if audit approves."
+        }
+      ]
+    }
+  ],
+  "qualityGates": [
+    "First-screen preview uses the imagegen-generated raster asset sheet, not SVG placeholders or runtime-scattered composition.",
+    "Asset sheet visually resembles a production source board, not a finished webpage screenshot.",
+    "Black cow silhouette remains readable against the white office furniture.",
+    "Every P0 asset can be replaced independently without changing session JSON.",
+    "Five body models are enough for all expert personas.",
+    "Sprite strips keep stable scale, silhouette, and bottom-center anchor.",
+    "Runtime viewer must label SVG assets as source or placeholder assets until bitmap files exist."
+  ]
+}

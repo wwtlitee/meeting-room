@@ -1,0 +1,66 @@
+﻿{
+  "version": "1.0.0",
+  "image": "meeting-room-base-v1.png",
+  "stageAspectRatio": 1.5,
+  "anchors": {
+    "host": {
+      "x": 50,
+      "y": 13,
+      "facing": "down"
+    },
+    "left": [
+      {
+        "x": 35.8,
+        "y": 24,
+        "facing": "right"
+      },
+      {
+        "x": 33.4,
+        "y": 34,
+        "facing": "right"
+      },
+      {
+        "x": 31.7,
+        "y": 45,
+        "facing": "right"
+      },
+      {
+        "x": 30.3,
+        "y": 58,
+        "facing": "right"
+      },
+      {
+        "x": 29.2,
+        "y": 72,
+        "facing": "right"
+      }
+    ],
+    "right": [
+      {
+        "x": 64.2,
+        "y": 24,
+        "facing": "left"
+      },
+      {
+        "x": 66.6,
+        "y": 34,
+        "facing": "left"
+      },
+      {
+        "x": 68.3,
+        "y": 45,
+        "facing": "left"
+      },
+      {
+        "x": 69.7,
+        "y": 58,
+        "facing": "left"
+      },
+      {
+        "x": 70.8,
+        "y": 72,
+        "facing": "left"
+      }
+    ]
+  }
+}

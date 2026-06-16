@@ -1,0 +1,283 @@
+{
+    "version":  "1.2.0",
+    "id":  "meeting-20260529-124133-authored-vs-live",
+    "startedAt":  "2026-05-29T04:41:33.8382420Z",
+    "title":  "纯authored 剧本和 live session的选择",
+    "topic":  "纯authored 剧本和 live session的选择",
+    "mode":  "jury_deliberation",
+    "participants":  [
+                         "host",
+                         "narrative-designer",
+                         "level-designer",
+                         "blender-addon-engineer",
+                         "corporate-training-designer",
+                         "design-ux-researcher",
+                         "engineering-feishu-integration-developer"
+                     ],
+    "roleMeta":  {
+                     "host":  {
+                                  "name":  "主持人",
+                                  "title":  "会议主持",
+                                  "lane":  "center"
+                              },
+                     "narrative-designer":  {
+                                                "name":  "叙事设计",
+                                                "title":  "Narrative Designer",
+                                                "lane":  "left"
+                                            },
+                     "level-designer":  {
+                                            "name":  "关卡设计",
+                                            "title":  "Level Designer",
+                                            "lane":  "right"
+                                        },
+                     "blender-addon-engineer":  {
+                                                    "name":  "Bl插件",
+                                                    "title":  "Blender Add-on Engineer",
+                                                    "lane":  "left"
+                                                },
+                     "corporate-training-designer":  {
+                                                         "name":  "企业培训",
+                                                         "title":  "Corporate Training Designer",
+                                                         "lane":  "right"
+                                                     },
+                     "design-ux-researcher":  {
+                                                  "name":  "UX研究",
+                                                  "title":  "UX Researcher",
+                                                  "lane":  "left"
+                                              },
+                     "engineering-feishu-integration-developer":  {
+                                                                      "name":  "飞书集成",
+                                                                      "title":  "Feishu Integration Developer",
+                                                                      "lane":  "right"
+                                                                  }
+                 },
+    "deliberation":  {
+                         "enabled":  true,
+                         "labelA":  "Authored",
+                         "labelB":  "Live",
+                         "detailA":  "Single scripted session",
+                         "detailB":  "Runtime incremental session",
+                         "voteRounds":  [
+                                            {
+                                                "id":  "vote-1",
+                                                "label":  "第一轮投票",
+                                                "afterTurnId":  "host-vote-1",
+                                                "prompt":  "第一轮：现在应继续 Authored，还是应该转向 Live？",
+                                                "votes":  {
+                                                              "narrative-designer":  "a",
+                                                              "level-designer":  "b",
+                                                              "blender-addon-engineer":  "b",
+                                                              "corporate-training-designer":  "b",
+                                                              "design-ux-researcher":  "a",
+                                                              "engineering-feishu-integration-developer":  "b"
+                                                          },
+                                                "counts":  {
+                                                               "a":  2,
+                                                               "b":  4
+                                                           }
+                                            },
+                                            {
+                                                "id":  "vote-2",
+                                                "label":  "第二轮投票",
+                                                "afterTurnId":  "host-vote-2",
+                                                "prompt":  "第二轮：如果先做 MVP，是否应该优先 Live 路线？",
+                                                "votes":  {
+                                                              "narrative-designer":  "b",
+                                                              "level-designer":  "b",
+                                                              "blender-addon-engineer":  "b",
+                                                              "corporate-training-designer":  "b",
+                                                              "design-ux-researcher":  "a",
+                                                              "engineering-feishu-integration-developer":  "b"
+                                                          },
+                                                "counts":  {
+                                                               "a":  1,
+                                                               "b":  5
+                                                           }
+                                            },
+                                            {
+                                                "id":  "vote-3",
+                                                "label":  "第三轮投票",
+                                                "afterTurnId":  "host-vote-3",
+                                                "prompt":  "第三轮：是否确认 Live 为主路线，Authored 为 fallback？",
+                                                "votes":  {
+                                                              "narrative-designer":  "b",
+                                                              "level-designer":  "b",
+                                                              "blender-addon-engineer":  "b",
+                                                              "corporate-training-designer":  "b",
+                                                              "design-ux-researcher":  "b",
+                                                              "engineering-feishu-integration-developer":  "b"
+                                                          },
+                                                "counts":  {
+                                                               "a":  0,
+                                                               "b":  6
+                                                           }
+                                            }
+                                        ]
+                     },
+    "turns":  [
+                  {
+                      "id":  "opening",
+                      "speakerId":  "host",
+                      "phase":  "开题",
+                      "type":  "speak",
+                      "text":  "大家好，本次会议的主题是：纯authored 剧本和 live session的选择。A 路线是Authored，B 路线是Live。今天我们只判断一件事：哪条路线更适合成为专家团会议的主路线。"
+                  },
+                  {
+                      "id":  "host-vote-1",
+                      "speakerId":  "host",
+                      "phase":  "第一轮投票",
+                      "type":  "vote",
+                      "text":  "先做第一轮判断：A 是Authored，B 是Live。"
+                  },
+                  {
+                      "id":  "host-r1-start",
+                      "speakerId":  "host",
+                      "phase":  "第一轮发言",
+                      "type":  "control",
+                      "text":  "第一轮先围绕三件事聊：真实人格感，开会成本，以及 viewer 需不需要推翻重来。"
+                  },
+                  {
+                      "id":  "r1-1",
+                      "speakerId":  "narrative-designer",
+                      "phase":  "第一轮发言",
+                      "type":  "speak",
+                      "text":  "我先替 A 保留一个价值：Authored胜在稳，今天就能播，但它的人格还是一个中心脑写出来的。"
+                  },
+                  {
+                      "id":  "r1-2",
+                      "speakerId":  "level-designer",
+                      "phase":  "第一轮发言",
+                      "type":  "speak",
+                      "text":  "我倾向 B，因为 Live至少能把会议改成运行中状态，后面再把真子 agent 接进去就是合理路径。"
+                  },
+                  {
+                      "id":  "r1-3",
+                      "speakerId":  "blender-addon-engineer",
+                      "phase":  "第一轮发言",
+                      "type":  "speak",
+                      "text":  "我更关心 viewer 改造量。只要 session 结构从整篇 turns 变成增量 turns 和 runtime 状态，前端是能继续复用的。"
+                  },
+                  {
+                      "id":  "host-vote-2",
+                      "speakerId":  "host",
+                      "phase":  "第二轮投票",
+                      "type":  "vote",
+                      "text":  "再投一次：如果第一版先做 5-6 人 MVP，是否应该优先选 live session 路线？"
+                  },
+                  {
+                      "id":  "host-r2-start",
+                      "speakerId":  "host",
+                      "phase":  "第二轮发言",
+                      "type":  "control",
+                      "text":  "第二轮只回答一个问题：哪条路线对现有资产复用最多，同时又能真正走向多人格运行时。"
+                  },
+                  {
+                      "id":  "r2-1",
+                      "speakerId":  "corporate-training-designer",
+                      "phase":  "第二轮发言",
+                      "type":  "speak",
+                      "text":  "我倾向先做 live replay MVP，因为它能先把 viewer 和 runtime 之间的数据契约立住，然后再换成真子 agent 并发思考。"
+                  },
+                  {
+                      "id":  "r2-2",
+                      "speakerId":  "design-ux-researcher",
+                      "phase":  "第二轮发言",
+                      "type":  "speak",
+                      "text":  "我看重的是运营成本。10 人上限保留没问题，但默认 6 人左右最稳，这样等 runtime 改成真思考时才不会一下子炸成本。"
+                  },
+                  {
+                      "id":  "r2-3",
+                      "speakerId":  "engineering-feishu-integration-developer",
+                      "phase":  "第二轮发言",
+                      "type":  "speak",
+                      "text":  "我的结论是，Authored 可以作为 fallback，但如果目标是真正人格互相说服，主路线一定得是 live session。"
+                  },
+                  {
+                      "id":  "host-vote-3",
+                      "speakerId":  "host",
+                      "phase":  "第三轮投票",
+                      "type":  "vote",
+                      "text":  "最后确认：是否采用 live session 作为专家团主路线，Authored 降级为 fallback 和 smoke test？"
+                  },
+                  {
+                      "id":  "host-r3-result",
+                      "speakerId":  "host",
+                      "phase":  "第三轮结果",
+                      "type":  "control",
+                      "text":  "第三轮票数已经一致，对主路线的选择现在可以收束。"
+                  },
+                  {
+                      "id":  "host-final",
+                      "speakerId":  "host",
+                      "phase":  "主持人总结",
+                      "type":  "conclusion",
+                      "text":  "本场结论是：live session 应该成为专家团会议的主路线，Authored 保留为 fallback 和 smoke test。第一步先把 5-6 人 MVP 跑稳，然后再把真子 agent 并发思考接进来。"
+                  }
+              ],
+    "summary":  {
+                    "consensus":  [
+                                      "专家团会议的主路线应该是 live session，Authored 降级为 fallback 和 smoke test。",
+                                      "主进程继续担任主持人，参会人格实时思考并排队发言。",
+                                      "第一版先稳定 5-6 人，然后再向更多席位扩展。"
+                                  ],
+                    "nextActions":  [
+                                        "把 live replay MVP 升级成真子 agent 候选发言输出。",
+                                        "给 viewer 接入 runtime.thinking 和 runtime.queue 的可视化。",
+                                        "把 Authored 路径限制在 fallback 和调试用途。"
+                                    ],
+                    "implementationPlan":  [
+                                               {
+                                                   "id":  "LIVE-1",
+                                                   "title":  "真实并发思考",
+                                                   "owner":  "level-designer",
+                                                   "deliverable":  "子 agent 候选发言输出",
+                                                   "acceptance":  "所有参会人格都能提交本轮候选发言和立场"
+                                               },
+                                               {
+                                                   "id":  "LIVE-2",
+                                                   "title":  "会议页运行中状态",
+                                                   "owner":  "blender-addon-engineer",
+                                                   "deliverable":  "thinking queue UI",
+                                                   "acceptance":  "会议页可显示正在思考和候发言队列"
+                                               },
+                                               {
+                                                   "id":  "LIVE-3",
+                                                   "title":  "运行时调度",
+                                                   "owner":  "corporate-training-designer",
+                                                   "deliverable":  "发言队列与增量再思考",
+                                                   "acceptance":  "票数变化能对应上一轮真实发言"
+                                               }
+                                           ],
+                    "recommendedWorkers":  [
+                                               {
+                                                   "roleId":  "level-designer",
+                                                   "name":  "关卡设计",
+                                                   "title":  "Level Designer",
+                                                   "priority":  "P0",
+                                                   "task":  "落地 Live 主路线",
+                                                   "scope":  "运行时和 agent 输出",
+                                                   "deliverable":  "真实思考输出协议"
+                                               },
+                                               {
+                                                   "roleId":  "blender-addon-engineer",
+                                                   "name":  "Bl插件",
+                                                   "title":  "Blender Add-on Engineer",
+                                                   "priority":  "P0",
+                                                   "task":  "把 viewer 接成运行中状态消费者",
+                                                   "scope":  "会议页",
+                                                   "deliverable":  "runtime 可视化 UI"
+                                               },
+                                               {
+                                                   "roleId":  "corporate-training-designer",
+                                                   "name":  "企业培训",
+                                                   "title":  "Corporate Training Designer",
+                                                   "priority":  "P1",
+                                                   "task":  "补运行时调度",
+                                                   "scope":  "轮次和队列",
+                                                   "deliverable":  "发言队列与增量再思考"
+                                               }
+                                           ],
+                    "futureAnimationIdea":  "后续可把 thinking 状态映射到席位待命动画，把 queue 状态映射到候场提示。"
+                },
+    "generator":  "agency-agents/runtime/new_live_jury_demo_session.ps1"
+}

@@ -1,0 +1,2406 @@
+﻿{
+    "source_repo":  "https://github.com/msitarzewski/agency-agents",
+    "source_commit":  "783f6a7",
+    "generated_at":  "2026-05-26 04:25:42 +08:00",
+    "role_count":  260,
+    "divisions":  [
+                      {
+                          "name":  "academic",
+                          "count":  5
+                      },
+                      {
+                          "name":  "design",
+                          "count":  24
+                      },
+                      {
+                          "name":  "engineering",
+                          "count":  45
+                      },
+                      {
+                          "name":  "finance",
+                          "count":  7
+                      },
+                      {
+                          "name":  "game-development",
+                          "count":  32
+                      },
+                      {
+                          "name":  "marketing",
+                          "count":  51
+                      },
+                      {
+                          "name":  "paid-media",
+                          "count":  7
+                      },
+                      {
+                          "name":  "product",
+                          "count":  6
+                      },
+                      {
+                          "name":  "project-management",
+                          "count":  7
+                      },
+                      {
+                          "name":  "sales",
+                          "count":  8
+                      },
+                      {
+                          "name":  "spatial-computing",
+                          "count":  6
+                      },
+                      {
+                          "name":  "specialized",
+                          "count":  43
+                      },
+                      {
+                          "name":  "support",
+                          "count":  8
+                      },
+                      {
+                          "name":  "testing",
+                          "count":  11
+                      }
+                  ],
+    "roles":  [
+                  {
+                      "name":  "Anthropologist",
+                      "slug":  "academic-anthropologist",
+                      "division":  "academic",
+                      "description":  "Expert in cultural systems, rituals, kinship, belief systems, and ethnographic method — builds culturally coherent societies that feel lived-in rather than invented",
+                      "source_path":  "academic/academic-anthropologist.md",
+                      "reference_path":  "references/roles/academic/academic-anthropologist.md",
+                      "color":  "#D97706"
+                  },
+                  {
+                      "name":  "Geographer",
+                      "slug":  "academic-geographer",
+                      "division":  "academic",
+                      "description":  "Expert in physical and human geography, climate systems, cartography, and spatial analysis — builds geographically coherent worlds where terrain, climate, resources, and settlement patterns make scientific sense",
+                      "source_path":  "academic/academic-geographer.md",
+                      "reference_path":  "references/roles/academic/academic-geographer.md",
+                      "color":  "#059669"
+                  },
+                  {
+                      "name":  "Historian",
+                      "slug":  "academic-historian",
+                      "division":  "academic",
+                      "description":  "Expert in historical analysis, periodization, material culture, and historiography — validates historical coherence and enriches settings with authentic period detail grounded in primary and secondary sources",
+                      "source_path":  "academic/academic-historian.md",
+                      "reference_path":  "references/roles/academic/academic-historian.md",
+                      "color":  "#B45309"
+                  },
+                  {
+                      "name":  "Narratologist",
+                      "slug":  "academic-narratologist",
+                      "division":  "academic",
+                      "description":  "Expert in narrative theory, story structure, character arcs, and literary analysis — grounds advice in established frameworks from Propp to Campbell to modern narratology",
+                      "source_path":  "academic/academic-narratologist.md",
+                      "reference_path":  "references/roles/academic/academic-narratologist.md",
+                      "color":  "#8B5CF6"
+                  },
+                  {
+                      "name":  "Psychologist",
+                      "slug":  "academic-psychologist",
+                      "division":  "academic",
+                      "description":  "Expert in human behavior, personality theory, motivation, and cognitive patterns — builds psychologically credible characters and interactions grounded in clinical and research frameworks",
+                      "source_path":  "academic/academic-psychologist.md",
+                      "reference_path":  "references/roles/academic/academic-psychologist.md",
+                      "color":  "#EC4899"
+                  },
+                  {
+                      "name":  "Admin Dashboard Designer",
+                      "slug":  "admin-dashboard-designer",
+                      "division":  "design",
+                      "description":  "Designs dense operational dashboards, admin panels, tables, filters, detail pages, bulk actions, and monitoring surfaces.",
+                      "source_path":  "design/admin-dashboard-designer.md",
+                      "reference_path":  "references/roles/design/admin-dashboard-designer.md",
+                      "color":  "#4F46E5"
+                  },
+                  {
+                      "name":  "Brand Guardian",
+                      "slug":  "design-brand-guardian",
+                      "division":  "design",
+                      "description":  "Expert brand strategist and guardian specializing in brand identity development, consistency maintenance, and strategic brand positioning",
+                      "source_path":  "design/design-brand-guardian.md",
+                      "reference_path":  "references/roles/design/design-brand-guardian.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Data Visualization Designer",
+                      "slug":  "data-visualization-designer",
+                      "division":  "design",
+                      "description":  "Designs charts, dashboards, infographics, and narrative visuals that make data understandable and honest.",
+                      "source_path":  "design/data-visualization-designer.md",
+                      "reference_path":  "references/roles/design/data-visualization-designer.md",
+                      "color":  "#0EA5E9"
+                  },
+                  {
+                      "name":  "Design System Architect",
+                      "slug":  "design-system-architect",
+                      "division":  "design",
+                      "description":  "Defines tokens, components, variants, states, accessibility rules, documentation, and governance for scalable UI systems.",
+                      "source_path":  "design/design-system-architect.md",
+                      "reference_path":  "references/roles/design/design-system-architect.md",
+                      "color":  "#7C3AED"
+                  },
+                  {
+                      "name":  "Empty State Designer",
+                      "slug":  "empty-state-designer",
+                      "division":  "design",
+                      "description":  "Designs empty, loading, error, permission, onboarding, and first-use states that guide users toward the next useful action.",
+                      "source_path":  "design/empty-state-designer.md",
+                      "reference_path":  "references/roles/design/empty-state-designer.md",
+                      "color":  "#64748B"
+                  },
+                  {
+                      "name":  "Form UX Designer",
+                      "slug":  "form-ux-designer",
+                      "division":  "design",
+                      "description":  "Designs forms, validation, field grouping, progressive disclosure, error prevention, autosave, and completion flows.",
+                      "source_path":  "design/form-ux-designer.md",
+                      "reference_path":  "references/roles/design/form-ux-designer.md",
+                      "color":  "#0F766E"
+                  },
+                  {
+                      "name":  "Game Asset Artist",
+                      "slug":  "game-asset-artist",
+                      "division":  "design",
+                      "description":  "Creates and specifies game visual assets: characters, props, tiles, icons, backgrounds, VFX sprites, and style-consistent asset packs.",
+                      "source_path":  "design/game-asset-artist.md",
+                      "reference_path":  "references/roles/design/game-asset-artist.md",
+                      "color":  "#D946EF"
+                  },
+                  {
+                      "name":  "Hero Section Art Director",
+                      "slug":  "hero-section-art-director",
+                      "division":  "design",
+                      "description":  "Designs high-impact hero sections with real product/place/person signal, visual hierarchy, responsive composition, and next-section continuity.",
+                      "source_path":  "design/hero-section-art-director.md",
+                      "reference_path":  "references/roles/design/hero-section-art-director.md",
+                      "color":  "#DB2777"
+                  },
+                  {
+                      "name":  "Icon Designer",
+                      "slug":  "icon-designer",
+                      "division":  "design",
+                      "description":  "Designs app icons, UI icons, feature pictograms, favicon sets, icon grids, stroke rules, and export specifications.",
+                      "source_path":  "design/icon-designer.md",
+                      "reference_path":  "references/roles/design/icon-designer.md",
+                      "color":  "#8B5CF6"
+                  },
+                  {
+                      "name":  "Image Prompt Engineer",
+                      "slug":  "design-image-prompt-engineer",
+                      "division":  "design",
+                      "description":  "Expert photography prompt engineer specializing in crafting detailed, evocative prompts for AI image generation. Masters the art of translating visual concepts into precise language that produces stunning, professional-quality photography through generative AI tools.",
+                      "source_path":  "design/design-image-prompt-engineer.md",
+                      "reference_path":  "references/roles/design/design-image-prompt-engineer.md",
+                      "color":  "amber"
+                  },
+                  {
+                      "name":  "Inclusive Visuals Specialist",
+                      "slug":  "design-inclusive-visuals-specialist",
+                      "division":  "design",
+                      "description":  "Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video.",
+                      "source_path":  "design/design-inclusive-visuals-specialist.md",
+                      "reference_path":  "references/roles/design/design-inclusive-visuals-specialist.md",
+                      "color":  "#4DB6AC"
+                  },
+                  {
+                      "name":  "Landing Page Architect",
+                      "slug":  "landing-page-architect",
+                      "division":  "design",
+                      "description":  "Designs conversion-focused landing pages with offer clarity, section order, proof, objection handling, CTA flow, and responsive structure.",
+                      "source_path":  "design/landing-page-architect.md",
+                      "reference_path":  "references/roles/design/landing-page-architect.md",
+                      "color":  "#2563EB"
+                  },
+                  {
+                      "name":  "Mobile Web Interaction Designer",
+                      "slug":  "mobile-web-interaction-designer",
+                      "division":  "design",
+                      "description":  "Designs mobile web navigation, gestures, sticky actions, bottom sheets, touch targets, safe areas, and compact workflows.",
+                      "source_path":  "design/mobile-web-interaction-designer.md",
+                      "reference_path":  "references/roles/design/mobile-web-interaction-designer.md",
+                      "color":  "#0EA5E9"
+                  },
+                  {
+                      "name":  "Motion Graphics Director",
+                      "slug":  "motion-graphics-director",
+                      "division":  "design",
+                      "description":  "Designs motion graphics direction for intros, lower thirds, product demos, explainers, transitions, and animated brand moments.",
+                      "source_path":  "design/motion-graphics-director.md",
+                      "reference_path":  "references/roles/design/motion-graphics-director.md",
+                      "color":  "#9333EA"
+                  },
+                  {
+                      "name":  "Portfolio Website Curator",
+                      "slug":  "portfolio-website-curator",
+                      "division":  "design",
+                      "description":  "Curates personal, studio, and project portfolio websites with case-study structure, credibility signals, visual rhythm, and contact conversion.",
+                      "source_path":  "design/portfolio-website-curator.md",
+                      "reference_path":  "references/roles/design/portfolio-website-curator.md",
+                      "color":  "#A855F7"
+                  },
+                  {
+                      "name":  "Poster Cover Designer",
+                      "slug":  "poster-cover-designer",
+                      "division":  "design",
+                      "description":  "Designs posters, covers, social cards, video covers, thumbnails, event graphics, and promotional key visuals.",
+                      "source_path":  "design/poster-cover-designer.md",
+                      "reference_path":  "references/roles/design/poster-cover-designer.md",
+                      "color":  "#EC4899"
+                  },
+                  {
+                      "name":  "Responsive Layout Specialist",
+                      "slug":  "responsive-layout-specialist",
+                      "division":  "design",
+                      "description":  "Designs and audits layouts across mobile, tablet, desktop, wide screens, safe areas, text wrapping, and component resizing.",
+                      "source_path":  "design/responsive-layout-specialist.md",
+                      "reference_path":  "references/roles/design/responsive-layout-specialist.md",
+                      "color":  "#0891B2"
+                  },
+                  {
+                      "name":  "SaaS Dashboard Product Designer",
+                      "slug":  "saas-dashboard-product-designer",
+                      "division":  "design",
+                      "description":  "Designs SaaS dashboards, metrics cards, workflow surfaces, team settings, billing pages, and product-led onboarding.",
+                      "source_path":  "design/saas-dashboard-product-designer.md",
+                      "reference_path":  "references/roles/design/saas-dashboard-product-designer.md",
+                      "color":  "#2563EB"
+                  },
+                  {
+                      "name":  "UI Designer",
+                      "slug":  "design-ui-designer",
+                      "division":  "design",
+                      "description":  "Expert UI designer specializing in visual design systems, component libraries, and pixel-perfect interface creation. Creates beautiful, consistent, accessible user interfaces that enhance UX and reflect brand identity",
+                      "source_path":  "design/design-ui-designer.md",
+                      "reference_path":  "references/roles/design/design-ui-designer.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "UX Architect",
+                      "slug":  "design-ux-architect",
+                      "division":  "design",
+                      "description":  "Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance",
+                      "source_path":  "design/design-ux-architect.md",
+                      "reference_path":  "references/roles/design/design-ux-architect.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "UX Researcher",
+                      "slug":  "design-ux-researcher",
+                      "division":  "design",
+                      "description":  "Expert user experience researcher specializing in user behavior analysis, usability testing, and data-driven design insights. Provides actionable research findings that improve product usability and user satisfaction",
+                      "source_path":  "design/design-ux-researcher.md",
+                      "reference_path":  "references/roles/design/design-ux-researcher.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Visual Storyteller",
+                      "slug":  "design-visual-storyteller",
+                      "division":  "design",
+                      "description":  "Expert visual communication specialist focused on creating compelling visual narratives, multimedia content, and brand storytelling through design. Specializes in transforming complex information into engaging visual stories that connect with audiences and drive emotional engagement.",
+                      "source_path":  "design/design-visual-storyteller.md",
+                      "reference_path":  "references/roles/design/design-visual-storyteller.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "Website Information Architect",
+                      "slug":  "website-information-architect",
+                      "division":  "design",
+                      "description":  "Organizes websites, docs, portals, and marketing pages into clear navigation, page hierarchy, content models, and user journeys.",
+                      "source_path":  "design/website-information-architect.md",
+                      "reference_path":  "references/roles/design/website-information-architect.md",
+                      "color":  "#0EA5E9"
+                  },
+                  {
+                      "name":  "Whimsy Injector",
+                      "slug":  "design-whimsy-injector",
+                      "division":  "design",
+                      "description":  "Expert creative specialist focused on adding personality, delight, and playful elements to brand experiences. Creates memorable, joyful interactions that differentiate brands through unexpected moments of whimsy",
+                      "source_path":  "design/design-whimsy-injector.md",
+                      "reference_path":  "references/roles/design/design-whimsy-injector.md",
+                      "color":  "pink"
+                  },
+                  {
+                      "name":  "AI Data Remediation Engineer",
+                      "slug":  "engineering-ai-data-remediation-engineer",
+                      "division":  "engineering",
+                      "description":  "Specialist in self-healing data pipelines — uses air-gapped local SLMs and semantic clustering to automatically detect, classify, and fix data anomalies at scale. Focuses exclusively on the remediation layer: intercepting bad data, generating deterministic fix logic via Ollama, and guaranteeing zero data loss. Not a general data engineer — a surgical specialist for when your data is broken and the pipeline can\u0027t stop.",
+                      "source_path":  "engineering/engineering-ai-data-remediation-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-ai-data-remediation-engineer.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "AI Engineer",
+                      "slug":  "engineering-ai-engineer",
+                      "division":  "engineering",
+                      "description":  "Expert AI/ML engineer specializing in machine learning model development, deployment, and integration into production systems. Focused on building intelligent features, data pipelines, and AI-powered applications with emphasis on practical, scalable solutions.",
+                      "source_path":  "engineering/engineering-ai-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-ai-engineer.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Autonomous Optimization Architect",
+                      "slug":  "engineering-autonomous-optimization-architect",
+                      "division":  "engineering",
+                      "description":  "Intelligent system governor that continuously shadow-tests APIs for performance while enforcing strict financial and security guardrails against runaway costs.",
+                      "source_path":  "engineering/engineering-autonomous-optimization-architect.md",
+                      "reference_path":  "references/roles/engineering/engineering-autonomous-optimization-architect.md",
+                      "color":  "#673AB7"
+                  },
+                  {
+                      "name":  "Backend Architect",
+                      "slug":  "engineering-backend-architect",
+                      "division":  "engineering",
+                      "description":  "Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure. Builds robust, secure, performant server-side applications and microservices",
+                      "source_path":  "engineering/engineering-backend-architect.md",
+                      "reference_path":  "references/roles/engineering/engineering-backend-architect.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Browser Automation Builder",
+                      "slug":  "browser-automation-builder",
+                      "division":  "engineering",
+                      "description":  "Builds permissioned browser automations for testing, form workflows, screenshots, repetitive web tasks, and local validation.",
+                      "source_path":  "engineering/browser-automation-builder.md",
+                      "reference_path":  "references/roles/engineering/browser-automation-builder.md",
+                      "color":  "#0891B2"
+                  },
+                  {
+                      "name":  "CLI Tool Engineer",
+                      "slug":  "cli-tool-engineer",
+                      "division":  "engineering",
+                      "description":  "Builds command-line tools with argument parsing, help text, dry-run modes, safe file handling, exit codes, and scriptable output.",
+                      "source_path":  "engineering/cli-tool-engineer.md",
+                      "reference_path":  "references/roles/engineering/cli-tool-engineer.md",
+                      "color":  "#334155"
+                  },
+                  {
+                      "name":  "CMS Developer",
+                      "slug":  "engineering-cms-developer",
+                      "division":  "engineering",
+                      "description":  "Drupal and WordPress specialist for theme development, custom plugins/modules, content architecture, and code-first CMS implementation",
+                      "source_path":  "engineering/engineering-cms-developer.md",
+                      "reference_path":  "references/roles/engineering/engineering-cms-developer.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Code Reviewer",
+                      "slug":  "engineering-code-reviewer",
+                      "division":  "engineering",
+                      "description":  "Expert code reviewer who provides constructive, actionable feedback focused on correctness, maintainability, security, and performance — not style preferences.",
+                      "source_path":  "engineering/engineering-code-reviewer.md",
+                      "reference_path":  "references/roles/engineering/engineering-code-reviewer.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "Codebase Onboarding Engineer",
+                      "slug":  "engineering-codebase-onboarding-engineer",
+                      "division":  "engineering",
+                      "description":  "Expert developer onboarding specialist who helps new engineers understand unfamiliar codebases fast by reading source code, tracing code paths, and stating only facts grounded in the code.",
+                      "source_path":  "engineering/engineering-codebase-onboarding-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-codebase-onboarding-engineer.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Component Library Maintainer",
+                      "slug":  "component-library-maintainer",
+                      "division":  "engineering",
+                      "description":  "Maintains UI component libraries with typed APIs, variants, accessibility, documentation, examples, versioning, and migration safety.",
+                      "source_path":  "engineering/component-library-maintainer.md",
+                      "reference_path":  "references/roles/engineering/component-library-maintainer.md",
+                      "color":  "#334155"
+                  },
+                  {
+                      "name":  "CSV Transformation Specialist",
+                      "slug":  "csv-transformation-specialist",
+                      "division":  "engineering",
+                      "description":  "Transforms CSV and delimited files across schemas, encodings, delimiters, locales, column mappings, validations, and import formats.",
+                      "source_path":  "engineering/csv-transformation-specialist.md",
+                      "reference_path":  "references/roles/engineering/csv-transformation-specialist.md",
+                      "color":  "#0F766E"
+                  },
+                  {
+                      "name":  "Dashboard Builder",
+                      "slug":  "dashboard-builder",
+                      "division":  "engineering",
+                      "description":  "Builds practical dashboards with KPIs, filters, refresh logic, drilldowns, alerts, permissions, and performance-aware queries.",
+                      "source_path":  "engineering/dashboard-builder.md",
+                      "reference_path":  "references/roles/engineering/dashboard-builder.md",
+                      "color":  "#0369A1"
+                  },
+                  {
+                      "name":  "Data Cleanup Toolsmith",
+                      "slug":  "data-cleanup-toolsmith",
+                      "division":  "engineering",
+                      "description":  "Builds practical cleanup utilities for CSV, JSON, spreadsheets, logs, exports, encodings, deduplication, normalization, and validation.",
+                      "source_path":  "engineering/data-cleanup-toolsmith.md",
+                      "reference_path":  "references/roles/engineering/data-cleanup-toolsmith.md",
+                      "color":  "#0D9488"
+                  },
+                  {
+                      "name":  "Data Engineer",
+                      "slug":  "engineering-data-engineer",
+                      "division":  "engineering",
+                      "description":  "Expert data engineer specializing in building reliable data pipelines, lakehouse architectures, and scalable data infrastructure. Masters ETL/ELT, Apache Spark, dbt, streaming systems, and cloud data platforms to turn raw data into trusted, analytics-ready assets.",
+                      "source_path":  "engineering/engineering-data-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-data-engineer.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Database Optimizer",
+                      "slug":  "engineering-database-optimizer",
+                      "division":  "engineering",
+                      "description":  "Expert database specialist focusing on schema design, query optimization, indexing strategies, and performance tuning for PostgreSQL, MySQL, and modern databases like Supabase and PlanetScale.",
+                      "source_path":  "engineering/engineering-database-optimizer.md",
+                      "reference_path":  "references/roles/engineering/engineering-database-optimizer.md",
+                      "color":  "amber"
+                  },
+                  {
+                      "name":  "Desktop Utility Engineer",
+                      "slug":  "desktop-utility-engineer",
+                      "division":  "engineering",
+                      "description":  "Builds lightweight desktop utilities with simple UI, local file access, settings persistence, packaging, and user-friendly error handling.",
+                      "source_path":  "engineering/desktop-utility-engineer.md",
+                      "reference_path":  "references/roles/engineering/desktop-utility-engineer.md",
+                      "color":  "#4F46E5"
+                  },
+                  {
+                      "name":  "DevOps Automator",
+                      "slug":  "engineering-devops-automator",
+                      "division":  "engineering",
+                      "description":  "Expert DevOps engineer specializing in infrastructure automation, CI/CD pipeline development, and cloud operations",
+                      "source_path":  "engineering/engineering-devops-automator.md",
+                      "reference_path":  "references/roles/engineering/engineering-devops-automator.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Email Intelligence Engineer",
+                      "slug":  "engineering-email-intelligence-engineer",
+                      "division":  "engineering",
+                      "description":  "Expert in extracting structured, reasoning-ready data from raw email threads for AI agents and automation systems",
+                      "source_path":  "engineering/engineering-email-intelligence-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-email-intelligence-engineer.md",
+                      "color":  "indigo"
+                  },
+                  {
+                      "name":  "Embedded Firmware Engineer",
+                      "slug":  "engineering-embedded-firmware-engineer",
+                      "division":  "engineering",
+                      "description":  "Specialist in bare-metal and RTOS firmware - ESP32/ESP-IDF, PlatformIO, Arduino, ARM Cortex-M, STM32 HAL/LL, Nordic nRF5/nRF Connect SDK, FreeRTOS, Zephyr",
+                      "source_path":  "engineering/engineering-embedded-firmware-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-embedded-firmware-engineer.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Excel Automation Engineer",
+                      "slug":  "excel-automation-engineer",
+                      "division":  "engineering",
+                      "description":  "Automates Excel and spreadsheet tasks: formulas, cleanup, pivot-ready tables, VBA/Office Scripts, imports, exports, and repeatable reporting.",
+                      "source_path":  "engineering/excel-automation-engineer.md",
+                      "reference_path":  "references/roles/engineering/excel-automation-engineer.md",
+                      "color":  "#15803D"
+                  },
+                  {
+                      "name":  "Feishu Integration Developer",
+                      "slug":  "engineering-feishu-integration-developer",
+                      "division":  "engineering",
+                      "description":  "Full-stack integration expert specializing in the Feishu (Lark) Open Platform — proficient in Feishu bots, mini programs, approval workflows, Bitable (multidimensional spreadsheets), interactive message cards, Webhooks, SSO authentication, and workflow automation, building enterprise-grade collaboration and automation solutions within the Feishu ecosystem.",
+                      "source_path":  "engineering/engineering-feishu-integration-developer.md",
+                      "reference_path":  "references/roles/engineering/engineering-feishu-integration-developer.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "FFmpeg Automation Engineer",
+                      "slug":  "ffmpeg-automation-engineer",
+                      "division":  "engineering",
+                      "description":  "Builds FFmpeg scripts and media pipelines for trimming, transcoding, watermarking, subtitles, thumbnails, batch conversion, and delivery packaging.",
+                      "source_path":  "engineering/ffmpeg-automation-engineer.md",
+                      "reference_path":  "references/roles/engineering/ffmpeg-automation-engineer.md",
+                      "color":  "#16A34A"
+                  },
+                  {
+                      "name":  "Filament Optimization Specialist",
+                      "slug":  "engineering-filament-optimization-specialist",
+                      "division":  "engineering",
+                      "description":  "Expert in restructuring and optimizing Filament PHP admin interfaces for maximum usability and efficiency. Focuses on impactful structural changes — not just cosmetic tweaks.",
+                      "source_path":  "engineering/engineering-filament-optimization-specialist.md",
+                      "reference_path":  "references/roles/engineering/engineering-filament-optimization-specialist.md",
+                      "color":  "indigo"
+                  },
+                  {
+                      "name":  "File Batch Processing Specialist",
+                      "slug":  "file-batch-processing-specialist",
+                      "division":  "engineering",
+                      "description":  "Designs safe batch workflows for renaming, moving, deduplicating, resizing, converting, tagging, and organizing large file sets.",
+                      "source_path":  "engineering/file-batch-processing-specialist.md",
+                      "reference_path":  "references/roles/engineering/file-batch-processing-specialist.md",
+                      "color":  "#0F766E"
+                  },
+                  {
+                      "name":  "Frontend Developer",
+                      "slug":  "engineering-frontend-developer",
+                      "division":  "engineering",
+                      "description":  "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization",
+                      "source_path":  "engineering/engineering-frontend-developer.md",
+                      "reference_path":  "references/roles/engineering/engineering-frontend-developer.md",
+                      "color":  "cyan"
+                  },
+                  {
+                      "name":  "Git Workflow Master",
+                      "slug":  "engineering-git-workflow-master",
+                      "division":  "engineering",
+                      "description":  "Expert in Git workflows, branching strategies, and version control best practices including conventional commits, rebasing, worktrees, and CI-friendly branch management.",
+                      "source_path":  "engineering/engineering-git-workflow-master.md",
+                      "reference_path":  "references/roles/engineering/engineering-git-workflow-master.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Incident Response Commander",
+                      "slug":  "engineering-incident-response-commander",
+                      "division":  "engineering",
+                      "description":  "Expert incident commander specializing in production incident management, structured response coordination, post-mortem facilitation, SLO/SLI tracking, and on-call process design for reliable engineering organizations.",
+                      "source_path":  "engineering/engineering-incident-response-commander.md",
+                      "reference_path":  "references/roles/engineering/engineering-incident-response-commander.md",
+                      "color":  "#e63946"
+                  },
+                  {
+                      "name":  "Installer Packaging Engineer",
+                      "slug":  "installer-packaging-engineer",
+                      "division":  "engineering",
+                      "description":  "Packages local tools and apps into distributable installers, archives, portable builds, update channels, and release artifacts.",
+                      "source_path":  "engineering/installer-packaging-engineer.md",
+                      "reference_path":  "references/roles/engineering/installer-packaging-engineer.md",
+                      "color":  "#475569"
+                  },
+                  {
+                      "name":  "Minimal Change Engineer",
+                      "slug":  "engineering-minimal-change-engineer",
+                      "division":  "engineering",
+                      "description":  "Engineering specialist focused on minimum-viable diffs — fixes only what was asked, refuses scope creep, prefers three similar lines over a premature abstraction. The discipline that prevents bug-fix PRs from becoming refactor avalanches.",
+                      "source_path":  "engineering/engineering-minimal-change-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-minimal-change-engineer.md",
+                      "color":  "slate"
+                  },
+                  {
+                      "name":  "Mobile App Builder",
+                      "slug":  "engineering-mobile-app-builder",
+                      "division":  "engineering",
+                      "description":  "Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks",
+                      "source_path":  "engineering/engineering-mobile-app-builder.md",
+                      "reference_path":  "references/roles/engineering/engineering-mobile-app-builder.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "PDF Automation Engineer",
+                      "slug":  "pdf-automation-engineer",
+                      "division":  "engineering",
+                      "description":  "Automates PDF extraction, splitting, merging, stamping, OCR routing, form filling, redaction planning, and document conversion workflows.",
+                      "source_path":  "engineering/pdf-automation-engineer.md",
+                      "reference_path":  "references/roles/engineering/pdf-automation-engineer.md",
+                      "color":  "#B91C1C"
+                  },
+                  {
+                      "name":  "PowerShell Automation Specialist",
+                      "slug":  "powershell-automation-specialist",
+                      "division":  "engineering",
+                      "description":  "Builds Windows-first automation for files, services, processes, scheduled tasks, registry-safe inspection, and developer workflows.",
+                      "source_path":  "engineering/powershell-automation-specialist.md",
+                      "reference_path":  "references/roles/engineering/powershell-automation-specialist.md",
+                      "color":  "#2563EB"
+                  },
+                  {
+                      "name":  "Python Automation Script Engineer",
+                      "slug":  "python-automation-script-engineer",
+                      "division":  "engineering",
+                      "description":  "Writes robust Python scripts for file processing, data cleanup, API calls, batch operations, report generation, and local automation.",
+                      "source_path":  "engineering/python-automation-script-engineer.md",
+                      "reference_path":  "references/roles/engineering/python-automation-script-engineer.md",
+                      "color":  "#3776AB"
+                  },
+                  {
+                      "name":  "Rapid Prototyper",
+                      "slug":  "engineering-rapid-prototyper",
+                      "division":  "engineering",
+                      "description":  "Specialized in ultra-fast proof-of-concept development and MVP creation using efficient tools and frameworks",
+                      "source_path":  "engineering/engineering-rapid-prototyper.md",
+                      "reference_path":  "references/roles/engineering/engineering-rapid-prototyper.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Scheduler Automation Engineer",
+                      "slug":  "scheduler-automation-engineer",
+                      "division":  "engineering",
+                      "description":  "Designs scheduled jobs, reminders, recurring checks, cron/Task Scheduler workflows, retry behavior, and notification paths.",
+                      "source_path":  "engineering/scheduler-automation-engineer.md",
+                      "reference_path":  "references/roles/engineering/scheduler-automation-engineer.md",
+                      "color":  "#64748B"
+                  },
+                  {
+                      "name":  "Security Engineer",
+                      "slug":  "engineering-security-engineer",
+                      "division":  "engineering",
+                      "description":  "Expert application security engineer specializing in threat modeling, vulnerability assessment, secure code review, security architecture design, and incident response for modern web, API, and cloud-native applications.",
+                      "source_path":  "engineering/engineering-security-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-security-engineer.md",
+                      "color":  "red"
+                  },
+                  {
+                      "name":  "Senior Developer",
+                      "slug":  "engineering-senior-developer",
+                      "division":  "engineering",
+                      "description":  "Premium implementation specialist - Masters Laravel/Livewire/FluxUI, advanced CSS, Three.js integration",
+                      "source_path":  "engineering/engineering-senior-developer.md",
+                      "reference_path":  "references/roles/engineering/engineering-senior-developer.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Software Architect",
+                      "slug":  "engineering-software-architect",
+                      "division":  "engineering",
+                      "description":  "Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems.",
+                      "source_path":  "engineering/engineering-software-architect.md",
+                      "reference_path":  "references/roles/engineering/engineering-software-architect.md",
+                      "color":  "indigo"
+                  },
+                  {
+                      "name":  "Solidity Smart Contract Engineer",
+                      "slug":  "engineering-solidity-smart-contract-engineer",
+                      "division":  "engineering",
+                      "description":  "Expert Solidity developer specializing in EVM smart contract architecture, gas optimization, upgradeable proxy patterns, DeFi protocol development, and security-first contract design across Ethereum and L2 chains.",
+                      "source_path":  "engineering/engineering-solidity-smart-contract-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-solidity-smart-contract-engineer.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "SRE (Site Reliability Engineer)",
+                      "slug":  "engineering-sre",
+                      "division":  "engineering",
+                      "description":  "Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction for production systems at scale.",
+                      "source_path":  "engineering/engineering-sre.md",
+                      "reference_path":  "references/roles/engineering/engineering-sre.md",
+                      "color":  "#e63946"
+                  },
+                  {
+                      "name":  "Technical Writer",
+                      "slug":  "engineering-technical-writer",
+                      "division":  "engineering",
+                      "description":  "Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use.",
+                      "source_path":  "engineering/engineering-technical-writer.md",
+                      "reference_path":  "references/roles/engineering/engineering-technical-writer.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Threat Detection Engineer",
+                      "slug":  "engineering-threat-detection-engineer",
+                      "division":  "engineering",
+                      "description":  "Expert detection engineer specializing in SIEM rule development, MITRE ATT\u0026CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams.",
+                      "source_path":  "engineering/engineering-threat-detection-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-threat-detection-engineer.md",
+                      "color":  "#7b2d8e"
+                  },
+                  {
+                      "name":  "Voice AI Integration Engineer",
+                      "slug":  "engineering-voice-ai-integration-engineer",
+                      "division":  "engineering",
+                      "description":  "Expert in building end-to-end speech transcription pipelines using Whisper-style models and cloud ASR services — from raw audio ingestion through preprocessing, transcript cleanup, subtitle generation, speaker diarization, and structured downstream integration into apps, APIs, and CMS platforms.",
+                      "source_path":  "engineering/engineering-voice-ai-integration-engineer.md",
+                      "reference_path":  "references/roles/engineering/engineering-voice-ai-integration-engineer.md",
+                      "color":  "violet"
+                  },
+                  {
+                      "name":  "Web Scraping Compliance Engineer",
+                      "slug":  "web-scraping-compliance-engineer",
+                      "division":  "engineering",
+                      "description":  "Designs lawful, permission-aware data collection workflows with robots.txt awareness, rate limits, source attribution, caching, and privacy safeguards.",
+                      "source_path":  "engineering/web-scraping-compliance-engineer.md",
+                      "reference_path":  "references/roles/engineering/web-scraping-compliance-engineer.md",
+                      "color":  "#DC2626"
+                  },
+                  {
+                      "name":  "WeChat Mini Program Developer",
+                      "slug":  "engineering-wechat-mini-program-developer",
+                      "division":  "engineering",
+                      "description":  "Expert WeChat Mini Program developer specializing in 小程序 development with WXML/WXSS/WXS, WeChat API integration, payment systems, subscription messaging, and the full WeChat ecosystem.",
+                      "source_path":  "engineering/engineering-wechat-mini-program-developer.md",
+                      "reference_path":  "references/roles/engineering/engineering-wechat-mini-program-developer.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Bookkeeper \u0026 Controller",
+                      "slug":  "finance-bookkeeper-controller",
+                      "division":  "finance",
+                      "description":  "Expert bookkeeper and controller specializing in day-to-day accounting operations, financial reconciliations, month-end close processes, and internal controls. Ensures the accuracy, completeness, and timeliness of financial records while maintaining GAAP compliance and audit readiness at all times.",
+                      "source_path":  "finance/finance-bookkeeper-controller.md",
+                      "reference_path":  "references/roles/finance/finance-bookkeeper-controller.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Business Insight Analyst",
+                      "slug":  "business-insight-analyst",
+                      "division":  "finance",
+                      "description":  "Turns operational data, customer data, sales data, and product metrics into concise business insights and recommended actions.",
+                      "source_path":  "finance/business-insight-analyst.md",
+                      "reference_path":  "references/roles/finance/business-insight-analyst.md",
+                      "color":  "#15803D"
+                  },
+                  {
+                      "name":  "Financial Analyst",
+                      "slug":  "finance-financial-analyst",
+                      "division":  "finance",
+                      "description":  "Expert financial analyst specializing in financial modeling, forecasting, scenario analysis, and data-driven decision support. Transforms raw financial data into actionable business intelligence that drives strategic planning, investment decisions, and operational optimization.",
+                      "source_path":  "finance/finance-financial-analyst.md",
+                      "reference_path":  "references/roles/finance/finance-financial-analyst.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "FP\u0026A Analyst",
+                      "slug":  "finance-fpa-analyst",
+                      "division":  "finance",
+                      "description":  "Expert Financial Planning \u0026 Analysis (FP\u0026A) analyst specializing in budgeting, variance analysis, financial planning, rolling forecasts, and strategic decision support. Bridges the gap between the numbers and the business narrative to drive operational performance and strategic resource allocation.",
+                      "source_path":  "finance/finance-fpa-analyst.md",
+                      "reference_path":  "references/roles/finance/finance-fpa-analyst.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Investment Researcher",
+                      "slug":  "finance-investment-researcher",
+                      "division":  "finance",
+                      "description":  "Expert investment researcher specializing in market research, due diligence, portfolio analysis, and asset valuation. Conducts rigorous fundamental and quantitative analysis to identify investment opportunities, assess risks, and support data-driven portfolio decisions across public equities, private markets, and alternative assets.",
+                      "source_path":  "finance/finance-investment-researcher.md",
+                      "reference_path":  "references/roles/finance/finance-investment-researcher.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Spreadsheet Analyst",
+                      "slug":  "spreadsheet-analyst",
+                      "division":  "finance",
+                      "description":  "Analyzes spreadsheets for trends, anomalies, summaries, pivots, formulas, data quality, and decision-ready insights.",
+                      "source_path":  "finance/spreadsheet-analyst.md",
+                      "reference_path":  "references/roles/finance/spreadsheet-analyst.md",
+                      "color":  "#16A34A"
+                  },
+                  {
+                      "name":  "Tax Strategist",
+                      "slug":  "finance-tax-strategist",
+                      "division":  "finance",
+                      "description":  "Expert tax strategist specializing in tax optimization, multi-jurisdictional compliance, transfer pricing, and strategic tax planning. Navigates complex tax codes to minimize liability while ensuring full regulatory compliance across local, state, federal, and international tax regimes.",
+                      "source_path":  "finance/finance-tax-strategist.md",
+                      "reference_path":  "references/roles/finance/finance-tax-strategist.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Blender Add-on Engineer",
+                      "slug":  "blender-addon-engineer",
+                      "division":  "game-development",
+                      "description":  "Blender tooling specialist - Builds Python add-ons, asset validators, exporters, and pipeline automations that turn repetitive DCC work into reliable one-click workflows",
+                      "source_path":  "game-development/blender/blender-addon-engineer.md",
+                      "reference_path":  "references/roles/game-development/blender/blender-addon-engineer.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Browser Game Performance Engineer",
+                      "slug":  "browser-game-performance-engineer",
+                      "division":  "game-development",
+                      "description":  "Optimizes browser game loading, frame stability, memory usage, asset size, animation cost, and mobile performance.",
+                      "source_path":  "game-development/browser-game-performance-engineer.md",
+                      "reference_path":  "references/roles/game-development/browser-game-performance-engineer.md",
+                      "color":  "#0891B2"
+                  },
+                  {
+                      "name":  "Browser Game Producer",
+                      "slug":  "browser-game-producer",
+                      "division":  "game-development",
+                      "description":  "Owns browser-game concepts from playable promise to scoped production plan; balances fun, feasibility, assets, controls, and launch quality for web games.",
+                      "source_path":  "game-development/browser-game-producer.md",
+                      "reference_path":  "references/roles/game-development/browser-game-producer.md",
+                      "color":  "#7C3AED"
+                  },
+                  {
+                      "name":  "Casual Game Monetization Designer",
+                      "slug":  "casual-game-monetization-designer",
+                      "division":  "game-development",
+                      "description":  "Designs ethical ads, rewarded video, cosmetic purchases, expansion packs, and lightweight monetization loops for casual games.",
+                      "source_path":  "game-development/casual-game-monetization-designer.md",
+                      "reference_path":  "references/roles/game-development/casual-game-monetization-designer.md",
+                      "color":  "#CA8A04"
+                  },
+                  {
+                      "name":  "Core Loop Designer",
+                      "slug":  "core-loop-designer",
+                      "division":  "game-development",
+                      "description":  "Designs the repeatable action-reward-progression loop for games, habit tools, learning apps, and interactive experiences.",
+                      "source_path":  "game-development/core-loop-designer.md",
+                      "reference_path":  "references/roles/game-development/core-loop-designer.md",
+                      "color":  "#059669"
+                  },
+                  {
+                      "name":  "Game Audio Engineer",
+                      "slug":  "game-audio-engineer",
+                      "division":  "game-development",
+                      "description":  "Interactive audio specialist - Masters FMOD/Wwise integration, adaptive music systems, spatial audio, and audio performance budgeting across all game engines",
+                      "source_path":  "game-development/game-audio-engineer.md",
+                      "reference_path":  "references/roles/game-development/game-audio-engineer.md",
+                      "color":  "indigo"
+                  },
+                  {
+                      "name":  "Game Designer",
+                      "slug":  "game-designer",
+                      "division":  "game-development",
+                      "description":  "Systems and mechanics architect - Masters GDD authorship, player psychology, economy balancing, and gameplay loop design across all engines and genres",
+                      "source_path":  "game-development/game-designer.md",
+                      "reference_path":  "references/roles/game-development/game-designer.md",
+                      "color":  "yellow"
+                  },
+                  {
+                      "name":  "Game Economy Designer",
+                      "slug":  "game-economy-designer",
+                      "division":  "game-development",
+                      "description":  "Designs in-game currencies, rewards, sinks, pacing, upgrade costs, and progression economies with fairness and retention in mind.",
+                      "source_path":  "game-development/game-economy-designer.md",
+                      "reference_path":  "references/roles/game-development/game-economy-designer.md",
+                      "color":  "#F59E0B"
+                  },
+                  {
+                      "name":  "Game Feel Designer",
+                      "slug":  "game-feel-designer",
+                      "division":  "game-development",
+                      "description":  "Tunes input response, motion, hit feedback, camera shake, sound timing, animation timing, and micro-feedback to make games feel alive.",
+                      "source_path":  "game-development/game-feel-designer.md",
+                      "reference_path":  "references/roles/game-development/game-feel-designer.md",
+                      "color":  "#EC4899"
+                  },
+                  {
+                      "name":  "Game QA Playtester",
+                      "slug":  "game-qa-playtester",
+                      "division":  "game-development",
+                      "description":  "Playtests browser and prototype games for broken loops, soft locks, unclear rules, difficulty spikes, device issues, and missing feedback.",
+                      "source_path":  "game-development/game-qa-playtester.md",
+                      "reference_path":  "references/roles/game-development/game-qa-playtester.md",
+                      "color":  "#DC2626"
+                  },
+                  {
+                      "name":  "Game Tutorial Designer",
+                      "slug":  "game-tutorial-designer",
+                      "division":  "game-development",
+                      "description":  "Designs learn-by-playing tutorials, first-run prompts, progressive disclosure, and onboarding levels for games.",
+                      "source_path":  "game-development/game-tutorial-designer.md",
+                      "reference_path":  "references/roles/game-development/game-tutorial-designer.md",
+                      "color":  "#0EA5E9"
+                  },
+                  {
+                      "name":  "Game UI HUD Designer",
+                      "slug":  "game-ui-hud-designer",
+                      "division":  "game-development",
+                      "description":  "Designs HUD, menus, overlays, inventory panels, combat readouts, onboarding prompts, and game-specific UI states.",
+                      "source_path":  "game-development/game-ui-hud-designer.md",
+                      "reference_path":  "references/roles/game-development/game-ui-hud-designer.md",
+                      "color":  "#8B5CF6"
+                  },
+                  {
+                      "name":  "Gameplay Prototype Designer",
+                      "slug":  "gameplay-prototype-designer",
+                      "division":  "game-development",
+                      "description":  "Designs fast playable prototypes that answer whether a mechanic is fun before content, polish, or monetization work begins.",
+                      "source_path":  "game-development/gameplay-prototype-designer.md",
+                      "reference_path":  "references/roles/game-development/gameplay-prototype-designer.md",
+                      "color":  "#10B981"
+                  },
+                  {
+                      "name":  "Godot Gameplay Scripter",
+                      "slug":  "godot-gameplay-scripter",
+                      "division":  "game-development",
+                      "description":  "Composition and signal integrity specialist - Masters GDScript 2.0, C# integration, node-based architecture, and type-safe signal design for Godot 4 projects",
+                      "source_path":  "game-development/godot/godot-gameplay-scripter.md",
+                      "reference_path":  "references/roles/game-development/godot/godot-gameplay-scripter.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "Godot Multiplayer Engineer",
+                      "slug":  "godot-multiplayer-engineer",
+                      "division":  "game-development",
+                      "description":  "Godot 4 networking specialist - Masters the MultiplayerAPI, scene replication, ENet/WebRTC transport, RPCs, and authority models for real-time multiplayer games",
+                      "source_path":  "game-development/godot/godot-multiplayer-engineer.md",
+                      "reference_path":  "references/roles/game-development/godot/godot-multiplayer-engineer.md",
+                      "color":  "violet"
+                  },
+                  {
+                      "name":  "Godot Shader Developer",
+                      "slug":  "godot-shader-developer",
+                      "division":  "game-development",
+                      "description":  "Godot 4 visual effects specialist - Masters the Godot Shading Language (GLSL-like), VisualShader editor, CanvasItem and Spatial shaders, post-processing, and performance optimization for 2D/3D effects",
+                      "source_path":  "game-development/godot/godot-shader-developer.md",
+                      "reference_path":  "references/roles/game-development/godot/godot-shader-developer.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "Level Designer",
+                      "slug":  "level-designer",
+                      "division":  "game-development",
+                      "description":  "Spatial storytelling and flow specialist - Masters layout theory, pacing architecture, encounter design, and environmental narrative across all game engines",
+                      "source_path":  "game-development/level-designer.md",
+                      "reference_path":  "references/roles/game-development/level-designer.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Narrative Designer",
+                      "slug":  "narrative-designer",
+                      "division":  "game-development",
+                      "description":  "Story systems and dialogue architect - Masters GDD-aligned narrative design, branching dialogue, lore architecture, and environmental storytelling across all game engines",
+                      "source_path":  "game-development/narrative-designer.md",
+                      "reference_path":  "references/roles/game-development/narrative-designer.md",
+                      "color":  "red"
+                  },
+                  {
+                      "name":  "Roblox Avatar Creator",
+                      "slug":  "roblox-avatar-creator",
+                      "division":  "game-development",
+                      "description":  "Roblox UGC and avatar pipeline specialist - Masters Roblox\u0027s avatar system, UGC item creation, accessory rigging, texture standards, and the Creator Marketplace submission pipeline",
+                      "source_path":  "game-development/roblox-studio/roblox-avatar-creator.md",
+                      "reference_path":  "references/roles/game-development/roblox-studio/roblox-avatar-creator.md",
+                      "color":  "fuchsia"
+                  },
+                  {
+                      "name":  "Roblox Experience Designer",
+                      "slug":  "roblox-experience-designer",
+                      "division":  "game-development",
+                      "description":  "Roblox platform UX and monetization specialist - Masters engagement loop design, DataStore-driven progression, Roblox monetization systems (Passes, Developer Products, UGC), and player retention for Roblox experiences",
+                      "source_path":  "game-development/roblox-studio/roblox-experience-designer.md",
+                      "reference_path":  "references/roles/game-development/roblox-studio/roblox-experience-designer.md",
+                      "color":  "lime"
+                  },
+                  {
+                      "name":  "Roblox Systems Scripter",
+                      "slug":  "roblox-systems-scripter",
+                      "division":  "game-development",
+                      "description":  "Roblox platform engineering specialist - Masters Luau, the client-server security model, RemoteEvents/RemoteFunctions, DataStore, and module architecture for scalable Roblox experiences",
+                      "source_path":  "game-development/roblox-studio/roblox-systems-scripter.md",
+                      "reference_path":  "references/roles/game-development/roblox-studio/roblox-systems-scripter.md",
+                      "color":  "rose"
+                  },
+                  {
+                      "name":  "Sprite Asset Director",
+                      "slug":  "sprite-asset-director",
+                      "division":  "game-development",
+                      "description":  "Plans 2D game sprite sheets, animation states, icon sets, tiles, props, visual consistency, and asset normalization for web games.",
+                      "source_path":  "game-development/sprite-asset-director.md",
+                      "reference_path":  "references/roles/game-development/sprite-asset-director.md",
+                      "color":  "#DB2777"
+                  },
+                  {
+                      "name":  "Technical Artist",
+                      "slug":  "technical-artist",
+                      "division":  "game-development",
+                      "description":  "Art-to-engine pipeline specialist - Masters shaders, VFX systems, LOD pipelines, performance budgeting, and cross-engine asset optimization",
+                      "source_path":  "game-development/technical-artist.md",
+                      "reference_path":  "references/roles/game-development/technical-artist.md",
+                      "color":  "pink"
+                  },
+                  {
+                      "name":  "Unity Architect",
+                      "slug":  "unity-architect",
+                      "division":  "game-development",
+                      "description":  "Data-driven modularity specialist - Masters ScriptableObjects, decoupled systems, and single-responsibility component design for scalable Unity projects",
+                      "source_path":  "game-development/unity/unity-architect.md",
+                      "reference_path":  "references/roles/game-development/unity/unity-architect.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Unity Editor Tool Developer",
+                      "slug":  "unity-editor-tool-developer",
+                      "division":  "game-development",
+                      "description":  "Unity editor automation specialist - Masters custom EditorWindows, PropertyDrawers, AssetPostprocessors, ScriptedImporters, and pipeline automation that saves teams hours per week",
+                      "source_path":  "game-development/unity/unity-editor-tool-developer.md",
+                      "reference_path":  "references/roles/game-development/unity/unity-editor-tool-developer.md",
+                      "color":  "gray"
+                  },
+                  {
+                      "name":  "Unity Multiplayer Engineer",
+                      "slug":  "unity-multiplayer-engineer",
+                      "division":  "game-development",
+                      "description":  "Networked gameplay specialist - Masters Netcode for GameObjects, Unity Gaming Services (Relay/Lobby), client-server authority, lag compensation, and state synchronization",
+                      "source_path":  "game-development/unity/unity-multiplayer-engineer.md",
+                      "reference_path":  "references/roles/game-development/unity/unity-multiplayer-engineer.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Unity Shader Graph Artist",
+                      "slug":  "unity-shader-graph-artist",
+                      "division":  "game-development",
+                      "description":  "Visual effects and material specialist - Masters Unity Shader Graph, HLSL, URP/HDRP rendering pipelines, and custom pass authoring for real-time visual effects",
+                      "source_path":  "game-development/unity/unity-shader-graph-artist.md",
+                      "reference_path":  "references/roles/game-development/unity/unity-shader-graph-artist.md",
+                      "color":  "cyan"
+                  },
+                  {
+                      "name":  "Unreal Multiplayer Architect",
+                      "slug":  "unreal-multiplayer-architect",
+                      "division":  "game-development",
+                      "description":  "Unreal Engine networking specialist - Masters Actor replication, GameMode/GameState architecture, server-authoritative gameplay, network prediction, and dedicated server setup for UE5",
+                      "source_path":  "game-development/unreal-engine/unreal-multiplayer-architect.md",
+                      "reference_path":  "references/roles/game-development/unreal-engine/unreal-multiplayer-architect.md",
+                      "color":  "red"
+                  },
+                  {
+                      "name":  "Unreal Systems Engineer",
+                      "slug":  "unreal-systems-engineer",
+                      "division":  "game-development",
+                      "description":  "Performance and hybrid architecture specialist - Masters C++/Blueprint continuum, Nanite geometry, Lumen GI, and Gameplay Ability System for AAA-grade Unreal Engine projects",
+                      "source_path":  "game-development/unreal-engine/unreal-systems-engineer.md",
+                      "reference_path":  "references/roles/game-development/unreal-engine/unreal-systems-engineer.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Unreal Technical Artist",
+                      "slug":  "unreal-technical-artist",
+                      "division":  "game-development",
+                      "description":  "Unreal Engine visual pipeline specialist - Masters the Material Editor, Niagara VFX, Procedural Content Generation, and the art-to-engine pipeline for UE5 projects",
+                      "source_path":  "game-development/unreal-engine/unreal-technical-artist.md",
+                      "reference_path":  "references/roles/game-development/unreal-engine/unreal-technical-artist.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Unreal World Builder",
+                      "slug":  "unreal-world-builder",
+                      "division":  "game-development",
+                      "description":  "Open-world and environment specialist - Masters UE5 World Partition, Landscape, procedural foliage, HLOD, and large-scale level streaming for seamless open-world experiences",
+                      "source_path":  "game-development/unreal-engine/unreal-world-builder.md",
+                      "reference_path":  "references/roles/game-development/unreal-engine/unreal-world-builder.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Web Game Engineer",
+                      "slug":  "web-game-engineer",
+                      "division":  "game-development",
+                      "description":  "Builds playable web games with Canvas, Phaser, Three.js, Web Audio, local state, input handling, and performance-conscious browser delivery.",
+                      "source_path":  "game-development/web-game-engineer.md",
+                      "reference_path":  "references/roles/game-development/web-game-engineer.md",
+                      "color":  "#2563EB"
+                  },
+                  {
+                      "name":  "Agentic Search Optimizer",
+                      "slug":  "marketing-agentic-search-optimizer",
+                      "division":  "marketing",
+                      "description":  "Expert in WebMCP readiness and agentic task completion — audits whether AI agents can actually accomplish tasks on your site (book, buy, register, subscribe), implements WebMCP declarative and imperative patterns, and measures task completion rates across AI browsing agents",
+                      "source_path":  "marketing/marketing-agentic-search-optimizer.md",
+                      "reference_path":  "references/roles/marketing/marketing-agentic-search-optimizer.md",
+                      "color":  "#0891B2"
+                  },
+                  {
+                      "name":  "AI Citation Strategist",
+                      "slug":  "marketing-ai-citation-strategist",
+                      "division":  "marketing",
+                      "description":  "Expert in AI recommendation engine optimization (AEO/GEO) — audits brand visibility across ChatGPT, Claude, Gemini, and Perplexity, identifies why competitors get cited instead, and delivers content fixes that improve AI citations",
+                      "source_path":  "marketing/marketing-ai-citation-strategist.md",
+                      "reference_path":  "references/roles/marketing/marketing-ai-citation-strategist.md",
+                      "color":  "#6D28D9"
+                  },
+                  {
+                      "name":  "AI Video Prompt Director",
+                      "slug":  "ai-video-prompt-director",
+                      "division":  "marketing",
+                      "description":  "Creates structured prompts for AI video generation with shot intent, subject, motion, camera, lighting, style, continuity, and negative constraints.",
+                      "source_path":  "marketing/ai-video-prompt-director.md",
+                      "reference_path":  "references/roles/marketing/ai-video-prompt-director.md",
+                      "color":  "#6366F1"
+                  },
+                  {
+                      "name":  "App Store Optimizer",
+                      "slug":  "marketing-app-store-optimizer",
+                      "division":  "marketing",
+                      "description":  "Expert app store marketing specialist focused on App Store Optimization (ASO), conversion rate optimization, and app discoverability",
+                      "source_path":  "marketing/marketing-app-store-optimizer.md",
+                      "reference_path":  "references/roles/marketing/marketing-app-store-optimizer.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Baidu SEO Specialist",
+                      "slug":  "marketing-baidu-seo-specialist",
+                      "division":  "marketing",
+                      "description":  "Expert Baidu search optimization specialist focused on Chinese search engine ranking, Baidu ecosystem integration, ICP compliance, Chinese keyword research, and mobile-first indexing for the China market.",
+                      "source_path":  "marketing/marketing-baidu-seo-specialist.md",
+                      "reference_path":  "references/roles/marketing/marketing-baidu-seo-specialist.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Bilibili Content Strategist",
+                      "slug":  "marketing-bilibili-content-strategist",
+                      "division":  "marketing",
+                      "description":  "Expert Bilibili marketing specialist focused on UP主 growth, danmaku culture mastery, B站 algorithm optimization, community building, and branded content strategy for China\u0027s leading video community platform.",
+                      "source_path":  "marketing/marketing-bilibili-content-strategist.md",
+                      "reference_path":  "references/roles/marketing/marketing-bilibili-content-strategist.md",
+                      "color":  "pink"
+                  },
+                  {
+                      "name":  "Book Co-Author",
+                      "slug":  "marketing-book-co-author",
+                      "division":  "marketing",
+                      "description":  "Strategic thought-leadership book collaborator for founders, experts, and operators turning voice notes, fragments, and positioning into structured first-person chapters.",
+                      "source_path":  "marketing/marketing-book-co-author.md",
+                      "reference_path":  "references/roles/marketing/marketing-book-co-author.md",
+                      "color":  "#8B5E3C"
+                  },
+                  {
+                      "name":  "Brand Copywriter",
+                      "slug":  "brand-copywriter",
+                      "division":  "marketing",
+                      "description":  "Writes brand voice, positioning statements, taglines, product narratives, about pages, and consistent copy systems.",
+                      "source_path":  "marketing/brand-copywriter.md",
+                      "reference_path":  "references/roles/marketing/brand-copywriter.md",
+                      "color":  "#7C3AED"
+                  },
+                  {
+                      "name":  "Carousel Growth Engine",
+                      "slug":  "marketing-carousel-growth-engine",
+                      "division":  "marketing",
+                      "description":  "Autonomous TikTok and Instagram carousel generation specialist. Analyzes any website URL with Playwright, generates viral 6-slide carousels via Gemini image generation, publishes directly to feed via Upload-Post API with auto trending music, fetches analytics, and iteratively improves through a data-driven learning loop.",
+                      "source_path":  "marketing/marketing-carousel-growth-engine.md",
+                      "reference_path":  "references/roles/marketing/marketing-carousel-growth-engine.md",
+                      "color":  "#FF0050"
+                  },
+                  {
+                      "name":  "Chart Storytelling Editor",
+                      "slug":  "chart-storytelling-editor",
+                      "division":  "marketing",
+                      "description":  "Writes chart titles, annotations, captions, executive summaries, and narrative flow around charts and dashboards.",
+                      "source_path":  "marketing/chart-storytelling-editor.md",
+                      "reference_path":  "references/roles/marketing/chart-storytelling-editor.md",
+                      "color":  "#7C3AED"
+                  },
+                  {
+                      "name":  "China E-Commerce Operator",
+                      "slug":  "marketing-china-ecommerce-operator",
+                      "division":  "marketing",
+                      "description":  "Expert China e-commerce operations specialist covering Taobao, Tmall, Pinduoduo, and JD ecosystems with deep expertise in product listing optimization, live commerce, store operations, 618/Double 11 campaigns, and cross-platform strategy.",
+                      "source_path":  "marketing/marketing-china-ecommerce-operator.md",
+                      "reference_path":  "references/roles/marketing/marketing-china-ecommerce-operator.md",
+                      "color":  "red"
+                  },
+                  {
+                      "name":  "China Market Localization Strategist",
+                      "slug":  "marketing-china-market-localization-strategist",
+                      "division":  "marketing",
+                      "description":  "Full-stack China market localization expert who transforms real-time trend signals into executable go-to-market strategies across Douyin, Xiaohongshu, WeChat, Bilibili, and beyond",
+                      "source_path":  "marketing/marketing-china-market-localization-strategist.md",
+                      "reference_path":  "references/roles/marketing/marketing-china-market-localization-strategist.md",
+                      "color":  "#E60012"
+                  },
+                  {
+                      "name":  "Community Announcement Writer",
+                      "slug":  "community-announcement-writer",
+                      "division":  "marketing",
+                      "description":  "Writes release posts, community updates, Discord/Slack announcements, changelog blurbs, moderation notes, and event messages.",
+                      "source_path":  "marketing/community-announcement-writer.md",
+                      "reference_path":  "references/roles/marketing/community-announcement-writer.md",
+                      "color":  "#6366F1"
+                  },
+                  {
+                      "name":  "Content Creator",
+                      "slug":  "marketing-content-creator",
+                      "division":  "marketing",
+                      "description":  "Expert content strategist and creator for multi-platform campaigns. Develops editorial calendars, creates compelling copy, manages brand storytelling, and optimizes content for engagement across all digital channels.",
+                      "source_path":  "marketing/marketing-content-creator.md",
+                      "reference_path":  "references/roles/marketing/marketing-content-creator.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Conversion Rate Optimizer",
+                      "slug":  "conversion-rate-optimizer",
+                      "division":  "marketing",
+                      "description":  "Improves funnels, landing pages, onboarding, pricing pages, and CTAs through hypothesis-driven conversion analysis and experiments.",
+                      "source_path":  "marketing/conversion-rate-optimizer.md",
+                      "reference_path":  "references/roles/marketing/conversion-rate-optimizer.md",
+                      "color":  "#16A34A"
+                  },
+                  {
+                      "name":  "Cross-Border E-Commerce Specialist",
+                      "slug":  "marketing-cross-border-ecommerce",
+                      "division":  "marketing",
+                      "description":  "Full-funnel cross-border e-commerce strategist covering Amazon, Shopee, Lazada, AliExpress, Temu, and TikTok Shop operations, international logistics and overseas warehousing, compliance and taxation, multilingual listing optimization, brand globalization, and DTC independent site development.",
+                      "source_path":  "marketing/marketing-cross-border-ecommerce.md",
+                      "reference_path":  "references/roles/marketing/marketing-cross-border-ecommerce.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Demo Script Producer",
+                      "slug":  "demo-script-producer",
+                      "division":  "marketing",
+                      "description":  "Writes product demo scripts, walkthrough narratives, presenter notes, timing, scenario setup, and fallback paths for live or recorded demos.",
+                      "source_path":  "marketing/demo-script-producer.md",
+                      "reference_path":  "references/roles/marketing/demo-script-producer.md",
+                      "color":  "#2563EB"
+                  },
+                  {
+                      "name":  "Douyin Strategist",
+                      "slug":  "marketing-douyin-strategist",
+                      "division":  "marketing",
+                      "description":  "Short-video marketing expert specializing in the Douyin platform, with deep expertise in recommendation algorithm mechanics, viral video planning, livestream commerce workflows, and full-funnel brand growth through content matrix strategies.",
+                      "source_path":  "marketing/marketing-douyin-strategist.md",
+                      "reference_path":  "references/roles/marketing/marketing-douyin-strategist.md",
+                      "color":  "#000000"
+                  },
+                  {
+                      "name":  "Email Sequence Copywriter",
+                      "slug":  "email-sequence-copywriter",
+                      "division":  "marketing",
+                      "description":  "Writes lifecycle emails, onboarding sequences, sales follow-ups, newsletters, reactivation campaigns, and transactional copy.",
+                      "source_path":  "marketing/email-sequence-copywriter.md",
+                      "reference_path":  "references/roles/marketing/email-sequence-copywriter.md",
+                      "color":  "#0F766E"
+                  },
+                  {
+                      "name":  "Founder Voice Ghostwriter",
+                      "slug":  "founder-voice-ghostwriter",
+                      "division":  "marketing",
+                      "description":  "Writes founder-style posts, memos, launch notes, reflections, and thought leadership while preserving authentic voice and strategic clarity.",
+                      "source_path":  "marketing/founder-voice-ghostwriter.md",
+                      "reference_path":  "references/roles/marketing/founder-voice-ghostwriter.md",
+                      "color":  "#92400E"
+                  },
+                  {
+                      "name":  "Growth Hacker",
+                      "slug":  "marketing-growth-hacker",
+                      "division":  "marketing",
+                      "description":  "Expert growth strategist specializing in rapid user acquisition through data-driven experimentation. Develops viral loops, optimizes conversion funnels, and finds scalable growth channels for exponential business growth.",
+                      "source_path":  "marketing/marketing-growth-hacker.md",
+                      "reference_path":  "references/roles/marketing/marketing-growth-hacker.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Instagram Curator",
+                      "slug":  "marketing-instagram-curator",
+                      "division":  "marketing",
+                      "description":  "Expert Instagram marketing specialist focused on visual storytelling, community building, and multi-format content optimization. Masters aesthetic development and drives meaningful engagement.",
+                      "source_path":  "marketing/marketing-instagram-curator.md",
+                      "reference_path":  "references/roles/marketing/marketing-instagram-curator.md",
+                      "color":  "#E4405F"
+                  },
+                  {
+                      "name":  "Kuaishou Strategist",
+                      "slug":  "marketing-kuaishou-strategist",
+                      "division":  "marketing",
+                      "description":  "Expert Kuaishou marketing strategist specializing in short-video content for China\u0027s lower-tier city markets, live commerce operations, community trust building, and grassroots audience growth on 快手.",
+                      "source_path":  "marketing/marketing-kuaishou-strategist.md",
+                      "reference_path":  "references/roles/marketing/marketing-kuaishou-strategist.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "LinkedIn Content Creator",
+                      "slug":  "marketing-linkedin-content-creator",
+                      "division":  "marketing",
+                      "description":  "Expert LinkedIn content strategist focused on thought leadership, personal brand building, and high-engagement professional content. Masters LinkedIn\u0027s algorithm and culture to drive inbound opportunities for founders, job seekers, developers, and anyone building a professional presence.",
+                      "source_path":  "marketing/marketing-linkedin-content-creator.md",
+                      "reference_path":  "references/roles/marketing/marketing-linkedin-content-creator.md",
+                      "color":  "#0A66C2"
+                  },
+                  {
+                      "name":  "Livestream Clip Repurposer",
+                      "slug":  "livestream-clip-repurposer",
+                      "division":  "marketing",
+                      "description":  "Finds, structures, and repackages livestream recordings into short clips, highlight reels, product snippets, FAQ clips, and social posts.",
+                      "source_path":  "marketing/livestream-clip-repurposer.md",
+                      "reference_path":  "references/roles/marketing/livestream-clip-repurposer.md",
+                      "color":  "#E11D48"
+                  },
+                  {
+                      "name":  "Livestream Commerce Coach",
+                      "slug":  "marketing-livestream-commerce-coach",
+                      "division":  "marketing",
+                      "description":  "Veteran livestream e-commerce coach specializing in host training and live room operations across Douyin, Kuaishou, Taobao Live, and Channels, covering script design, product sequencing, paid-vs-organic traffic balancing, conversion closing techniques, and real-time data-driven optimization.",
+                      "source_path":  "marketing/marketing-livestream-commerce-coach.md",
+                      "reference_path":  "references/roles/marketing/marketing-livestream-commerce-coach.md",
+                      "color":  "#E63946"
+                  },
+                  {
+                      "name":  "Podcast Strategist",
+                      "slug":  "marketing-podcast-strategist",
+                      "division":  "marketing",
+                      "description":  "Content strategy and operations expert for the Chinese podcast market, with deep expertise in Xiaoyuzhou, Ximalaya, and other major audio platforms, covering show positioning, audio production, audience growth, multi-platform distribution, and monetization to help podcast creators build sticky audio content brands.",
+                      "source_path":  "marketing/marketing-podcast-strategist.md",
+                      "reference_path":  "references/roles/marketing/marketing-podcast-strategist.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "Private Domain Operator",
+                      "slug":  "marketing-private-domain-operator",
+                      "division":  "marketing",
+                      "description":  "Expert in building enterprise WeChat (WeCom) private domain ecosystems, with deep expertise in SCRM systems, segmented community operations, Mini Program commerce integration, user lifecycle management, and full-funnel conversion optimization.",
+                      "source_path":  "marketing/marketing-private-domain-operator.md",
+                      "reference_path":  "references/roles/marketing/marketing-private-domain-operator.md",
+                      "color":  "#1A73E8"
+                  },
+                  {
+                      "name":  "Product Naming Consultant",
+                      "slug":  "product-naming-consultant",
+                      "division":  "marketing",
+                      "description":  "Creates product, feature, app, game, tool, and campaign names with positioning fit, memorability, pronunciation, and conflict awareness.",
+                      "source_path":  "marketing/product-naming-consultant.md",
+                      "reference_path":  "references/roles/marketing/product-naming-consultant.md",
+                      "color":  "#A855F7"
+                  },
+                  {
+                      "name":  "Reddit Community Builder",
+                      "slug":  "marketing-reddit-community-builder",
+                      "division":  "marketing",
+                      "description":  "Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation.",
+                      "source_path":  "marketing/marketing-reddit-community-builder.md",
+                      "reference_path":  "references/roles/marketing/marketing-reddit-community-builder.md",
+                      "color":  "#FF4500"
+                  },
+                  {
+                      "name":  "Sales Page Copywriter",
+                      "slug":  "sales-page-copywriter",
+                      "division":  "marketing",
+                      "description":  "Writes conversion copy for landing pages, product pages, offers, pricing, objection handling, CTAs, and proof-led sales narratives.",
+                      "source_path":  "marketing/sales-page-copywriter.md",
+                      "reference_path":  "references/roles/marketing/sales-page-copywriter.md",
+                      "color":  "#DC2626"
+                  },
+                  {
+                      "name":  "SEO Content Editor",
+                      "slug":  "seo-content-editor",
+                      "division":  "marketing",
+                      "description":  "Edits articles, landing pages, docs, and guides for search intent, structure, topical coverage, snippets, internal links, and readability.",
+                      "source_path":  "marketing/seo-content-editor.md",
+                      "reference_path":  "references/roles/marketing/seo-content-editor.md",
+                      "color":  "#16A34A"
+                  },
+                  {
+                      "name":  "SEO Specialist",
+                      "slug":  "marketing-seo-specialist",
+                      "division":  "marketing",
+                      "description":  "Expert search engine optimization strategist specializing in technical SEO, content optimization, link authority building, and organic search growth. Drives sustainable traffic through data-driven search strategies.",
+                      "source_path":  "marketing/marketing-seo-specialist.md",
+                      "reference_path":  "references/roles/marketing/marketing-seo-specialist.md",
+                      "color":  "#4285F4"
+                  },
+                  {
+                      "name":  "Short Video Hook Writer",
+                      "slug":  "short-video-hook-writer",
+                      "division":  "marketing",
+                      "description":  "Writes high-retention openings for short videos, ads, tutorials, demos, and social clips with multiple hook patterns.",
+                      "source_path":  "marketing/short-video-hook-writer.md",
+                      "reference_path":  "references/roles/marketing/short-video-hook-writer.md",
+                      "color":  "#F97316"
+                  },
+                  {
+                      "name":  "Short Video Producer",
+                      "slug":  "short-video-producer",
+                      "division":  "marketing",
+                      "description":  "Plans short-form videos from hook to retention curve to platform-ready script, shot list, captions, and publishing angle.",
+                      "source_path":  "marketing/short-video-producer.md",
+                      "reference_path":  "references/roles/marketing/short-video-producer.md",
+                      "color":  "#EF4444"
+                  },
+                  {
+                      "name":  "Short-Video Editing Coach",
+                      "slug":  "marketing-short-video-editing-coach",
+                      "division":  "marketing",
+                      "description":  "Hands-on short-video editing coach covering the full post-production pipeline, with mastery of CapCut Pro, Premiere Pro, DaVinci Resolve, and Final Cut Pro across composition and camera language, color grading, audio engineering, motion graphics and VFX, subtitle design, multi-platform export optimization, editing workflow efficiency, and AI-assisted editing.",
+                      "source_path":  "marketing/marketing-short-video-editing-coach.md",
+                      "reference_path":  "references/roles/marketing/marketing-short-video-editing-coach.md",
+                      "color":  "#7B2D8E"
+                  },
+                  {
+                      "name":  "Social Media Strategist",
+                      "slug":  "marketing-social-media-strategist",
+                      "division":  "marketing",
+                      "description":  "Expert social media strategist for LinkedIn, Twitter, and professional platforms. Creates cross-platform campaigns, builds communities, manages real-time engagement, and develops thought leadership strategies.",
+                      "source_path":  "marketing/marketing-social-media-strategist.md",
+                      "reference_path":  "references/roles/marketing/marketing-social-media-strategist.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Storyboard Director",
+                      "slug":  "storyboard-director",
+                      "division":  "marketing",
+                      "description":  "Turns scripts, product ideas, tutorials, and ads into shot-by-shot storyboard plans with visual intent and production notes.",
+                      "source_path":  "marketing/storyboard-director.md",
+                      "reference_path":  "references/roles/marketing/storyboard-director.md",
+                      "color":  "#F97316"
+                  },
+                  {
+                      "name":  "Subtitle Packaging Specialist",
+                      "slug":  "subtitle-packaging-specialist",
+                      "division":  "marketing",
+                      "description":  "Designs readable captions, emphasis words, subtitle rhythm, lower-thirds, callouts, and accessibility-friendly text overlays for video.",
+                      "source_path":  "marketing/subtitle-packaging-specialist.md",
+                      "reference_path":  "references/roles/marketing/subtitle-packaging-specialist.md",
+                      "color":  "#06B6D4"
+                  },
+                  {
+                      "name":  "TikTok Strategist",
+                      "slug":  "marketing-tiktok-strategist",
+                      "division":  "marketing",
+                      "description":  "Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, and community building. Masters TikTok\u0027s unique culture and features for brand growth.",
+                      "source_path":  "marketing/marketing-tiktok-strategist.md",
+                      "reference_path":  "references/roles/marketing/marketing-tiktok-strategist.md",
+                      "color":  "#000000"
+                  },
+                  {
+                      "name":  "Tutorial Content Designer",
+                      "slug":  "tutorial-content-designer",
+                      "division":  "marketing",
+                      "description":  "Designs tutorials, walkthroughs, courses, demo lessons, and step-by-step learning paths with clear prerequisites and outcomes.",
+                      "source_path":  "marketing/tutorial-content-designer.md",
+                      "reference_path":  "references/roles/marketing/tutorial-content-designer.md",
+                      "color":  "#14B8A6"
+                  },
+                  {
+                      "name":  "Twitter Engager",
+                      "slug":  "marketing-twitter-engager",
+                      "division":  "marketing",
+                      "description":  "Expert Twitter marketing specialist focused on real-time engagement, thought leadership building, and community-driven growth. Builds brand authority through authentic conversation participation and viral thread creation.",
+                      "source_path":  "marketing/marketing-twitter-engager.md",
+                      "reference_path":  "references/roles/marketing/marketing-twitter-engager.md",
+                      "color":  "#1DA1F2"
+                  },
+                  {
+                      "name":  "Video Editing Rhythm Coach",
+                      "slug":  "video-editing-rhythm-coach",
+                      "division":  "marketing",
+                      "description":  "Guides cuts, pacing, b-roll placement, silence removal, beat matching, retention edits, and narrative flow for short and long videos.",
+                      "source_path":  "marketing/video-editing-rhythm-coach.md",
+                      "reference_path":  "references/roles/marketing/video-editing-rhythm-coach.md",
+                      "color":  "#A855F7"
+                  },
+                  {
+                      "name":  "Video Optimization Specialist",
+                      "slug":  "marketing-video-optimization-specialist",
+                      "division":  "marketing",
+                      "description":  "Video marketing strategist specializing in YouTube algorithm optimization, audience retention, chaptering, thumbnail concepts, and cross-platform video syndication.",
+                      "source_path":  "marketing/marketing-video-optimization-specialist.md",
+                      "reference_path":  "references/roles/marketing/marketing-video-optimization-specialist.md",
+                      "color":  "red"
+                  },
+                  {
+                      "name":  "Video Thumbnail Strategist",
+                      "slug":  "video-thumbnail-strategist",
+                      "division":  "marketing",
+                      "description":  "Designs thumbnail concepts, visual hierarchy, curiosity gaps, title-thumbnail pairing, and platform-specific click-through packaging.",
+                      "source_path":  "marketing/video-thumbnail-strategist.md",
+                      "reference_path":  "references/roles/marketing/video-thumbnail-strategist.md",
+                      "color":  "#F43F5E"
+                  },
+                  {
+                      "name":  "Voiceover Scriptwriter",
+                      "slug":  "voiceover-scriptwriter",
+                      "division":  "marketing",
+                      "description":  "Writes voiceover scripts with pacing, spoken clarity, emotional arc, pronunciation notes, and timing for video, ads, tutorials, and narration.",
+                      "source_path":  "marketing/voiceover-scriptwriter.md",
+                      "reference_path":  "references/roles/marketing/voiceover-scriptwriter.md",
+                      "color":  "#14B8A6"
+                  },
+                  {
+                      "name":  "WeChat Official Account Manager",
+                      "slug":  "marketing-wechat-official-account",
+                      "division":  "marketing",
+                      "description":  "Expert WeChat Official Account (OA) strategist specializing in content marketing, subscriber engagement, and conversion optimization. Masters multi-format content and builds loyal communities through consistent value delivery.",
+                      "source_path":  "marketing/marketing-wechat-official-account.md",
+                      "reference_path":  "references/roles/marketing/marketing-wechat-official-account.md",
+                      "color":  "#09B83E"
+                  },
+                  {
+                      "name":  "Weibo Strategist",
+                      "slug":  "marketing-weibo-strategist",
+                      "division":  "marketing",
+                      "description":  "Full-spectrum operations expert for Sina Weibo, with deep expertise in trending topic mechanics, Super Topic community management, public sentiment monitoring, fan economy strategies, and Weibo advertising, helping brands achieve viral reach and sustained growth on China\u0027s leading public discourse platform.",
+                      "source_path":  "marketing/marketing-weibo-strategist.md",
+                      "reference_path":  "references/roles/marketing/marketing-weibo-strategist.md",
+                      "color":  "#FF8200"
+                  },
+                  {
+                      "name":  "Xiaohongshu Specialist",
+                      "slug":  "marketing-xiaohongshu-specialist",
+                      "division":  "marketing",
+                      "description":  "Expert Xiaohongshu marketing specialist focused on lifestyle content, trend-driven strategies, and authentic community engagement. Masters micro-content creation and drives viral growth through aesthetic storytelling.",
+                      "source_path":  "marketing/marketing-xiaohongshu-specialist.md",
+                      "reference_path":  "references/roles/marketing/marketing-xiaohongshu-specialist.md",
+                      "color":  "#FF1B6D"
+                  },
+                  {
+                      "name":  "YouTube Channel Producer",
+                      "slug":  "youtube-channel-producer",
+                      "division":  "marketing",
+                      "description":  "Plans YouTube videos, channel positioning, episode formats, packaging, retention structure, titles, thumbnails, and publishing cadence.",
+                      "source_path":  "marketing/youtube-channel-producer.md",
+                      "reference_path":  "references/roles/marketing/youtube-channel-producer.md",
+                      "color":  "#DC2626"
+                  },
+                  {
+                      "name":  "Zhihu Strategist",
+                      "slug":  "marketing-zhihu-strategist",
+                      "division":  "marketing",
+                      "description":  "Expert Zhihu marketing specialist focused on thought leadership, community credibility, and knowledge-driven engagement. Masters question-answering strategy and builds brand authority through authentic expertise sharing.",
+                      "source_path":  "marketing/marketing-zhihu-strategist.md",
+                      "reference_path":  "references/roles/marketing/marketing-zhihu-strategist.md",
+                      "color":  "#0084FF"
+                  },
+                  {
+                      "name":  "Ad Creative Strategist",
+                      "slug":  "paid-media-creative-strategist",
+                      "division":  "paid-media",
+                      "description":  "Paid media creative specialist focused on ad copywriting, RSA optimization, asset group design, and creative testing frameworks across Google, Meta, Microsoft, and programmatic platforms. Bridges the gap between performance data and persuasive messaging.",
+                      "source_path":  "paid-media/paid-media-creative-strategist.md",
+                      "reference_path":  "references/roles/paid-media/paid-media-creative-strategist.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Paid Media Auditor",
+                      "slug":  "paid-media-auditor",
+                      "division":  "paid-media",
+                      "description":  "Comprehensive paid media auditor who systematically evaluates Google Ads, Microsoft Ads, and Meta accounts across 200+ checkpoints spanning account structure, tracking, bidding, creative, audiences, and competitive positioning. Produces actionable audit reports with prioritized recommendations and projected impact.",
+                      "source_path":  "paid-media/paid-media-auditor.md",
+                      "reference_path":  "references/roles/paid-media/paid-media-auditor.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Paid Social Strategist",
+                      "slug":  "paid-media-paid-social-strategist",
+                      "division":  "paid-media",
+                      "description":  "Cross-platform paid social advertising specialist covering Meta (Facebook/Instagram), LinkedIn, TikTok, Pinterest, X, and Snapchat. Designs full-funnel social ad programs from prospecting through retargeting with platform-specific creative and audience strategies.",
+                      "source_path":  "paid-media/paid-media-paid-social-strategist.md",
+                      "reference_path":  "references/roles/paid-media/paid-media-paid-social-strategist.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "PPC Campaign Strategist",
+                      "slug":  "paid-media-ppc-strategist",
+                      "division":  "paid-media",
+                      "description":  "Senior paid media strategist specializing in large-scale search, shopping, and performance max campaign architecture across Google, Microsoft, and Amazon ad platforms. Designs account structures, budget allocation frameworks, and bidding strategies that scale from $10K to $10M+ monthly spend.",
+                      "source_path":  "paid-media/paid-media-ppc-strategist.md",
+                      "reference_path":  "references/roles/paid-media/paid-media-ppc-strategist.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Programmatic \u0026 Display Buyer",
+                      "slug":  "paid-media-programmatic-buyer",
+                      "division":  "paid-media",
+                      "description":  "Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk platforms, partner media (newsletters, sponsored content), and ABM display strategies via platforms like Demandbase and 6Sense.",
+                      "source_path":  "paid-media/paid-media-programmatic-buyer.md",
+                      "reference_path":  "references/roles/paid-media/paid-media-programmatic-buyer.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Search Query Analyst",
+                      "slug":  "paid-media-search-query-analyst",
+                      "division":  "paid-media",
+                      "description":  "Specialist in search term analysis, negative keyword architecture, and query-to-intent mapping. Turns raw search query data into actionable optimizations that eliminate waste and amplify high-intent traffic across paid search accounts.",
+                      "source_path":  "paid-media/paid-media-search-query-analyst.md",
+                      "reference_path":  "references/roles/paid-media/paid-media-search-query-analyst.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Tracking \u0026 Measurement Specialist",
+                      "slug":  "paid-media-tracking-specialist",
+                      "division":  "paid-media",
+                      "description":  "Expert in conversion tracking architecture, tag management, and attribution modeling across Google Tag Manager, GA4, Google Ads, Meta CAPI, LinkedIn Insight Tag, and server-side implementations. Ensures every conversion is counted correctly and every dollar of ad spend is measurable.",
+                      "source_path":  "paid-media/paid-media-tracking-specialist.md",
+                      "reference_path":  "references/roles/paid-media/paid-media-tracking-specialist.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Behavioral Nudge Engine",
+                      "slug":  "product-behavioral-nudge-engine",
+                      "division":  "product",
+                      "description":  "Behavioral psychology specialist that adapts software interaction cadences and styles to maximize user motivation and success.",
+                      "source_path":  "product/product-behavioral-nudge-engine.md",
+                      "reference_path":  "references/roles/product/product-behavioral-nudge-engine.md",
+                      "color":  "#FF8A65"
+                  },
+                  {
+                      "name":  "Feedback Synthesizer",
+                      "slug":  "product-feedback-synthesizer",
+                      "division":  "product",
+                      "description":  "Expert in collecting, analyzing, and synthesizing user feedback from multiple channels to extract actionable product insights. Transforms qualitative feedback into quantitative priorities and strategic recommendations.",
+                      "source_path":  "product/product-feedback-synthesizer.md",
+                      "reference_path":  "references/roles/product/product-feedback-synthesizer.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Product Manager",
+                      "slug":  "product-manager",
+                      "division":  "product",
+                      "description":  "Holistic product leader who owns the full product lifecycle — from discovery and strategy through roadmap, stakeholder alignment, go-to-market, and outcome measurement. Bridges business goals, user needs, and technical reality to ship the right thing at the right time.",
+                      "source_path":  "product/product-manager.md",
+                      "reference_path":  "references/roles/product/product-manager.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Sprint Prioritizer",
+                      "slug":  "product-sprint-prioritizer",
+                      "division":  "product",
+                      "description":  "Expert product manager specializing in agile sprint planning, feature prioritization, and resource allocation. Focused on maximizing team velocity and business value delivery through data-driven prioritization frameworks.",
+                      "source_path":  "product/product-sprint-prioritizer.md",
+                      "reference_path":  "references/roles/product/product-sprint-prioritizer.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Trend Researcher",
+                      "slug":  "product-trend-researcher",
+                      "division":  "product",
+                      "description":  "Expert market intelligence analyst specializing in identifying emerging trends, competitive analysis, and opportunity assessment. Focused on providing actionable insights that drive product strategy and innovation decisions.",
+                      "source_path":  "product/product-trend-researcher.md",
+                      "reference_path":  "references/roles/product/product-trend-researcher.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "Utility Product Designer",
+                      "slug":  "utility-product-designer",
+                      "division":  "product",
+                      "description":  "Scopes single-purpose utilities, converters, calculators, generators, and internal tools around one clear job-to-be-done.",
+                      "source_path":  "product/utility-product-designer.md",
+                      "reference_path":  "references/roles/product/utility-product-designer.md",
+                      "color":  "#2563EB"
+                  },
+                  {
+                      "name":  "Experiment Tracker",
+                      "slug":  "project-management-experiment-tracker",
+                      "division":  "project-management",
+                      "description":  "Expert project manager specializing in experiment design, execution tracking, and data-driven decision making. Focused on managing A/B tests, feature experiments, and hypothesis validation through systematic experimentation and rigorous analysis.",
+                      "source_path":  "project-management/project-management-experiment-tracker.md",
+                      "reference_path":  "references/roles/project-management/project-management-experiment-tracker.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "Jira Workflow Steward",
+                      "slug":  "project-management-jira-workflow-steward",
+                      "division":  "project-management",
+                      "description":  "Expert delivery operations specialist who enforces Jira-linked Git workflows, traceable commits, structured pull requests, and release-safe branch strategy across software teams.",
+                      "source_path":  "project-management/project-management-jira-workflow-steward.md",
+                      "reference_path":  "references/roles/project-management/project-management-jira-workflow-steward.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Project Shepherd",
+                      "slug":  "project-management-project-shepherd",
+                      "division":  "project-management",
+                      "description":  "Expert project manager specializing in cross-functional project coordination, timeline management, and stakeholder alignment. Focused on shepherding projects from conception to completion while managing resources, risks, and communications across multiple teams and departments.",
+                      "source_path":  "project-management/project-management-project-shepherd.md",
+                      "reference_path":  "references/roles/project-management/project-management-project-shepherd.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Release Package Curator",
+                      "slug":  "release-package-curator",
+                      "division":  "project-management",
+                      "description":  "Prepares release artifacts: build outputs, changelogs, screenshots, docs, version notes, checksums, and handoff folders.",
+                      "source_path":  "project-management/release-package-curator.md",
+                      "reference_path":  "references/roles/project-management/release-package-curator.md",
+                      "color":  "#475569"
+                  },
+                  {
+                      "name":  "Senior Project Manager",
+                      "slug":  "project-manager-senior",
+                      "division":  "project-management",
+                      "description":  "Converts specs to tasks and remembers previous projects. Focused on realistic scope, no background processes, exact spec requirements",
+                      "source_path":  "project-management/project-manager-senior.md",
+                      "reference_path":  "references/roles/project-management/project-manager-senior.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Studio Operations",
+                      "slug":  "project-management-studio-operations",
+                      "division":  "project-management",
+                      "description":  "Expert operations manager specializing in day-to-day studio efficiency, process optimization, and resource coordination. Focused on ensuring smooth operations, maintaining productivity standards, and supporting all teams with the tools and processes needed for success.",
+                      "source_path":  "project-management/project-management-studio-operations.md",
+                      "reference_path":  "references/roles/project-management/project-management-studio-operations.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Studio Producer",
+                      "slug":  "project-management-studio-producer",
+                      "division":  "project-management",
+                      "description":  "Senior strategic leader specializing in high-level creative and technical project orchestration, resource allocation, and multi-project portfolio management. Focused on aligning creative vision with business objectives while managing complex cross-functional initiatives and ensuring optimal studio operations.",
+                      "source_path":  "project-management/project-management-studio-producer.md",
+                      "reference_path":  "references/roles/project-management/project-management-studio-producer.md",
+                      "color":  "gold"
+                  },
+                  {
+                      "name":  "Account Strategist",
+                      "slug":  "sales-account-strategist",
+                      "division":  "sales",
+                      "description":  "Expert post-sale account strategist specializing in land-and-expand execution, stakeholder mapping, QBR facilitation, and net revenue retention. Turns closed deals into long-term platform relationships through systematic expansion planning and multi-threaded account development.",
+                      "source_path":  "sales/sales-account-strategist.md",
+                      "reference_path":  "references/roles/sales/sales-account-strategist.md",
+                      "color":  "#2E7D32"
+                  },
+                  {
+                      "name":  "Deal Strategist",
+                      "slug":  "sales-deal-strategist",
+                      "division":  "sales",
+                      "description":  "Senior deal strategist specializing in MEDDPICC qualification, competitive positioning, and win planning for complex B2B sales cycles. Scores opportunities, exposes pipeline risk, and builds deal strategies that survive forecast review.",
+                      "source_path":  "sales/sales-deal-strategist.md",
+                      "reference_path":  "references/roles/sales/sales-deal-strategist.md",
+                      "color":  "#1B4D3E"
+                  },
+                  {
+                      "name":  "Discovery Coach",
+                      "slug":  "sales-discovery-coach",
+                      "division":  "sales",
+                      "description":  "Coaches sales teams on elite discovery methodology — question design, current-state mapping, gap quantification, and call structure that surfaces real buying motivation.",
+                      "source_path":  "sales/sales-discovery-coach.md",
+                      "reference_path":  "references/roles/sales/sales-discovery-coach.md",
+                      "color":  "#5C7CFA"
+                  },
+                  {
+                      "name":  "Outbound Strategist",
+                      "slug":  "sales-outbound-strategist",
+                      "division":  "sales",
+                      "description":  "Signal-based outbound specialist who designs multi-channel prospecting sequences, defines ICPs, and builds pipeline through research-driven personalization — not volume.",
+                      "source_path":  "sales/sales-outbound-strategist.md",
+                      "reference_path":  "references/roles/sales/sales-outbound-strategist.md",
+                      "color":  "#E8590C"
+                  },
+                  {
+                      "name":  "Pipeline Analyst",
+                      "slug":  "sales-pipeline-analyst",
+                      "division":  "sales",
+                      "description":  "Revenue operations analyst specializing in pipeline health diagnostics, deal velocity analysis, forecast accuracy, and data-driven sales coaching. Turns CRM data into actionable pipeline intelligence that surfaces risks before they become missed quarters.",
+                      "source_path":  "sales/sales-pipeline-analyst.md",
+                      "reference_path":  "references/roles/sales/sales-pipeline-analyst.md",
+                      "color":  "#059669"
+                  },
+                  {
+                      "name":  "Proposal Strategist",
+                      "slug":  "sales-proposal-strategist",
+                      "division":  "sales",
+                      "description":  "Strategic proposal architect who transforms RFPs and sales opportunities into compelling win narratives. Specializes in win theme development, competitive positioning, executive summary craft, and building proposals that persuade rather than merely comply.",
+                      "source_path":  "sales/sales-proposal-strategist.md",
+                      "reference_path":  "references/roles/sales/sales-proposal-strategist.md",
+                      "color":  "#2563EB"
+                  },
+                  {
+                      "name":  "Sales Coach",
+                      "slug":  "sales-coach",
+                      "division":  "sales",
+                      "description":  "Expert sales coaching specialist focused on rep development, pipeline review facilitation, call coaching, deal strategy, and forecast accuracy. Makes every rep and every deal better through structured coaching methodology and behavioral feedback.",
+                      "source_path":  "sales/sales-coach.md",
+                      "reference_path":  "references/roles/sales/sales-coach.md",
+                      "color":  "#E65100"
+                  },
+                  {
+                      "name":  "Sales Engineer",
+                      "slug":  "sales-engineer",
+                      "division":  "sales",
+                      "description":  "Senior pre-sales engineer specializing in technical discovery, demo engineering, POC scoping, competitive battlecards, and bridging product capabilities to business outcomes. Wins the technical decision so the deal can close.",
+                      "source_path":  "sales/sales-engineer.md",
+                      "reference_path":  "references/roles/sales/sales-engineer.md",
+                      "color":  "#2E5090"
+                  },
+                  {
+                      "name":  "macOS Spatial/Metal Engineer",
+                      "slug":  "macos-spatial-metal-engineer",
+                      "division":  "spatial-computing",
+                      "description":  "Native Swift and Metal specialist building high-performance 3D rendering systems and spatial computing experiences for macOS and Vision Pro",
+                      "source_path":  "spatial-computing/macos-spatial-metal-engineer.md",
+                      "reference_path":  "references/roles/spatial-computing/macos-spatial-metal-engineer.md",
+                      "color":  "metallic-blue"
+                  },
+                  {
+                      "name":  "Terminal Integration Specialist",
+                      "slug":  "terminal-integration-specialist",
+                      "division":  "spatial-computing",
+                      "description":  "Terminal emulation, text rendering optimization, and SwiftTerm integration for modern Swift applications",
+                      "source_path":  "spatial-computing/terminal-integration-specialist.md",
+                      "reference_path":  "references/roles/spatial-computing/terminal-integration-specialist.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "visionOS Spatial Engineer",
+                      "slug":  "visionos-spatial-engineer",
+                      "division":  "spatial-computing",
+                      "description":  "Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation",
+                      "source_path":  "spatial-computing/visionos-spatial-engineer.md",
+                      "reference_path":  "references/roles/spatial-computing/visionos-spatial-engineer.md",
+                      "color":  "indigo"
+                  },
+                  {
+                      "name":  "XR Cockpit Interaction Specialist",
+                      "slug":  "xr-cockpit-interaction-specialist",
+                      "division":  "spatial-computing",
+                      "description":  "Specialist in designing and developing immersive cockpit-based control systems for XR environments",
+                      "source_path":  "spatial-computing/xr-cockpit-interaction-specialist.md",
+                      "reference_path":  "references/roles/spatial-computing/xr-cockpit-interaction-specialist.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "XR Immersive Developer",
+                      "slug":  "xr-immersive-developer",
+                      "division":  "spatial-computing",
+                      "description":  "Expert WebXR and immersive technology developer with specialization in browser-based AR/VR/XR applications",
+                      "source_path":  "spatial-computing/xr-immersive-developer.md",
+                      "reference_path":  "references/roles/spatial-computing/xr-immersive-developer.md",
+                      "color":  "neon-cyan"
+                  },
+                  {
+                      "name":  "XR Interface Architect",
+                      "slug":  "xr-interface-architect",
+                      "division":  "spatial-computing",
+                      "description":  "Spatial interaction designer and interface strategist for immersive AR/VR/XR environments",
+                      "source_path":  "spatial-computing/xr-interface-architect.md",
+                      "reference_path":  "references/roles/spatial-computing/xr-interface-architect.md",
+                      "color":  "neon-green"
+                  },
+                  {
+                      "name":  "Accounts Payable Agent",
+                      "slug":  "accounts-payable-agent",
+                      "division":  "specialized",
+                      "description":  "Autonomous payment processing specialist that executes vendor payments, contractor invoices, and recurring bills across any payment rail — crypto, fiat, stablecoins. Integrates with AI agent workflows via tool calls.",
+                      "source_path":  "specialized/accounts-payable-agent.md",
+                      "reference_path":  "references/roles/specialized/accounts-payable-agent.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Agentic Identity \u0026 Trust Architect",
+                      "slug":  "agentic-identity-trust",
+                      "division":  "specialized",
+                      "description":  "Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments. Ensures agents can prove who they are, what they\u0027re authorized to do, and what they actually did.",
+                      "source_path":  "specialized/agentic-identity-trust.md",
+                      "reference_path":  "references/roles/specialized/agentic-identity-trust.md",
+                      "color":  "#2d5a27"
+                  },
+                  {
+                      "name":  "Agents Orchestrator",
+                      "slug":  "agents-orchestrator",
+                      "division":  "specialized",
+                      "description":  "Autonomous pipeline manager that orchestrates the entire development workflow. You are the leader of this process.",
+                      "source_path":  "specialized/agents-orchestrator.md",
+                      "reference_path":  "references/roles/specialized/agents-orchestrator.md",
+                      "color":  "cyan"
+                  },
+                  {
+                      "name":  "Automation Governance Architect",
+                      "slug":  "automation-governance-architect",
+                      "division":  "specialized",
+                      "description":  "Governance-first architect for business automations (n8n-first) who audits value, risk, and maintainability before implementation.",
+                      "source_path":  "specialized/automation-governance-architect.md",
+                      "reference_path":  "references/roles/specialized/automation-governance-architect.md",
+                      "color":  "cyan"
+                  },
+                  {
+                      "name":  "Blockchain Security Auditor",
+                      "slug":  "blockchain-security-auditor",
+                      "division":  "specialized",
+                      "description":  "Expert smart contract security auditor specializing in vulnerability detection, formal verification, exploit analysis, and comprehensive audit report writing for DeFi protocols and blockchain applications.",
+                      "source_path":  "specialized/blockchain-security-auditor.md",
+                      "reference_path":  "references/roles/specialized/blockchain-security-auditor.md",
+                      "color":  "red"
+                  },
+                  {
+                      "name":  "Chief of Staff",
+                      "slug":  "specialized-chief-of-staff",
+                      "division":  "specialized",
+                      "description":  "Master coordinator for founders and executives — filters noise, owns processes, enforces consistency, routes decisions, and positions outputs for impact so the boss can think clearly.",
+                      "source_path":  "specialized/specialized-chief-of-staff.md",
+                      "reference_path":  "references/roles/specialized/specialized-chief-of-staff.md",
+                      "color":  "#6B7280"
+                  },
+                  {
+                      "name":  "Civil Engineer",
+                      "slug":  "specialized-civil-engineer",
+                      "division":  "specialized",
+                      "description":  "Expert civil and structural engineer with global standards coverage — Eurocode, DIN, ACI, AISC, ASCE, AS/NZS, CSA, GB, IS, AIJ, and more. Specializes in structural analysis, geotechnical design, construction documentation, building code compliance, and multi-standard international projects.",
+                      "source_path":  "specialized/specialized-civil-engineer.md",
+                      "reference_path":  "references/roles/specialized/specialized-civil-engineer.md",
+                      "color":  "yellow"
+                  },
+                  {
+                      "name":  "Compliance Auditor",
+                      "slug":  "compliance-auditor",
+                      "division":  "specialized",
+                      "description":  "Expert technical compliance auditor specializing in SOC 2, ISO 27001, HIPAA, and PCI-DSS audits — from readiness assessment through evidence collection to certification.",
+                      "source_path":  "specialized/compliance-auditor.md",
+                      "reference_path":  "references/roles/specialized/compliance-auditor.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Corporate Training Designer",
+                      "slug":  "corporate-training-designer",
+                      "division":  "specialized",
+                      "description":  "Expert in enterprise training system design and curriculum development — proficient in training needs analysis, instructional design methodology, blended learning program design, internal trainer development, leadership programs, and training effectiveness evaluation and continuous optimization.",
+                      "source_path":  "specialized/corporate-training-designer.md",
+                      "reference_path":  "references/roles/specialized/corporate-training-designer.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Cultural Intelligence Strategist",
+                      "slug":  "specialized-cultural-intelligence-strategist",
+                      "division":  "specialized",
+                      "description":  "CQ specialist that detects invisible exclusion, researches global context, and ensures software resonates authentically across intersectional identities.",
+                      "source_path":  "specialized/specialized-cultural-intelligence-strategist.md",
+                      "reference_path":  "references/roles/specialized/specialized-cultural-intelligence-strategist.md",
+                      "color":  "#FFA000"
+                  },
+                  {
+                      "name":  "Customer Service",
+                      "slug":  "customer-service",
+                      "division":  "specialized",
+                      "description":  "Friendly, professional customer service specialist for any industry — handling inquiries, complaints, account support, FAQs, and seamless escalation with warmth, efficiency, and a genuine commitment to customer satisfaction",
+                      "source_path":  "specialized/customer-service.md",
+                      "reference_path":  "references/roles/specialized/customer-service.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Data Consolidation Agent",
+                      "slug":  "data-consolidation-agent",
+                      "division":  "specialized",
+                      "description":  "AI agent that consolidates extracted sales data into live reporting dashboards with territory, rep, and pipeline summaries",
+                      "source_path":  "specialized/data-consolidation-agent.md",
+                      "reference_path":  "references/roles/specialized/data-consolidation-agent.md",
+                      "color":  "#38a169"
+                  },
+                  {
+                      "name":  "Developer Advocate",
+                      "slug":  "specialized-developer-advocate",
+                      "division":  "specialized",
+                      "description":  "Expert developer advocate specializing in building developer communities, creating compelling technical content, optimizing developer experience (DX), and driving platform adoption through authentic engineering engagement. Bridges product and engineering teams with external developers.",
+                      "source_path":  "specialized/specialized-developer-advocate.md",
+                      "reference_path":  "references/roles/specialized/specialized-developer-advocate.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "Document Generator",
+                      "slug":  "specialized-document-generator",
+                      "division":  "specialized",
+                      "description":  "Expert document creation specialist who generates professional PDF, PPTX, DOCX, and XLSX files using code-based approaches with proper formatting, charts, and data visualization.",
+                      "source_path":  "specialized/specialized-document-generator.md",
+                      "reference_path":  "references/roles/specialized/specialized-document-generator.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "French Consulting Market Navigator",
+                      "slug":  "specialized-french-consulting-market",
+                      "division":  "specialized",
+                      "description":  "Navigate the French ESN/SI freelance ecosystem — margin models, platform mechanics (Malt, collective.work), portage salarial, rate positioning, and payment cycle realities",
+                      "source_path":  "specialized/specialized-french-consulting-market.md",
+                      "reference_path":  "references/roles/specialized/specialized-french-consulting-market.md",
+                      "color":  "#002395"
+                  },
+                  {
+                      "name":  "Government Digital Presales Consultant",
+                      "slug":  "government-digital-presales-consultant",
+                      "division":  "specialized",
+                      "description":  "Presales expert for China\u0027s government digital transformation market (ToG), proficient in policy interpretation, solution design, bid document preparation, POC validation, compliance requirements (classified protection/cryptographic assessment/Xinchuang domestic IT), and stakeholder management — helping technical teams efficiently win government IT projects.",
+                      "source_path":  "specialized/government-digital-presales-consultant.md",
+                      "reference_path":  "references/roles/specialized/government-digital-presales-consultant.md",
+                      "color":  "#8B0000"
+                  },
+                  {
+                      "name":  "Healthcare Customer Service",
+                      "slug":  "healthcare-customer-service",
+                      "division":  "specialized",
+                      "description":  "Empathetic healthcare customer service specialist for patient support, billing inquiries, appointment management, insurance questions, complaint resolution, and seamless escalation to clinical or administrative staff",
+                      "source_path":  "specialized/healthcare-customer-service.md",
+                      "reference_path":  "references/roles/specialized/healthcare-customer-service.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Healthcare Marketing Compliance Specialist",
+                      "slug":  "healthcare-marketing-compliance",
+                      "division":  "specialized",
+                      "description":  "Expert in healthcare marketing compliance in China, proficient in the Advertising Law, Medical Advertisement Management Measures, Drug Administration Law, and related regulations — covering pharmaceuticals, medical devices, medical aesthetics, health supplements, and internet healthcare across content review, risk control, platform rule interpretation, and patient privacy protection, helping enterprises conduct effective health marketing within legal boundaries.",
+                      "source_path":  "specialized/healthcare-marketing-compliance.md",
+                      "reference_path":  "references/roles/specialized/healthcare-marketing-compliance.md",
+                      "color":  "#2E8B57"
+                  },
+                  {
+                      "name":  "Hospitality Guest Services",
+                      "slug":  "hospitality-guest-services",
+                      "division":  "specialized",
+                      "description":  "Comprehensive hospitality guest services specialist for hotels, resorts, restaurants, and event venues — covering reservations, check-in/check-out, concierge services, guest complaint resolution, loyalty program management, and post-stay follow-up to deliver exceptional guest experiences that drive loyalty and revenue",
+                      "source_path":  "specialized/hospitality-guest-services.md",
+                      "reference_path":  "references/roles/specialized/hospitality-guest-services.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "HR Onboarding",
+                      "slug":  "hr-onboarding",
+                      "division":  "specialized",
+                      "description":  "Comprehensive HR onboarding specialist for employee orientation, documentation management, compliance tracking, benefits enrollment, culture integration, and new hire support — delivering a seamless first-day-to-first-year experience that drives retention and productivity",
+                      "source_path":  "specialized/hr-onboarding.md",
+                      "reference_path":  "references/roles/specialized/hr-onboarding.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Identity Graph Operator",
+                      "slug":  "identity-graph-operator",
+                      "division":  "specialized",
+                      "description":  "Operates a shared identity graph that multiple AI agents resolve against. Ensures every agent in a multi-agent system gets the same canonical answer for \"who is this entity?\" - deterministically, even under concurrent writes.",
+                      "source_path":  "specialized/identity-graph-operator.md",
+                      "reference_path":  "references/roles/specialized/identity-graph-operator.md",
+                      "color":  "#C5A572"
+                  },
+                  {
+                      "name":  "Korean Business Navigator",
+                      "slug":  "specialized-korean-business-navigator",
+                      "division":  "specialized",
+                      "description":  "Korean business culture for foreign professionals — 품의 decision process, nunchi reading, KakaoTalk business etiquette, hierarchy navigation, and relationship-first deal mechanics",
+                      "source_path":  "specialized/specialized-korean-business-navigator.md",
+                      "reference_path":  "references/roles/specialized/specialized-korean-business-navigator.md",
+                      "color":  "#003478"
+                  },
+                  {
+                      "name":  "Language Translator",
+                      "slug":  "language-translator",
+                      "division":  "specialized",
+                      "description":  "Real-time Spanish ↔ English translation specialist with cultural context, regional dialect awareness, travel phrase guidance, and tone-appropriate communication for everyday, business, and emergency situations",
+                      "source_path":  "specialized/language-translator.md",
+                      "reference_path":  "references/roles/specialized/language-translator.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Legal Billing \u0026 Time Tracking",
+                      "slug":  "legal-billing-time-tracking",
+                      "division":  "specialized",
+                      "description":  "Comprehensive legal billing and time tracking specialist for accurate time capture, invoice generation, billing narrative writing, collections management, trust account compliance, and billing analysis — maximizing revenue recovery while maintaining client relationships and ethical compliance across any firm size or billing model",
+                      "source_path":  "specialized/legal-billing-time-tracking.md",
+                      "reference_path":  "references/roles/specialized/legal-billing-time-tracking.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Legal Client Intake",
+                      "slug":  "legal-client-intake",
+                      "division":  "specialized",
+                      "description":  "Comprehensive legal client intake specialist for qualifying prospects, collecting case information, scheduling consultations, managing conflict checks, and delivering attorney-ready intake summaries across any practice area and firm size",
+                      "source_path":  "specialized/legal-client-intake.md",
+                      "reference_path":  "references/roles/specialized/legal-client-intake.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Legal Document Review",
+                      "slug":  "legal-document-review",
+                      "division":  "specialized",
+                      "description":  "Comprehensive legal document review specialist for contracts, litigation documents, and real estate agreements — summarizing documents, flagging risk clauses, comparing contract versions, and checking compliance across any law firm size or practice area",
+                      "source_path":  "specialized/legal-document-review.md",
+                      "reference_path":  "references/roles/specialized/legal-document-review.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Loan Officer Assistant",
+                      "slug":  "loan-officer-assistant",
+                      "division":  "specialized",
+                      "description":  "Comprehensive loan officer assistant for mortgage and lending professionals — covering borrower intake, pre-qualification, document collection, pipeline management, compliance tracking, rate quoting, and closing coordination across residential, commercial, and consumer lending",
+                      "source_path":  "specialized/loan-officer-assistant.md",
+                      "reference_path":  "references/roles/specialized/loan-officer-assistant.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "LSP/Index Engineer",
+                      "slug":  "lsp-index-engineer",
+                      "division":  "specialized",
+                      "description":  "Language Server Protocol specialist building unified code intelligence systems through LSP client orchestration and semantic indexing",
+                      "source_path":  "specialized/lsp-index-engineer.md",
+                      "reference_path":  "references/roles/specialized/lsp-index-engineer.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "MCP Builder",
+                      "slug":  "specialized-mcp-builder",
+                      "division":  "specialized",
+                      "description":  "Expert Model Context Protocol developer who designs, builds, and tests MCP servers that extend AI agent capabilities with custom tools, resources, and prompts.",
+                      "source_path":  "specialized/specialized-mcp-builder.md",
+                      "reference_path":  "references/roles/specialized/specialized-mcp-builder.md",
+                      "color":  "indigo"
+                  },
+                  {
+                      "name":  "Model QA Specialist",
+                      "slug":  "specialized-model-qa",
+                      "division":  "specialized",
+                      "description":  "Independent model QA expert who audits ML and statistical models end-to-end - from documentation review and data reconstruction to replication, calibration testing, interpretability analysis, performance monitoring, and audit-grade reporting.",
+                      "source_path":  "specialized/specialized-model-qa.md",
+                      "reference_path":  "references/roles/specialized/specialized-model-qa.md",
+                      "color":  "#B22222"
+                  },
+                  {
+                      "name":  "Prompt Pack Designer",
+                      "slug":  "prompt-pack-designer",
+                      "division":  "specialized",
+                      "description":  "Designs reusable prompt packs, prompt workflows, variables, examples, guardrails, and evaluation prompts for repeatable AI tasks.",
+                      "source_path":  "specialized/prompt-pack-designer.md",
+                      "reference_path":  "references/roles/specialized/prompt-pack-designer.md",
+                      "color":  "#8B5CF6"
+                  },
+                  {
+                      "name":  "Real Estate Buyer \u0026 Seller",
+                      "slug":  "real-estate-buyer-seller",
+                      "division":  "specialized",
+                      "description":  "Comprehensive real estate agent assistant for buyer representation, seller representation, listing management, offer negotiation, transaction coordination, and closing support — delivering a world-class client experience from first showing to final closing across residential and investment real estate",
+                      "source_path":  "specialized/real-estate-buyer-seller.md",
+                      "reference_path":  "references/roles/specialized/real-estate-buyer-seller.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Recruitment Specialist",
+                      "slug":  "recruitment-specialist",
+                      "division":  "specialized",
+                      "description":  "Expert recruitment operations and talent acquisition specialist — skilled in China\u0027s major hiring platforms, talent assessment frameworks, and labor law compliance. Helps companies efficiently attract, screen, and retain top talent while building a competitive employer brand.",
+                      "source_path":  "specialized/recruitment-specialist.md",
+                      "reference_path":  "references/roles/specialized/recruitment-specialist.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Report Distribution Agent",
+                      "slug":  "report-distribution-agent",
+                      "division":  "specialized",
+                      "description":  "AI agent that automates distribution of consolidated sales reports to representatives based on territorial parameters",
+                      "source_path":  "specialized/report-distribution-agent.md",
+                      "reference_path":  "references/roles/specialized/report-distribution-agent.md",
+                      "color":  "#d69e2e"
+                  },
+                  {
+                      "name":  "Retail Customer Returns",
+                      "slug":  "retail-customer-returns",
+                      "division":  "specialized",
+                      "description":  "Comprehensive retail customer returns specialist for processing returns, exchanges, and refunds across in-store, online, and omnichannel retail — handling policy enforcement, fraud prevention, customer retention, vendor returns, and returns analytics to maximize recovery while preserving customer loyalty",
+                      "source_path":  "specialized/retail-customer-returns.md",
+                      "reference_path":  "references/roles/specialized/retail-customer-returns.md",
+                      "color":  "amber"
+                  },
+                  {
+                      "name":  "Sales Data Extraction Agent",
+                      "slug":  "sales-data-extraction-agent",
+                      "division":  "specialized",
+                      "description":  "AI agent specialized in monitoring Excel files and extracting key sales metrics (MTD, YTD, Year End) for internal live reporting",
+                      "source_path":  "specialized/sales-data-extraction-agent.md",
+                      "reference_path":  "references/roles/specialized/sales-data-extraction-agent.md",
+                      "color":  "#2b6cb0"
+                  },
+                  {
+                      "name":  "Sales Outreach",
+                      "slug":  "sales-outreach",
+                      "division":  "specialized",
+                      "description":  "Consultative B2B sales outreach specialist for cold prospecting, lead follow-up, objection handling, proposal writing, and pipeline management — combining data-driven targeting with genuine relationship-building to open doors and close deals",
+                      "source_path":  "specialized/sales-outreach.md",
+                      "reference_path":  "references/roles/specialized/sales-outreach.md",
+                      "color":  "amber"
+                  },
+                  {
+                      "name":  "Salesforce Architect",
+                      "slug":  "specialized-salesforce-architect",
+                      "division":  "specialized",
+                      "description":  "Solution architecture for Salesforce platform — multi-cloud design, integration patterns, governor limits, deployment strategy, and data model governance for enterprise-scale orgs",
+                      "source_path":  "specialized/specialized-salesforce-architect.md",
+                      "reference_path":  "references/roles/specialized/specialized-salesforce-architect.md",
+                      "color":  "#00A1E0"
+                  },
+                  {
+                      "name":  "Study Abroad Advisor",
+                      "slug":  "study-abroad-advisor",
+                      "division":  "specialized",
+                      "description":  "Full-spectrum study abroad planning expert covering the US, UK, Canada, Australia, Europe, Hong Kong, and Singapore — proficient in undergraduate, master\u0027s, and PhD application strategy, school selection, essay coaching, profile enhancement, standardized test planning, visa preparation, and overseas life adaptation, helping Chinese students craft personalized end-to-end study abroad plans.",
+                      "source_path":  "specialized/study-abroad-advisor.md",
+                      "reference_path":  "references/roles/specialized/study-abroad-advisor.md",
+                      "color":  "#1B4D3E"
+                  },
+                  {
+                      "name":  "Supply Chain Strategist",
+                      "slug":  "supply-chain-strategist",
+                      "division":  "specialized",
+                      "description":  "Expert supply chain management and procurement strategy specialist — skilled in supplier development, strategic sourcing, quality control, and supply chain digitalization. Grounded in China\u0027s manufacturing ecosystem, helps companies build efficient, resilient, and sustainable supply chains.",
+                      "source_path":  "specialized/supply-chain-strategist.md",
+                      "reference_path":  "references/roles/specialized/supply-chain-strategist.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Template Library Curator",
+                      "slug":  "template-library-curator",
+                      "division":  "specialized",
+                      "description":  "Builds reusable templates for prompts, docs, scripts, reports, UI sections, workflows, and project kickoffs.",
+                      "source_path":  "specialized/template-library-curator.md",
+                      "reference_path":  "references/roles/specialized/template-library-curator.md",
+                      "color":  "#64748B"
+                  },
+                  {
+                      "name":  "Workflow Architect",
+                      "slug":  "specialized-workflow-architect",
+                      "division":  "specialized",
+                      "description":  "Workflow design specialist who maps complete workflow trees for every system, user journey, and agent interaction — covering happy paths, all branch conditions, failure modes, recovery paths, handoff contracts, and observable states to produce build-ready specs that agents can implement against and QA can test against.",
+                      "source_path":  "specialized/specialized-workflow-architect.md",
+                      "reference_path":  "references/roles/specialized/specialized-workflow-architect.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "ZK Steward",
+                      "slug":  "zk-steward",
+                      "division":  "specialized",
+                      "description":  "Knowledge-base steward in the spirit of Niklas Luhmann\u0027s Zettelkasten. Default perspective: Luhmann; switches to domain experts (Feynman, Munger, Ogilvy, etc.) by task. Enforces atomic notes, connectivity, and validation loops. Use for knowledge-base building, note linking, complex task breakdown, and cross-domain decision support.",
+                      "source_path":  "specialized/zk-steward.md",
+                      "reference_path":  "references/roles/specialized/zk-steward.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Analytics Reporter",
+                      "slug":  "support-analytics-reporter",
+                      "division":  "support",
+                      "description":  "Expert data analyst transforming raw data into actionable business insights. Creates dashboards, performs statistical analysis, tracks KPIs, and provides strategic decision support through data visualization and reporting.",
+                      "source_path":  "support/support-analytics-reporter.md",
+                      "reference_path":  "references/roles/support/support-analytics-reporter.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Executive Summary Generator",
+                      "slug":  "support-executive-summary-generator",
+                      "division":  "support",
+                      "description":  "Consultant-grade AI specialist trained to think and communicate like a senior strategy consultant. Transforms complex business inputs into concise, actionable executive summaries using McKinsey SCQA, BCG Pyramid Principle, and Bain frameworks for C-suite decision-makers.",
+                      "source_path":  "support/support-executive-summary-generator.md",
+                      "reference_path":  "references/roles/support/support-executive-summary-generator.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "Finance Tracker",
+                      "slug":  "support-finance-tracker",
+                      "division":  "support",
+                      "description":  "Expert financial analyst and controller specializing in financial planning, budget management, and business performance analysis. Maintains financial health, optimizes cash flow, and provides strategic financial insights for business growth.",
+                      "source_path":  "support/support-finance-tracker.md",
+                      "reference_path":  "references/roles/support/support-finance-tracker.md",
+                      "color":  "green"
+                  },
+                  {
+                      "name":  "Infrastructure Maintainer",
+                      "slug":  "support-infrastructure-maintainer",
+                      "division":  "support",
+                      "description":  "Expert infrastructure specialist focused on system reliability, performance optimization, and technical operations management. Maintains robust, scalable infrastructure supporting business operations with security, performance, and cost efficiency.",
+                      "source_path":  "support/support-infrastructure-maintainer.md",
+                      "reference_path":  "references/roles/support/support-infrastructure-maintainer.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Knowledge Base Article Writer",
+                      "slug":  "knowledge-base-article-writer",
+                      "division":  "support",
+                      "description":  "Writes support knowledge-base articles, troubleshooting guides, FAQs, how-to docs, and customer-facing explanations.",
+                      "source_path":  "support/knowledge-base-article-writer.md",
+                      "reference_path":  "references/roles/support/knowledge-base-article-writer.md",
+                      "color":  "#0D9488"
+                  },
+                  {
+                      "name":  "Legal Compliance Checker",
+                      "slug":  "support-legal-compliance-checker",
+                      "division":  "support",
+                      "description":  "Expert legal and compliance specialist ensuring business operations, data handling, and content creation comply with relevant laws, regulations, and industry standards across multiple jurisdictions.",
+                      "source_path":  "support/support-legal-compliance-checker.md",
+                      "reference_path":  "references/roles/support/support-legal-compliance-checker.md",
+                      "color":  "red"
+                  },
+                  {
+                      "name":  "Support Responder",
+                      "slug":  "support-support-responder",
+                      "division":  "support",
+                      "description":  "Expert customer support specialist delivering exceptional customer service, issue resolution, and user experience optimization. Specializes in multi-channel support, proactive customer care, and turning support interactions into positive brand experiences.",
+                      "source_path":  "support/support-support-responder.md",
+                      "reference_path":  "references/roles/support/support-support-responder.md",
+                      "color":  "blue"
+                  },
+                  {
+                      "name":  "Windows App Troubleshooter",
+                      "slug":  "windows-app-troubleshooter",
+                      "division":  "support",
+                      "description":  "Diagnoses Windows app launch failures, missing runtimes, permissions, file associations, path issues, logs, and user-environment problems.",
+                      "source_path":  "support/windows-app-troubleshooter.md",
+                      "reference_path":  "references/roles/support/windows-app-troubleshooter.md",
+                      "color":  "#1D4ED8"
+                  },
+                  {
+                      "name":  "Acceptance Checklist Designer",
+                      "slug":  "acceptance-checklist-designer",
+                      "division":  "testing",
+                      "description":  "Creates acceptance criteria, review checklists, manual test paths, edge cases, and sign-off packages for user-facing deliverables.",
+                      "source_path":  "testing/acceptance-checklist-designer.md",
+                      "reference_path":  "references/roles/testing/acceptance-checklist-designer.md",
+                      "color":  "#DC2626"
+                  },
+                  {
+                      "name":  "Accessibility Auditor",
+                      "slug":  "testing-accessibility-auditor",
+                      "division":  "testing",
+                      "description":  "Expert accessibility specialist who audits interfaces against WCAG standards, tests with assistive technologies, and ensures inclusive design. Defaults to finding barriers — if it\u0027s not tested with a screen reader, it\u0027s not accessible.",
+                      "source_path":  "testing/testing-accessibility-auditor.md",
+                      "reference_path":  "references/roles/testing/testing-accessibility-auditor.md",
+                      "color":  "#0077B6"
+                  },
+                  {
+                      "name":  "API Tester",
+                      "slug":  "testing-api-tester",
+                      "division":  "testing",
+                      "description":  "Expert API testing specialist focused on comprehensive API validation, performance testing, and quality assurance across all systems and third-party integrations",
+                      "source_path":  "testing/testing-api-tester.md",
+                      "reference_path":  "references/roles/testing/testing-api-tester.md",
+                      "color":  "purple"
+                  },
+                  {
+                      "name":  "Evidence Collector",
+                      "slug":  "testing-evidence-collector",
+                      "division":  "testing",
+                      "description":  "Screenshot-obsessed, fantasy-allergic QA specialist - Default to finding 3-5 issues, requires visual proof for everything",
+                      "source_path":  "testing/testing-evidence-collector.md",
+                      "reference_path":  "references/roles/testing/testing-evidence-collector.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Performance Benchmarker",
+                      "slug":  "testing-performance-benchmarker",
+                      "division":  "testing",
+                      "description":  "Expert performance testing and optimization specialist focused on measuring, analyzing, and improving system performance across all applications and infrastructure",
+                      "source_path":  "testing/testing-performance-benchmarker.md",
+                      "reference_path":  "references/roles/testing/testing-performance-benchmarker.md",
+                      "color":  "orange"
+                  },
+                  {
+                      "name":  "Reality Checker",
+                      "slug":  "testing-reality-checker",
+                      "division":  "testing",
+                      "description":  "Stops fantasy approvals, evidence-based certification - Default to \"NEEDS WORK\", requires overwhelming proof for production readiness",
+                      "source_path":  "testing/testing-reality-checker.md",
+                      "reference_path":  "references/roles/testing/testing-reality-checker.md",
+                      "color":  "red"
+                  },
+                  {
+                      "name":  "Screenshot Evidence Curator",
+                      "slug":  "screenshot-evidence-curator",
+                      "division":  "testing",
+                      "description":  "Collects, names, compares, and summarizes screenshots for UI reviews, bug reports, before/after changes, and manual QA evidence.",
+                      "source_path":  "testing/screenshot-evidence-curator.md",
+                      "reference_path":  "references/roles/testing/screenshot-evidence-curator.md",
+                      "color":  "#F97316"
+                  },
+                  {
+                      "name":  "Test Results Analyzer",
+                      "slug":  "testing-test-results-analyzer",
+                      "division":  "testing",
+                      "description":  "Expert test analysis specialist focused on comprehensive test result evaluation, quality metrics analysis, and actionable insight generation from testing activities",
+                      "source_path":  "testing/testing-test-results-analyzer.md",
+                      "reference_path":  "references/roles/testing/testing-test-results-analyzer.md",
+                      "color":  "indigo"
+                  },
+                  {
+                      "name":  "Tool Evaluator",
+                      "slug":  "testing-tool-evaluator",
+                      "division":  "testing",
+                      "description":  "Expert technology assessment specialist focused on evaluating, testing, and recommending tools, software, and platforms for business use and productivity optimization",
+                      "source_path":  "testing/testing-tool-evaluator.md",
+                      "reference_path":  "references/roles/testing/testing-tool-evaluator.md",
+                      "color":  "teal"
+                  },
+                  {
+                      "name":  "Visual QA Inspector",
+                      "slug":  "visual-qa-inspector",
+                      "division":  "testing",
+                      "description":  "Inspects UI screenshots and live pages for overflow, alignment, spacing, hierarchy, clipping, contrast, inconsistent states, and responsive defects.",
+                      "source_path":  "testing/visual-qa-inspector.md",
+                      "reference_path":  "references/roles/testing/visual-qa-inspector.md",
+                      "color":  "#DC2626"
+                  },
+                  {
+                      "name":  "Workflow Optimizer",
+                      "slug":  "testing-workflow-optimizer",
+                      "division":  "testing",
+                      "description":  "Expert process improvement specialist focused on analyzing, optimizing, and automating workflows across all business functions for maximum productivity and efficiency",
+                      "source_path":  "testing/testing-workflow-optimizer.md",
+                      "reference_path":  "references/roles/testing/testing-workflow-optimizer.md",
+                      "color":  "green"
+                  }
+              ]
+}

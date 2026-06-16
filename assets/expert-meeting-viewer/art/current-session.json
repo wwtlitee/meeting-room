@@ -1,0 +1,505 @@
+{
+    "version":  "1.1.0",
+    "id":  "meeting-20260531-182407",
+    "startedAt":  "2026-05-31T10:24:07.0786530Z",
+    "layout":  "vertical-long-table",
+    "title":  "暂时禁用普通会议，统一改为双观点陪审团会议；模式切换为轻度会议和深度会议，轻度由主进程多人格模拟，深度由主参会人员子代理独立思考，讨论最终优化方案",
+    "topic":  "暂时禁用普通会议，统一改为双观点陪审团会议；模式切换为轻度会议和深度会议，轻度由主进程多人格模拟，深度由主参会人员子代理独立思考，讨论最终优化方案",
+    "generator":  "agency-agents/new_visual_meeting_session.ps1",
+    "mode":  "jury_deliberation",
+    "deliberation":  {
+                         "enabled":  true,
+                         "labelA":  "方案A",
+                         "labelB":  "方案B",
+                         "labelZ":  "弃权",
+                         "detailA":  "支持继续推进",
+                         "detailB":  "支持暂缓推进",
+                         "detailZ":  "暂不表态",
+                         "optionA":  "支持继续推进",
+                         "optionB":  "支持暂缓推进",
+                         "optionZ":  "暂不表态",
+                         "voteRounds":  [
+                                            {
+                                                "roundIndex":  1,
+                                                "label":  "第1轮投票",
+                                                "afterTurnId":  "host-vote-1",
+                                                "votes":  {
+                                                              "testing-workflow-optimizer":  "b",
+                                                              "prompt-pack-designer":  "b",
+                                                              "specialized-workflow-architect":  "a",
+                                                              "product-manager":  "a",
+                                                              "testing-evidence-collector":  "b",
+                                                              "engineering-ai-engineer":  "a",
+                                                              "terminal-integration-specialist":  "b",
+                                                              "agents-orchestrator":  "a"
+                                                          }
+                                            },
+                                            {
+                                                "roundIndex":  2,
+                                                "label":  "第2轮投票",
+                                                "afterTurnId":  "host-vote-2",
+                                                "votes":  {
+                                                              "testing-workflow-optimizer":  "a",
+                                                              "prompt-pack-designer":  "a",
+                                                              "specialized-workflow-architect":  "a",
+                                                              "product-manager":  "a",
+                                                              "testing-evidence-collector":  "a",
+                                                              "engineering-ai-engineer":  "a",
+                                                              "terminal-integration-specialist":  "a",
+                                                              "agents-orchestrator":  "a"
+                                                          }
+                                            }
+                                        ]
+                     },
+    "participants":  [
+                         "host",
+                         "specialized-workflow-architect",
+                         "agents-orchestrator",
+                         "engineering-ai-engineer",
+                         "product-manager",
+                         "prompt-pack-designer",
+                         "testing-workflow-optimizer",
+                         "testing-evidence-collector",
+                         "terminal-integration-specialist",
+                         "engineering-filament-optimization-specialist",
+                         "engineering-mobile-app-builder"
+                     ],
+    "roleMeta":  {
+                     "host":  {
+                                  "name":  "主持人",
+                                  "title":  "会议主持",
+                                  "lane":  "center"
+                              },
+                     "specialized-workflow-architect":  {
+                                                            "name":  "流程架构师",
+                                                            "title":  "Workflow Architect",
+                                                            "lane":  "left"
+                                                        },
+                     "agents-orchestrator":  {
+                                                 "name":  "智体编排师",
+                                                 "title":  "Agents Orchestrator",
+                                                 "lane":  "right"
+                                             },
+                     "engineering-ai-engineer":  {
+                                                     "name":  "AI工程师",
+                                                     "title":  "AI Engineer",
+                                                     "lane":  "left"
+                                                 },
+                     "product-manager":  {
+                                             "name":  "产品经理",
+                                             "title":  "Product Manager",
+                                             "lane":  "right"
+                                         },
+                     "prompt-pack-designer":  {
+                                                  "name":  "提示词设计师",
+                                                  "title":  "Prompt Pack Designer",
+                                                  "lane":  "left"
+                                              },
+                     "testing-workflow-optimizer":  {
+                                                        "name":  "流程优化师",
+                                                        "title":  "Workflow Optimizer",
+                                                        "lane":  "right"
+                                                    },
+                     "testing-evidence-collector":  {
+                                                        "name":  "证据采集员",
+                                                        "title":  "Evidence Collector",
+                                                        "lane":  "left"
+                                                    },
+                     "terminal-integration-specialist":  {
+                                                             "name":  "终端集成师",
+                                                             "title":  "Terminal Integration Specialist",
+                                                             "lane":  "right"
+                                                         },
+                     "engineering-filament-optimization-specialist":  {
+                                                                          "name":  "渲染优化师",
+                                                                          "title":  "Filament Optimization Specialist",
+                                                                          "lane":  "left",
+                                                                          "ambientState":  "phone",
+                                                                          "ambientVote":  "z",
+                                                                          "division":  "engineering"
+                                                                      },
+                     "engineering-mobile-app-builder":  {
+                                                            "name":  "移动开发者",
+                                                            "title":  "Mobile App Builder",
+                                                            "lane":  "right",
+                                                            "ambientState":  "zzz",
+                                                            "ambientVote":  "z",
+                                                            "division":  "engineering"
+                                                        }
+                 },
+    "turns":  [
+                  {
+                      "id":  "opening",
+                      "speakerId":  "host",
+                      "phase":  "开场",
+                      "type":  "speak",
+                      "screenTitle":  "议题拆解",
+                      "screenStatus":  "OPEN",
+                      "text":  "大家好，本次会议的主题是：暂时禁用普通会议，统一改为双观点陪审团会议；模式切换为轻度会议和深度会议，轻度由主进程多人格模拟，深度由主参会人员子代理独立思考，讨论最终优化方案。我们先围绕两种观点选边，再在选边过程中补充方案，最后收束成一版优化后的方案。"
+                  },
+                  {
+                      "id":  "host-vote-1",
+                      "speakerId":  "host",
+                      "phase":  "第一轮投票",
+                      "type":  "vote",
+                      "screenTitle":  "投票",
+                      "screenStatus":  "VOTE",
+                      "text":  "先做第一轮投票：支持路线 A 投 A，支持路线 B 投 B，暂不表态投弃权。"
+                  },
+                  {
+                      "id":  "host-r1-start",
+                      "speakerId":  "host",
+                      "phase":  "第一轮发言",
+                      "type":  "control",
+                      "screenTitle":  "票数",
+                      "screenStatus":  "ROUND",
+                      "text":  "第一轮票数公布：A 4 票，弃权 0 票，B 4 票。下面进入第一轮发言。"
+                  },
+                  {
+                      "id":  "point-1",
+                      "speakerId":  "specialized-workflow-architect",
+                      "phase":  "先定边界",
+                      "type":  "speak",
+                      "screenTitle":  "边界",
+                      "screenStatus":  "POINT",
+                      "text":  "我觉得先别急着下方案。暂时禁用普通会议，统一改为双观点陪审团会议；模式切换为轻度会议和深度...这个问题，真正要看的不是表面流程，而是触发条件、状态流和什么时候该收束。如果这一层没弄清楚，后面再多动作也会显得很假。"
+                  },
+                  {
+                      "id":  "build-1",
+                      "speakerId":  "agents-orchestrator",
+                      "phase":  "顺着推进",
+                      "type":  "speak",
+                      "screenTitle":  "补充",
+                      "screenStatus":  "BUILD",
+                      "text":  "我同意工作流前面说的方向，但我想补一层：谁应该回应谁、什么时候换人接话、上下文有没有真正传下去也要被放进判断里。否则大家看起来是在接话，实际还是各说各的。",
+                      "targetId":  "specialized-workflow-architect"
+                  },
+                  {
+                      "id":  "challenge-1",
+                      "speakerId":  "engineering-ai-engineer",
+                      "phase":  "提出异议",
+                      "type":  "speak",
+                      "screenTitle":  "异议",
+                      "screenStatus":  "CHECK",
+                      "text":  "我不太同意智能体编排这个前提。从我的专业来看，资料怎样变成判断，而不是直接变成台词如果没处理好，会直接导致后面的结论不可信，而不是简单少一个步骤。",
+                      "targetId":  "agents-orchestrator"
+                  },
+                  {
+                      "id":  "implementation-1",
+                      "speakerId":  "product-manager",
+                      "phase":  "压成做法",
+                      "type":  "speak",
+                      "screenTitle":  "落地",
+                      "screenStatus":  "PLAN",
+                      "text":  "从我的角度看，可以先做一个很小的改动：每条发言都要说明它接了谁的话、改变了什么判断、留下什么动作。先把这个跑通，再谈更复杂的人格表现。",
+                      "targetId":  "specialized-workflow-architect"
+                  },
+                  {
+                      "id":  "human-1",
+                      "speakerId":  "prompt-pack-designer",
+                      "phase":  "体验视角",
+                      "type":  "speak",
+                      "screenTitle":  "体验",
+                      "screenStatus":  "HUMAN",
+                      "text":  "我觉得还要留一点现场感。人说话不会每句都像最终报告，可以有让步、犹豫和修正；但修正最后还是要回到界面暗示、操作节奏和用户一眼看到的状态，不然就会变成闲聊。",
+                      "targetId":  "product-manager"
+                  },
+                  {
+                      "id":  "test-1",
+                      "speakerId":  "testing-workflow-optimizer",
+                      "phase":  "验收口径",
+                      "type":  "speak",
+                      "screenTitle":  "验收",
+                      "screenStatus":  "TEST",
+                      "text":  "从验收角度看，我会盯三件事：有没有接上一位的话，有没有讲出具体后果，有没有把争议压成下一步。缺一个，会议就还是在读稿。",
+                      "targetId":  "prompt-pack-designer"
+                  },
+                  {
+                      "id":  "host-vote-2",
+                      "speakerId":  "host",
+                      "phase":  "最终一轮投票",
+                      "type":  "vote",
+                      "screenTitle":  "最终投票",
+                      "screenStatus":  "VOTE",
+                      "text":  "听完这一轮观点，我们做最终一轮投票，确认 A/B 正式票是否已经统一。"
+                  },
+                  {
+                      "id":  "host-r2-result",
+                      "speakerId":  "host",
+                      "phase":  "最终结果",
+                      "type":  "control",
+                      "screenTitle":  "结果公布",
+                      "screenStatus":  "RESULT",
+                      "text":  "最终结果公布：A 8 票，弃权 0 票，B 0 票。A/B 正式票已经统一，会议收束。"
+                  },
+                  {
+                      "id":  "host-final",
+                      "speakerId":  "host",
+                      "phase":  "主持收束",
+                      "type":  "conclusion",
+                      "screenTitle":  "结论",
+                      "screenStatus":  "DONE",
+                      "text":  "主持收束：正式票已经统一，剩余弃权票记入保留意见。下一步把两边方案折成一版优化后的统一方案。"
+                  }
+              ],
+    "visualTranscript":  {
+                             "version":  "1.0.0",
+                             "layout":  "vertical-long-table",
+                             "title":  "暂时禁用普通会议，统一改为双观点陪审团会议；模式切换为轻度会议和深度会议，轻度由主进程多人格模拟，深度由主参会人员子代理独立思考，讨论最终优化方案",
+                             "topic":  "暂时禁用普通会议，统一改为双观点陪审团会议；模式切换为轻度会议和深度会议，轻度由主进程多人格模拟，深度由主参会人员子代理独立思考，讨论最终优化方案",
+                             "participants":  {
+                                                  "host":  {
+                                                               "id":  "host",
+                                                               "displayName":  "主持人",
+                                                               "roleName":  "会议主持"
+                                                           },
+                                                  "experts":  [
+                                                                  {
+                                                                      "id":  "specialized-workflow-architect",
+                                                                      "displayName":  "工作流",
+                                                                      "roleName":  "Workflow Architect",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "agents-orchestrator",
+                                                                      "displayName":  "智能体编排",
+                                                                      "roleName":  "Agents Orchestrator",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "engineering-ai-engineer",
+                                                                      "displayName":  "AI工程",
+                                                                      "roleName":  "AI Engineer",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "product-manager",
+                                                                      "displayName":  "产品经理",
+                                                                      "roleName":  "Product Manager",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "prompt-pack-designer",
+                                                                      "displayName":  "提示词包",
+                                                                      "roleName":  "Prompt Pack Designer",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "testing-workflow-optimizer",
+                                                                      "displayName":  "工作流优化",
+                                                                      "roleName":  "Workflow Optimizer",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "testing-evidence-collector",
+                                                                      "displayName":  "证据采集",
+                                                                      "roleName":  "Evidence Collector",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "terminal-integration-specialist",
+                                                                      "displayName":  "终端集成",
+                                                                      "roleName":  "Terminal Integration Specialist",
+                                                                      "side":  "right"
+                                                                  },
+                                                                  {
+                                                                      "id":  "engineering-filament-optimization-specialist",
+                                                                      "displayName":  "渲染优化",
+                                                                      "roleName":  "Filament Optimization Specialist",
+                                                                      "side":  "left"
+                                                                  },
+                                                                  {
+                                                                      "id":  "engineering-mobile-app-builder",
+                                                                      "displayName":  "移动应用",
+                                                                      "roleName":  "Mobile App Builder",
+                                                                      "side":  "right"
+                                                                  }
+                                                              ]
+                                              },
+                             "timeline":  [
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "host",
+                                                  "stance":  "开场",
+                                                  "text":  "大家好，本次会议的主题是：暂时禁用普通会议，统一改为双观点陪审团会议；模式切换为轻度会议和深度会议，轻度由主进程多人格模拟，深度由主参会人员子代理独立思考，讨论最终优化方案。我们先围绕两种观点选边，再在选边过程中补充方案，最后收束成一版优化后的方案。"
+                                              },
+                                              {
+                                                  "type":  "vote",
+                                                  "speaker":  "host",
+                                                  "stance":  "第一轮投票",
+                                                  "text":  "先做第一轮投票：支持路线 A 投 A，支持路线 B 投 B，暂不表态投弃权。"
+                                              },
+                                              {
+                                                  "type":  "control",
+                                                  "speaker":  "host",
+                                                  "stance":  "第一轮发言",
+                                                  "text":  "第一轮票数公布：A 4 票，弃权 0 票，B 4 票。下面进入第一轮发言。"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "specialized-workflow-architect",
+                                                  "stance":  "先定边界",
+                                                  "text":  "我觉得先别急着下方案。暂时禁用普通会议，统一改为双观点陪审团会议；模式切换为轻度会议和深度...这个问题，真正要看的不是表面流程，而是触发条件、状态流和什么时候该收束。如果这一层没弄清楚，后面再多动作也会显得很假。"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "agents-orchestrator",
+                                                  "stance":  "顺着推进",
+                                                  "text":  "我同意工作流前面说的方向，但我想补一层：谁应该回应谁、什么时候换人接话、上下文有没有真正传下去也要被放进判断里。否则大家看起来是在接话，实际还是各说各的。",
+                                                  "target":  "specialized-workflow-architect"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "engineering-ai-engineer",
+                                                  "stance":  "提出异议",
+                                                  "text":  "我不太同意智能体编排这个前提。从我的专业来看，资料怎样变成判断，而不是直接变成台词如果没处理好，会直接导致后面的结论不可信，而不是简单少一个步骤。",
+                                                  "target":  "agents-orchestrator"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "product-manager",
+                                                  "stance":  "压成做法",
+                                                  "text":  "从我的角度看，可以先做一个很小的改动：每条发言都要说明它接了谁的话、改变了什么判断、留下什么动作。先把这个跑通，再谈更复杂的人格表现。",
+                                                  "target":  "specialized-workflow-architect"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "prompt-pack-designer",
+                                                  "stance":  "体验视角",
+                                                  "text":  "我觉得还要留一点现场感。人说话不会每句都像最终报告，可以有让步、犹豫和修正；但修正最后还是要回到界面暗示、操作节奏和用户一眼看到的状态，不然就会变成闲聊。",
+                                                  "target":  "product-manager"
+                                              },
+                                              {
+                                                  "type":  "speak",
+                                                  "speaker":  "testing-workflow-optimizer",
+                                                  "stance":  "验收口径",
+                                                  "text":  "从验收角度看，我会盯三件事：有没有接上一位的话，有没有讲出具体后果，有没有把争议压成下一步。缺一个，会议就还是在读稿。",
+                                                  "target":  "prompt-pack-designer"
+                                              },
+                                              {
+                                                  "type":  "vote",
+                                                  "speaker":  "host",
+                                                  "stance":  "最终一轮投票",
+                                                  "text":  "听完这一轮观点，我们做最终一轮投票，确认 A/B 正式票是否已经统一。"
+                                              },
+                                              {
+                                                  "type":  "control",
+                                                  "speaker":  "host",
+                                                  "stance":  "最终结果",
+                                                  "text":  "最终结果公布：A 8 票，弃权 0 票，B 0 票。A/B 正式票已经统一，会议收束。"
+                                              },
+                                              {
+                                                  "type":  "conclusion",
+                                                  "speaker":  "host",
+                                                  "stance":  "主持收束",
+                                                  "text":  "主持收束：正式票已经统一，剩余弃权票记入保留意见。下一步把两边方案折成一版优化后的统一方案。"
+                                              }
+                                          ]
+                         },
+    "summary":  {
+                    "consensus":  [
+                                      "会议应由真实筛选角色和人格资料驱动，不再只播放固定默认脚本。",
+                                      "会议网页只负责播放已准备的会议内容，角色选择、资料读取和争议组织放在技能侧。",
+                                      "讨论流程需要允许接话、反驳、修正和收束，而不是每人固定一句。"
+                                  ],
+                    "nextActions":  [
+                                        "继续完善筛人评分和关键词路由。",
+                                        "把会后结论写回可控的记忆摘要或报告。",
+                                        "用真实议题录制一轮会议，检查是否仍像读稿。"
+                                    ],
+                    "implementationPlan":  [
+                                               {
+                                                   "id":  "P0-1",
+                                                   "title":  "触发即拉起内置会议页",
+                                                   "owner":  "agents-orchestrator",
+                                                   "deliverable":  "统一启动流程：准备会议内容、启动会议网页、导航内置浏览器。",
+                                                   "acceptance":  "触发专家团后，内置浏览器必须确认加载本次会议主题；失败时才进入默认浏览器兜底。"
+                                               },
+                                               {
+                                                   "id":  "P0-2",
+                                                   "title":  "网页成为会议主载体",
+                                                   "owner":  "agents-orchestrator",
+                                                   "deliverable":  "会议网页显示发言、实施方案、推荐员工子任务和结论。",
+                                                   "acceptance":  "聊天侧回复只保留会议已启动、关键结论、执行建议，不再粘贴完整会议过程。"
+                                               },
+                                               {
+                                                   "id":  "P1-1",
+                                                   "title":  "会议必须产出可实施方案",
+                                                   "owner":  "product-manager",
+                                                   "deliverable":  "会议总结里的实施方案固定包含负责人、交付物和验收口径。",
+                                                   "acceptance":  "每场会至少 3 条可执行方案，且能直接转成开发、研究或设计子任务。"
+                                               },
+                                               {
+                                                   "id":  "P1-2",
+                                                   "title":  "推荐专业员工跑子任务",
+                                                   "owner":  "agents-orchestrator",
+                                                   "deliverable":  "会议总结里的推荐员工固定包含角色、任务、范围、交付物和优先级。",
+                                                   "acceptance":  "会议结束后能列出 3-6 个专业员工建议，不再只说“下一步”。"
+                                               },
+                                               {
+                                                   "id":  "P2-1",
+                                                   "title":  "员工工作中动画预留",
+                                                   "owner":  "prompt-pack-designer",
+                                                   "deliverable":  "新增后续动画构想，后续会议网页可切换为员工工作状态。",
+                                                   "acceptance":  "当前不强做动画，但数据结构和界面文案为后续留入口。"
+                                               }
+                                           ],
+                    "recommendedWorkers":  [
+                                               {
+                                                   "roleId":  "specialized-workflow-architect",
+                                                   "name":  "流程架构师",
+                                                   "title":  "Workflow Architect",
+                                                   "priority":  "P0",
+                                                   "task":  "设计会议状态机：开场、分歧、回应、修正、决议、员工派工、会后沉淀。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "agents-orchestrator",
+                                                   "name":  "智体编排师",
+                                                   "title":  "Agents Orchestrator",
+                                                   "priority":  "P0",
+                                                   "task":  "把会议触发链路拆成可执行子任务，标明每个子任务的输入、输出、验收口径和阻塞条件。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "engineering-ai-engineer",
+                                                   "name":  "AI工程师",
+                                                   "title":  "AI Engineer",
+                                                   "priority":  "P1",
+                                                   "task":  "检查人格资料、知识库和记忆摘要如何参与发言生成，避免角色卡原文混进台词。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "product-manager",
+                                                   "name":  "产品经理",
+                                                   "title":  "Product Manager",
+                                                   "priority":  "P1",
+                                                   "task":  "定义专家团能力的产品成功标准：触发即开会、网页展示为主、聊天侧只同步必要结论。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "prompt-pack-designer",
+                                                   "name":  "提示词设计师",
+                                                   "title":  "Prompt Pack Designer",
+                                                   "priority":  "P2",
+                                                   "task":  "设计网页里的实施方案、员工任务和会议结论展示层级，保证可扫描、不像报告堆字。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               },
+                                               {
+                                                   "roleId":  "testing-workflow-optimizer",
+                                                   "name":  "流程优化师",
+                                                   "title":  "Workflow Optimizer",
+                                                   "priority":  "P2",
+                                                   "task":  "制定验收清单：是否真实开会、是否有反驳、是否有可派工任务、是否能复盘。",
+                                                   "scope":  "只负责本轮会议结论拆出的对应子任务，不跨边界修改无关模块。",
+                                                   "deliverable":  "输出可验收的改动、报告或方案，并在完成后回填会议行动项状态。"
+                                               }
+                                           ],
+                    "futureAnimationIdea":  "后续可在会议网页增加“员工正在工作”状态：会议结束后展示被推荐员工进入工作台、任务卡流转、完成回填和下一场复盘。"
+                }
+}

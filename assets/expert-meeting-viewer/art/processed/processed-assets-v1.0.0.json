@@ -1,0 +1,59 @@
+﻿{
+    "version":  "1.0.0",
+    "status":  "processed",
+    "lockedDirection":  "black cow silhouette, white office chair/table, small colored badge/seat identifier, matching user reference",
+    "note":  "First-stage processed asset pack: seated cow-chair composites plus table, occluders, room, and minimal assembled preview.",
+    "characterBodies":  [
+                            "standard",
+                            "round",
+                            "tall",
+                            "small",
+                            "sturdy"
+                        ],
+    "seatedDirections":  [
+                             "left",
+                             "right",
+                             "host"
+                         ],
+    "seatedCompositeCount":  15,
+    "basePath":  "assets/expert-meeting-viewer/art/processed",
+    "seatedComposites":  [
+                             "characters/seated/cow-standard-seated-left-v1.0.0.svg",
+                             "characters/seated/cow-standard-seated-right-v1.0.0.svg",
+                             "characters/seated/cow-standard-seated-host-v1.0.0.svg",
+                             "characters/seated/cow-round-seated-left-v1.0.0.svg",
+                             "characters/seated/cow-round-seated-right-v1.0.0.svg",
+                             "characters/seated/cow-round-seated-host-v1.0.0.svg",
+                             "characters/seated/cow-tall-seated-left-v1.0.0.svg",
+                             "characters/seated/cow-tall-seated-right-v1.0.0.svg",
+                             "characters/seated/cow-tall-seated-host-v1.0.0.svg",
+                             "characters/seated/cow-small-seated-left-v1.0.0.svg",
+                             "characters/seated/cow-small-seated-right-v1.0.0.svg",
+                             "characters/seated/cow-small-seated-host-v1.0.0.svg",
+                             "characters/seated/cow-sturdy-seated-left-v1.0.0.svg",
+                             "characters/seated/cow-sturdy-seated-right-v1.0.0.svg",
+                             "characters/seated/cow-sturdy-seated-host-v1.0.0.svg"
+                         ],
+    "furniture":  [
+                      "furniture/room-empty-v1.0.0.svg",
+                      "furniture/table-long-vertical-v1.0.0.svg",
+                      "furniture/chair-left-back-v1.0.0.svg",
+                      "furniture/chair-left-front-v1.0.0.svg",
+                      "furniture/chair-right-back-v1.0.0.svg",
+                      "furniture/chair-right-front-v1.0.0.svg",
+                      "furniture/chair-host-back-v1.0.0.svg",
+                      "furniture/chair-host-front-v1.0.0.svg",
+                      "furniture/table-occluder-left-v1.0.0.svg",
+                      "furniture/table-occluder-right-v1.0.0.svg",
+                      "furniture/table-occluder-bottom-v1.0.0.svg"
+                  ],
+    "assemblyPreview":  "../imagegen/expert-meeting-model-sheet-v1.1.0.png",
+    "runtimePngAssembly":  {
+                               "source":  "../imagegen/expert-meeting-model-sheet-v1.1.0.png",
+                               "basePath":  "../imagegen/extracted",
+                               "cropPolicy":  "cyan-key removal preserving white furniture",
+                               "occupiedSeatCount":  15,
+                               "emptySeatCount":  3,
+                               "tableCount":  1
+                           }
+}
